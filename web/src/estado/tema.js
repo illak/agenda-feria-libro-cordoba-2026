@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 // Tema claro/oscuro: sigue al sistema hasta que la persona elige uno; la elección queda en localStorage.
 const CLAVE = 'tema';
 export const TEMAS = ['claro', 'oscuro'];

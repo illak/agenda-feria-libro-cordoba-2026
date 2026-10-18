@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later
+   Copyright (C) 2026 Illak Zapata */
 @import "tailwindcss";
 
 /* Cada token es light-dark(claro, oscuro): el tema sale de `color-scheme`, que sigue al sistema

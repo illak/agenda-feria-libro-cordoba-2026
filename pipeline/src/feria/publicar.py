@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Illak Zapata
 """Publica data/ en web/public/data/: diff contra lo publicado, changelog y meta.json."""
 import argparse
 import json

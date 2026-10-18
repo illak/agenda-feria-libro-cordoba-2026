@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Illak Zapata
 """Diff entre la versión publicada y la nueva de eventos.json."""
 from .sedes import slug
 

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 import { describe, expect, it } from 'vitest';
 import { finDe, finEsEstimado, momentos, ordenDeSedes, seSuperponen, simultaneasCon } from '../src/estado/superposicion.js';
 import { evento, eventosReales, sedesReales } from './datos.js';

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Illak Zapata
 """Corre el pipeline: snapshot -> data/eventos.json, data/sedes.json y data/meta.json, más el reporte."""
 import argparse
 import json

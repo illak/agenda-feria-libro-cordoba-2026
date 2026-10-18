@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 import { h } from '../dom.js';
 import { sedeDe } from '../data/cargar.js';
 import { etiquetaDia } from '../data/tiempo.js';
@@ -6,15 +8,10 @@ import { horaDeEvento, nombreTema } from './tarjeta.js';
 import { simultaneasCon } from '../estado/superposicion.js';
 import { textoFin } from './tarjeta-compacta.js';
 import { horaLocal } from '../data/tiempo.js';
-
-const ROL = {
-  autor: 'Autoría',
-  presenta: 'Presenta',
-  modera: 'Modera',
-  participa: 'Participa',
-  a_cargo: 'A cargo',
-  realizador: 'Dirección / realización',
-};
+import { ROL_LARGO } from '../data/roles.js';
+import { enlaceGoogle } from '../estado/enlaces-calendario.js';
+import { generarICS } from '../estado/ics.js';
+import { descargarTexto } from './descarga.js';
 
 function filaHorario(e) {
   const { inicio, fin, estimada } = horaDeEvento(e);
@@ -31,13 +28,32 @@ const mapa = (sede) =>
     : null;
 
 /** Un único <dialog> reutilizable; devuelve abrir(evento). `eventos` es todo el programa, para listar lo que pasa al mismo tiempo. */
-export function crearDetalle(sedePorId, eventos, orden) {
+export function crearDetalle(sedePorId, eventos, orden, { meta = {} } = {}) {
   const dialogo = h('dialog', { class: 'detalle', 'aria-labelledby': 'detalle-titulo' });
   document.body.append(dialogo);
   // clic en el fondo (backdrop) cierra
   dialogo.addEventListener('click', (ev) => {
     if (ev.target === dialogo) dialogo.close();
   });
+
+  // dirección de la página sin consulta ni hash: sirve de base para los enlaces a cada actividad
+  const urlApp = () => new URL('.', location.href).href;
+
+  function menuCalendario(e) {
+    const contexto = () => ({ sedePorId, urlApp: urlApp(), estampa: meta.actualizado ?? meta.generado ?? new Date().toISOString() });
+    return h(
+      'details',
+      { class: 'rounded-xl border border-borde p-3' },
+      h('summary', { class: 'cursor-pointer min-h-11 flex items-center font-semibold' }, 'Agregar al calendario'),
+      h(
+        'div',
+        { class: 'grid gap-2 pt-1' },
+        h('a', { class: 'boton inline-flex items-center justify-center no-underline', href: enlaceGoogle(e, contexto()), target: '_blank', rel: 'noopener' }, 'Google Calendar'),
+        h('button', { class: 'boton', type: 'button', onClick: () => descargarTexto(generarICS([e], contexto()), `${e.id}.ics`, 'text/calendar;charset=utf-8') }, 'Descargar archivo .ics'),
+        h('p', { class: 'text-sm text-tinta-suave' }, 'Google Calendar agrega una actividad por vez. El archivo .ics sirve para Apple Calendar, Outlook y cualquier otro calendario.'),
+      ),
+    );
+  }
 
   function alMismoTiempo(e) {
     const otras = simultaneasCon(e, eventos, orden);
@@ -106,10 +122,11 @@ export function crearDetalle(sedePorId, eventos, orden) {
               'section',
               {},
               h('h3', { class: 'font-semibold' }, 'Personas'),
-              h('ul', {}, e.personas.map((p) => h('li', {}, p.nombre, ' ', h('span', { class: 'text-sm text-tinta-suave' }, `· ${ROL[p.rol] ?? p.rol}`)))),
+              h('ul', {}, e.personas.map((p) => h('li', {}, p.nombre, ' ', h('span', { class: 'text-sm text-tinta-suave' }, `· ${ROL_LARGO[p.rol] ?? p.rol}`)))),
             )
           : null,
         e.descripcion ? h('p', { class: 'whitespace-pre-line' }, e.descripcion) : null,
+        menuCalendario(e),
         alMismoTiempo(e),
         h('div', { class: 'flex justify-end pt-2' }, h('button', { class: 'boton', type: 'button', onClick: () => dialogo.close() }, 'Cerrar')),
       ),

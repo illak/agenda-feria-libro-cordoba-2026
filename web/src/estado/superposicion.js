@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 // Superposición de horarios. La hora de fin es la del doc o, si falta, la estimada (ver finEsEstimado):
 // lo que depende de una hora estimada es aproximado y la interfaz tiene que decirlo.
 export const finDe = (e) => e.hora_fin || e.hora_fin_estimada || e.hora_inicio;

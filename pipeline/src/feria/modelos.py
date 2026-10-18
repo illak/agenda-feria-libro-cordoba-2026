@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Illak Zapata
 """Modelos Pydantic de los JSON publicados."""
 from typing import Literal
 

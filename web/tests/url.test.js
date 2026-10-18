@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 import { describe, expect, it } from 'vitest';
 import { OTRAS_SEDES, desdeURL, filtrosVacios, haciaURL } from '../src/estado/filtros.js';
 import { eventos, sedes } from './datos.js';

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 // Helper mínimo para armar DOM sin innerHTML: el texto de los datos siempre va como textContent.
 export function h(tag, attrs = {}, ...hijos) {
   const el = document.createElement(tag);

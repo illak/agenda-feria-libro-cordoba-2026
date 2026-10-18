@@ -1,7 +1,10 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 import { h } from '../dom.js';
 import { fechaHoraLegible } from '../data/tiempo.js';
 
 export const PDF_OFICIAL = 'https://docs.google.com/document/d/1eTt9sjmE19IPcjuIwICoAJgEjKzm0vXU/export?format=pdf';
+export const REPO = 'https://github.com/illak/agenda-feria-libro-cordoba-2026';
 export const PROGRAMACION_OFICIAL = 'https://feriadellibro.cordoba.gob.ar/programacion/';
 
 export function pie(meta) {
@@ -23,6 +26,13 @@ export function pie(meta) {
       h('strong', {}, 'no oficial'),
       ', sin vínculo con la organización de la feria. Datos: Feria del Libro Córdoba (Municipalidad de Córdoba), tomados de ',
       h('a', { class: 'underline', href: PROGRAMACION_OFICIAL, target: '_blank', rel: 'noopener' }, 'su programación'),
+      '.',
+    ),
+    h(
+      'p',
+      {},
+      'Hecho por Illak Zapata · ',
+      h('a', { class: 'underline', href: REPO, target: '_blank', rel: 'noopener' }, 'código abierto (GPL-3.0) en GitHub'),
       '.',
     ),
   );

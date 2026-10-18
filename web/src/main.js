@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 import './styles/app.css';
 import { h } from './dom.js';
 import { cargarDatos } from './data/cargar.js';
@@ -14,6 +16,7 @@ import { renderLista } from './vistas/lista.js';
 import { renderSimultaneas } from './vistas/simultaneas.js';
 import { crearSelectorVista } from './componentes/selector-vista.js';
 import { ordenDeSedes } from './estado/superposicion.js';
+import { eventoDeURL } from './estado/enlace.js';
 
 const app = document.getElementById('app');
 
@@ -57,7 +60,7 @@ async function iniciar() {
     },
   );
   const orden = ordenDeSedes(sedes);
-  const abrirDetalle = crearDetalle(sedePorId, eventos, orden);
+  const abrirDetalle = crearDetalle(sedePorId, eventos, orden, { meta });
   const selectorVista = crearSelectorVista((parche) => { filtros = { ...filtros, ...parche }; render(); });
 
   const MAX_SUGERENCIAS = 6;
@@ -142,7 +145,9 @@ async function iniciar() {
     filtros = desdeURL(location.search, { diaPorDefecto, opciones });
     render();
   });
+  const compartido = eventoDeURL(location.search, eventos); // ?evento=<id>: enlace a una actividad
   render();
+  if (compartido) abrirDetalle(compartido);
 }
 
 iniciar().catch(error);

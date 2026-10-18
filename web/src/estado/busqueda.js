@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 import Fuse from 'fuse.js';
 
 // Sin acentos ni mayúsculas, tanto en el índice como en la consulta.

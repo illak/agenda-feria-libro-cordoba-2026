@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 import { h } from '../dom.js';
 import { tarjeta } from '../componentes/tarjeta.js';
 import { agruparPorDia, bloqueSinActividades, estadoVacio, folio } from './comun.js';

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Illak Zapata
 """Catálogo de sedes y normalización del texto de sede del doc."""
 import re
 import unicodedata

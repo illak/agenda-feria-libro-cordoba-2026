@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 const pedir = async (nombre) => {
   const r = await fetch(`data/${nombre}`);
   if (!r.ok) throw new Error(`${nombre}: ${r.status}`);

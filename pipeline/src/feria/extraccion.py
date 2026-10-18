@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Illak Zapata
 """Extracción con LLM (subagentes Haiku) de personas, libro, editorial y temas.
 
 El pipeline no llama al LLM: prepara lotes de bloques pendientes, los subagentes

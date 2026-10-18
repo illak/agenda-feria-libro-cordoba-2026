@@ -1,6 +1,8 @@
 {
   "name": "agenda-feria-libro-cordoba-2026",
   "private": true,
+  "license": "GPL-3.0-or-later",
+  "author": "Illak Zapata",
   "version": "0.1.0",
   "type": "module",
   "scripts": {

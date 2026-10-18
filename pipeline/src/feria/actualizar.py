@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Illak Zapata
 """Paso 1 de la actualización manual: snapshot nuevo, regex con caché y lotes de extracción."""
 import argparse
 import shutil

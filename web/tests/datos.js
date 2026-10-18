@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 import { readFileSync } from 'node:fs';
 
 const leer = (n) => JSON.parse(readFileSync(new URL(`../public/data/${n}`, import.meta.url), 'utf-8'));

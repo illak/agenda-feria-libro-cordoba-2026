@@ -98,7 +98,7 @@ Cada autor invitado tiene un estante con sus libros ordenados por año. Ese esta
 - **Offline:** un service worker cachea la app y los JSON, para que la agenda se pueda consultar sin conexión.
 - **Accesibilidad:** el color nunca va solo, siempre acompañado del nombre de la carpa, porque roja, naranja y magenta pueden confundirse. Contraste AA, navegación por teclado y lector de pantalla en filtros y tarjetas.
 - **Rendimiento:** sitio estático, sin backend. El peso de `eventos.json` se estima en menos de 500 KB. Las tapas se cargan de forma diferida.
-- **Open source:** repositorio público con licencia MIT para el código. Los datos se atribuyen a la Feria del Libro Córdoba (Municipalidad de Córdoba), con un aviso de que es un proyecto no oficial.
+- **Open source:** repositorio público con licencia GPL-3.0-or-later para el código. Los datos se atribuyen a la Feria del Libro Córdoba (Municipalidad de Córdoba), con un aviso de que es un proyecto no oficial.
 - **Identidad:** sin logos ni marca oficial de la feria, para que no se confunda con el sitio institucional.
 - **Privacidad:** sin cuentas ni tracking invasivo. Los favoritos quedan solo en el dispositivo.
 

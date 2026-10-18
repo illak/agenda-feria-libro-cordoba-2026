@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Illak Zapata
 // Las horas del JSON ya vienen en hora local de Córdoba (-03:00): se leen del string, sin depender
 // de la zona del dispositivo. Intl se usa solo para nombres de día/mes y para "hoy".
 const ZONA = 'America/Argentina/Cordoba';

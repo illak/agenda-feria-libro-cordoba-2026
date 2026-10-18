@@ -2,6 +2,8 @@
 name = "feria"
 version = "0.1.0"
 description = "Pipeline de la Agenda Feria del Libro Córdoba 2026"
+license = "GPL-3.0-or-later"
+authors = [{ name = "Illak Zapata" }]
 requires-python = ">=3.12"
 dependencies = ["httpx>=0.27", "pydantic>=2.7"]
 
