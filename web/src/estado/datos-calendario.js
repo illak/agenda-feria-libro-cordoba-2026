@@ -29,6 +29,14 @@ export function intervaloUTC(e) {
   return { inicio: aUTC(e.hora_inicio), fin: aUTC(new Date(fin).toISOString()), aproximado };
 }
 
+/** Hora de fin que se exporta, "HH:MM" en hora de Córdoba (los datos están en -03:00 fijo). */
+export function finExportadoLocal(e) {
+  const inicio = Date.parse(e.hora_inicio);
+  let fin = Date.parse(finDe(e));
+  if (!(fin > inicio)) fin = inicio + UNA_HORA;
+  return new Date(fin - 3 * UNA_HORA).toISOString().slice(11, 16);
+}
+
 export function ubicacion(sede) {
   return [sede.nombre, sede.direccion].filter(Boolean).join(', ');
 }

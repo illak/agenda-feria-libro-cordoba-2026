@@ -1,8 +1,10 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Copyright (C) 2026 Illak Zapata
 import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 
-const leer = (n) => JSON.parse(readFileSync(new URL(`../public/data/${n}`, import.meta.url), 'utf-8'));
+// con ruta y no con new URL(..., import.meta.url): en los tests con entorno DOM, URL no resuelve contra el archivo
+const leer = (n) => JSON.parse(readFileSync(join(import.meta.dirname, '..', 'public', 'data', n), 'utf-8'));
 
 export const eventosReales = leer('eventos.json');
 export const sedesReales = leer('sedes.json');

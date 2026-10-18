@@ -5,7 +5,7 @@ import { h } from './dom.js';
 import { cargarDatos } from './data/cargar.js';
 import { FIN_FERIA, INICIO_FERIA, etiquetaRango, hoyISO } from './data/tiempo.js';
 import { crearBuscador } from './estado/busqueda.js';
-import { aplicar, cantidadActivos, desdeURL, haciaURL, limpiar, opcionesDe } from './estado/filtros.js';
+import { aplicar, cantidadActivos, desdeURL, haciaURL, limpiar, opcionesDe, paresDeOpciones } from './estado/filtros.js';
 import { crearControles } from './componentes/filtros-ui.js';
 import { crearDetalle } from './componentes/detalle.js';
 import { pie } from './componentes/pie.js';
@@ -50,8 +50,7 @@ async function iniciar() {
       cantidades,
       hoy: diaPorDefecto === hoy ? hoy : '',
       carpas: sedes.filter((s) => s.tipo === 'carpa'),
-      ciclos: opciones.ciclos.map((c) => [c, c]),
-      temas: opciones.temas,
+      ...paresDeOpciones(opciones), // ciclos y temas
     },
     (parche) => {
       const resuelto = Object.fromEntries(Object.entries(parche).map(([k, v]) => [k, typeof v === 'function' ? v(filtros) : v]));

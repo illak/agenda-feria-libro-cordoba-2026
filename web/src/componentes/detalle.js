@@ -4,7 +4,8 @@ import { h } from '../dom.js';
 import { sedeDe } from '../data/cargar.js';
 import { etiquetaDia } from '../data/tiempo.js';
 import { chipCarpa, colorDe } from './chip-carpa.js';
-import { horaDeEvento, nombreTema } from './tarjeta.js';
+import { horaDeEvento } from './tarjeta.js';
+import { nombreTema } from '../data/texto.js';
 import { simultaneasCon } from '../estado/superposicion.js';
 import { textoFin } from './tarjeta-compacta.js';
 import { horaLocal } from '../data/tiempo.js';
@@ -12,6 +13,8 @@ import { ROL_LARGO } from '../data/roles.js';
 import { enlaceGoogle } from '../estado/enlaces-calendario.js';
 import { generarICS } from '../estado/ics.js';
 import { descargarTexto } from './descarga.js';
+import { iconoCalendarioMas, iconoDescarga } from './iconos.js';
+import { finExportadoLocal, intervaloUTC } from '../estado/datos-calendario.js';
 
 function filaHorario(e) {
   const { inicio, fin, estimada } = horaDeEvento(e);
@@ -39,19 +42,41 @@ export function crearDetalle(sedePorId, eventos, orden, { meta = {} } = {}) {
   // dirección de la página sin consulta ni hash: sirve de base para los enlaces a cada actividad
   const urlApp = () => new URL('.', location.href).href;
 
-  function menuCalendario(e) {
+  function bloqueCalendario(e) {
     const contexto = () => ({ sedePorId, urlApp: urlApp(), estampa: meta.actualizado ?? meta.generado ?? new Date().toISOString() });
+    const estado = h('p', { class: 'text-sm font-semibold', 'aria-live': 'polite' });
+    const aproximado = intervaloUTC(e).aproximado;
     return h(
-      'details',
-      { class: 'rounded-xl border border-borde p-3' },
-      h('summary', { class: 'cursor-pointer min-h-11 flex items-center font-semibold' }, 'Agregar al calendario'),
+      'section',
+      { class: 'calendario-accion', 'aria-labelledby': 'cal-titulo' },
+      h('h3', { id: 'cal-titulo', class: 'calendario-accion__titulo' }, iconoCalendarioMas(), 'Agregar al calendario'),
       h(
         'div',
-        { class: 'grid gap-2 pt-1' },
-        h('a', { class: 'boton inline-flex items-center justify-center no-underline', href: enlaceGoogle(e, contexto()), target: '_blank', rel: 'noopener' }, 'Google Calendar'),
-        h('button', { class: 'boton', type: 'button', onClick: () => descargarTexto(generarICS([e], contexto()), `${e.id}.ics`, 'text/calendar;charset=utf-8') }, 'Descargar archivo .ics'),
-        h('p', { class: 'text-sm text-tinta-suave' }, 'Google Calendar agrega una actividad por vez. El archivo .ics sirve para Apple Calendar, Outlook y cualquier otro calendario.'),
+        { class: 'calendario-accion__botones' },
+        h(
+          'a',
+          { class: 'boton-calendario boton-calendario--relleno', href: enlaceGoogle(e, contexto()), target: '_blank', rel: 'noopener', 'aria-label': 'Google Calendar (se abre en una pestaña nueva)' },
+          iconoCalendarioMas(),
+          'Google Calendar',
+        ),
+        h(
+          'button',
+          {
+            class: 'boton-calendario',
+            type: 'button',
+            onClick: () => {
+              descargarTexto(generarICS([e], contexto()), `${e.id}.ics`, 'text/calendar;charset=utf-8');
+              estado.textContent = 'Archivo .ics descargado.';
+              setTimeout(() => (estado.textContent = ''), 4000);
+            },
+          },
+          iconoDescarga(),
+          'Archivo .ics',
+        ),
       ),
+      h('p', { class: 'text-sm text-tinta-suave' }, 'El archivo .ics sirve para Apple Calendar, Outlook y otros calendarios.'),
+      aproximado ? h('p', { class: 'text-sm text-tinta-suave' }, `La hora de fin es aproximada: se agrega como ${finExportadoLocal(e)}.`) : null,
+      estado,
     );
   }
 
@@ -94,7 +119,8 @@ export function crearDetalle(sedePorId, eventos, orden, { meta = {} } = {}) {
         'div',
         { class: 'p-4 sm:p-6 grid gap-3' },
         h('p', { class: 'text-sm text-tinta-suave' }, filaHorario(e)),
-        h('h2', { id: 'detalle-titulo', class: 'font-serif text-2xl font-semibold leading-tight' }, e.titulo),
+        // el foco inicial va al título (no al primer botón): lee la actividad primero y no dibuja un aro sobre una acción
+        h('h2', { id: 'detalle-titulo', class: 'font-serif text-2xl font-semibold leading-tight', tabindex: '-1', autofocus: true }, e.titulo),
         h(
           'p',
           { class: 'flex flex-wrap gap-2 items-center' },
@@ -106,6 +132,7 @@ export function crearDetalle(sedePorId, eventos, orden, { meta = {} } = {}) {
         sede.direccion
           ? h('p', { class: 'text-sm' }, sede.direccion, ' · ', url ? h('a', { href: url, target: '_blank', rel: 'noopener', class: 'underline' }, 'Ver en el mapa') : null)
           : null,
+        bloqueCalendario(e),
         e.libros_presentados.length
           ? h(
               'section',
@@ -126,7 +153,6 @@ export function crearDetalle(sedePorId, eventos, orden, { meta = {} } = {}) {
             )
           : null,
         e.descripcion ? h('p', { class: 'whitespace-pre-line' }, e.descripcion) : null,
-        menuCalendario(e),
         alMismoTiempo(e),
         h('div', { class: 'flex justify-end pt-2' }, h('button', { class: 'boton', type: 'button', onClick: () => dialogo.close() }, 'Cerrar')),
       ),

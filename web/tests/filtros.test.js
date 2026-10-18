@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Copyright (C) 2026 Illak Zapata
 import { describe, expect, it } from 'vitest';
-import { OTRAS_SEDES, aplicar, cantidadActivos, filtrosVacios, limpiar, opcionesDe } from '../src/estado/filtros.js';
+import { OTRAS_SEDES, aplicar, cantidadActivos, filtrosVacios, limpiar, opcionesDe, paresDeOpciones } from '../src/estado/filtros.js';
 import { franjaDe } from '../src/data/tiempo.js';
-import { eventos, sedePorId, sedes } from './datos.js';
+import { eventos, eventosReales, sedePorId, sedes, sedesReales } from './datos.js';
 
 const ids = (lista) => lista.map((e) => e.id);
 const con = (cambios) => ({ ...filtrosVacios(), ...cambios });
@@ -80,5 +80,46 @@ describe('estado de filtros', () => {
     expect(o.carpas).toEqual(['roja', 'azul', OTRAS_SEDES]);
     expect(o.ciclos).toEqual(['INFANCIAS']);
     expect(o.temas).toEqual(['historia', 'narrativa', 'poesía']);
+  });
+});
+
+describe('selectores de ciclo y tema con la programación real', () => {
+  const opciones = opcionesDe(eventosReales, sedesReales);
+  const mapaSedes = new Map(sedesReales.map((s) => [s.id, s]));
+  const { ciclos, temas } = paresDeOpciones(opciones);
+
+  it('los pares son [texto, texto] y no se anidan', () => {
+    for (const par of [...ciclos, ...temas]) {
+      expect(par).toHaveLength(2);
+      expect(typeof par[0]).toBe('string');
+      expect(typeof par[1]).toBe('string');
+    }
+  });
+  it('los valores son los ciclos y temas tal como vienen en los datos', () => {
+    expect(ciclos.map(([v]) => v)).toEqual(opciones.ciclos);
+    expect(temas.map(([v]) => v)).toEqual(opciones.temas);
+    expect(ciclos.length).toBeGreaterThan(10);
+  });
+  it('cada ciclo filtra exactamente sus actividades, y nunca ninguna', () => {
+    for (const [valor] of ciclos) {
+      const esperados = eventosReales.filter((e) => e.ciclo === valor);
+      const r = aplicar(eventosReales, { ...filtrosVacios(), ciclo: valor }, { sedePorId: mapaSedes });
+      expect(r.length).toBeGreaterThan(0);
+      expect(r.map((e) => e.id)).toEqual(esperados.map((e) => e.id));
+    }
+  });
+  it('cada tema filtra exactamente sus actividades, y nunca ninguna', () => {
+    for (const [valor] of temas) {
+      const esperados = eventosReales.filter((e) => e.temas.includes(valor));
+      const r = aplicar(eventosReales, { ...filtrosVacios(), tema: valor }, { sedePorId: mapaSedes });
+      expect(r.length).toBeGreaterThan(0);
+      expect(r).toHaveLength(esperados.length);
+    }
+  });
+  it('INFANCIAS reúne sus 38 actividades en todos los días', () => {
+    expect(aplicar(eventosReales, { ...filtrosVacios(), ciclo: 'INFANCIAS' }, { sedePorId: mapaSedes })).toHaveLength(38);
+  });
+  it('las etiquetas de tema llevan mayúscula inicial', () => {
+    expect(temas.find(([v]) => v === 'poesía')[1]).toBe('Poesía');
   });
 });

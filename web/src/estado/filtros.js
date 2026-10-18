@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Copyright (C) 2026 Illak Zapata
+import { nombreTema } from '../data/texto.js';
 import { diasDeFeria, franjaDe, FRANJAS } from '../data/tiempo.js';
 
 export const OTRAS_SEDES = 'otras';
@@ -38,6 +39,14 @@ export function opcionesDe(eventos, sedes) {
     carpas: [...sedes.filter((s) => s.tipo === 'carpa').map((s) => s.id), OTRAS_SEDES],
     ciclos: distintos('ciclo').sort((a, b) => a.localeCompare(b, 'es')),
     temas: distintos('temas').sort((a, b) => a.localeCompare(b, 'es')),
+  };
+}
+
+/** Opciones de los selectores de ciclo y tema como pares [valor, etiqueta]: el valor es el texto exacto que traen los datos. */
+export function paresDeOpciones(opciones) {
+  return {
+    ciclos: opciones.ciclos.map((c) => [c, c]),
+    temas: opciones.temas.map((t) => [t, nombreTema(t)]),
   };
 }
 

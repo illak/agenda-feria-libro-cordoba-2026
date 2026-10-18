@@ -19,6 +19,9 @@
   --color-carpa-turquesa: light-dark(#0F766E, #2DD4BF);
   --color-carpa-gris: light-dark(#52525B, #A1A1AA);
 
+  /* acción de calendario: verde, libre entre las carpas (naranja, rojo, azul, magenta, turquesa); siempre con ícono y texto */
+  --color-calendario: light-dark(#166534, #4ADE80);
+
   --font-serif: ui-serif, Georgia, "Times New Roman", serif;
 }
 
@@ -36,6 +39,9 @@ body {
   outline: 3px solid var(--c, var(--color-tinta));
   outline-offset: 2px;
 }
+
+/* Lo que recibe el foco por código (tabindex="-1", como el título del detalle) no es un control: sin aro */
+[tabindex="-1"]:focus-visible { outline: none; }
 
 /* Tarjeta de evento (ver mockups/tarjetas.html) */
 .card {
@@ -169,3 +175,22 @@ dialog.detalle::backdrop { background: rgb(0 0 0 / .55); }
 .momento__siguen[open] > summary { margin-bottom: 8px; }
 .card__una-linea { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card--compacta .card__titulo { -webkit-line-clamp: 3; }
+
+/* Agregar al calendario */
+.calendario-accion {
+  display: grid; gap: 10px; padding: 12px;
+  border: 1.5px solid var(--color-calendario); border-radius: 12px;
+  background: color-mix(in srgb, var(--color-calendario) 9%, var(--color-tarjeta));
+}
+.calendario-accion__titulo { display: flex; align-items: center; gap: 8px; margin: 0; font-size: 1rem; font-weight: 700; }
+.calendario-accion__titulo svg { color: var(--color-calendario); }
+.calendario-accion__botones { display: grid; gap: 8px; }
+@media (min-width: 480px) { .calendario-accion__botones { grid-template-columns: 1fr 1fr; } }
+.boton-calendario {
+  min-height: 44px; padding: 0 14px; border-radius: 10px; cursor: pointer; text-decoration: none;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font: inherit; font-weight: 600;
+  border: 1.5px solid var(--color-calendario); background: var(--color-tarjeta); color: var(--color-calendario);
+}
+.boton-calendario--relleno { background: var(--color-calendario); color: light-dark(#FFFFFF, #052E16); }
+.boton-calendario:focus-visible { outline: 3px solid var(--color-calendario); outline-offset: 2px; }

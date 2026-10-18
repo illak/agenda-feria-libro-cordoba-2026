@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Copyright (C) 2026 Illak Zapata
 import { describe, expect, it } from 'vitest';
-import { aUTC, descripcionDe, intervaloUTC } from '../src/estado/datos-calendario.js';
+import { aUTC, descripcionDe, finExportadoLocal, intervaloUTC } from '../src/estado/datos-calendario.js';
 import { escaparTexto, generarICS, plegar } from '../src/estado/ics.js';
 import { evento, eventosReales, metaReal, sedePorId, sedes, sedesReales } from './datos.js';
 
@@ -34,6 +34,26 @@ describe('horas', () => {
   it('un evento que cruza la medianoche termina al día siguiente', () => {
     const r = intervaloUTC(e({ hora_inicio: '2026-10-30T23:30:00-03:00', hora_fin: '', hora_fin_estimada: '2026-10-31T00:30:00-03:00' }));
     expect(r).toMatchObject({ inicio: '20261031T023000Z', fin: '20261031T033000Z' });
+  });
+});
+
+describe('hora de fin exportada', () => {
+  it('es la del programa si existe', () => {
+    expect(finExportadoLocal(e())).toBe('21:00');
+  });
+  it('es la estimada si falta', () => {
+    expect(finExportadoLocal(e({ hora_fin: '', hora_fin_estimada: '2026-10-30T20:00:00-03:00' }))).toBe('20:00');
+  });
+  it('sin ninguna hora de fin es una hora después del inicio', () => {
+    expect(finExportadoLocal(e({ hora_fin: '', hora_fin_estimada: '' }))).toBe('20:00');
+  });
+  it('cruza la medianoche en hora de Córdoba', () => {
+    expect(finExportadoLocal(e({ hora_inicio: '2026-10-30T23:30:00-03:00', hora_fin: '', hora_fin_estimada: '2026-10-31T00:30:00-03:00' }))).toBe('00:30');
+  });
+  it('coincide con la hora que realmente exporta el .ics', () => {
+    const ev = e({ hora_fin: '', hora_fin_estimada: '2026-10-30T20:15:00-03:00' });
+    const [h, m] = finExportadoLocal(ev).split(':').map(Number);
+    expect(intervaloUTC(ev).fin).toBe(`20261030T${String(h + 3).padStart(2, '0')}${String(m).padStart(2, '0')}00Z`);
   });
 });
 

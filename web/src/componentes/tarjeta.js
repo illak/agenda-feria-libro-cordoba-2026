@@ -3,23 +3,12 @@
 import { h } from '../dom.js';
 import { sedeDe } from '../data/cargar.js';
 import { horaLocal } from '../data/tiempo.js';
+import { nombreTema } from '../data/texto.js';
+import { iconoLibro } from './iconos.js';
 import { chipCarpa, colorDe } from './chip-carpa.js';
 
 const ROL = { autor: 'autor/a', presenta: 'presenta', modera: 'modera', participa: '', a_cargo: 'a cargo', realizador: 'dirección' };
 const INSIGNIA_TIPO = { proyeccion: 'Proyección', taller: 'Taller', espectaculo: 'Espectáculo' };
-
-export const nombreTema = (t) => t.charAt(0).toUpperCase() + t.slice(1);
-
-const ICONO_LIBRO = () => {
-  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('viewBox', '0 0 14 16');
-  svg.setAttribute('fill', 'currentColor');
-  svg.setAttribute('aria-hidden', 'true');
-  const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-  path.setAttribute('d', 'M1 1h10a2 2 0 0 1 2 2v12H3a2 2 0 0 1-2-2V1Zm2 11v1h8v-1H3Z');
-  svg.append(path);
-  return svg;
-};
 
 // Hasta 2 personas con su rol; el resto se resume en "+N".
 export function resumenPersonas(personas) {
@@ -61,7 +50,7 @@ export function tarjeta(e, sedePorId, alAbrir) {
           ? h(
               'p',
               { class: 'card__libro' },
-              ICONO_LIBRO(),
+              iconoLibro(),
               h('span', {}, e.libros_presentados.join(' · '), e.editorial ? h('small', {}, e.editorial) : null),
             )
           : null,

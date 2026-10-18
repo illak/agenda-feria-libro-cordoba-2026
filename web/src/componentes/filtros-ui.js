@@ -5,7 +5,6 @@ import { FRANJAS } from '../data/tiempo.js';
 import { crearCalendario } from './calendario.js';
 import { OTRAS_SEDES, TIPOS } from '../estado/filtros.js';
 import { colorDe, glifoDe } from './chip-carpa.js';
-import { nombreTema } from './tarjeta.js';
 
 const OTRAS = { id: OTRAS_SEDES, nombre: 'Otras sedes', color: 'gris' };
 
@@ -15,6 +14,7 @@ const alternar = (lista, valor) => (lista.includes(valor) ? lista.filter((x) => 
  * Arma una vez los controles (calendario, chips y selects) y devuelve sus elementos
  * más sync(filtros), que solo actualiza el estado visual: así el input no pierde el foco.
  * `cambiar(parche)` recibe un objeto parcial de filtros.
+ * `ciclos` y `temas` llegan como pares [valor, etiqueta] ya armados (ver paresDeOpciones): acá no se vuelven a mapear.
  */
 export function crearControles({ dias, cantidades, hoy, carpas, ciclos, temas }, cambiar) {
   const calendario = crearCalendario({ dias, cantidades, hoy }, cambiar);
@@ -66,8 +66,8 @@ export function crearControles({ dias, cantidades, hoy, carpas, ciclos, temas },
     );
     return { el, bloque: h('div', { class: 'grid gap-1' }, h('label', { for: id, class: 'text-sm font-semibold' }, etiqueta), el) };
   };
-  const sCiclo = select('f-ciclo', 'Ciclo', ciclos.map((c) => [c, c]), 'ciclo');
-  const sTema = select('f-tema', 'Tema', temas.map((t) => [t, nombreTema(t)]), 'tema');
+  const sCiclo = select('f-ciclo', 'Ciclo', ciclos, 'ciclo');
+  const sTema = select('f-tema', 'Tema', temas, 'tema');
   const sTipo = select('f-tipo', 'Tipo de actividad', TIPOS, 'tipo');
   // el select entrega un texto; el filtro "infancias" es un booleano
   const sPublico = select('f-publico', 'Público', [['infancias', 'Para infancias']], 'infancias', (v) => v === 'infancias');
