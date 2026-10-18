@@ -1,0 +1,13 @@
+{
+ "personas": [
+  {
+   "nombre": "Waldo Lanfranco",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "Yammal Contenidos",
+ "temas": [],
+ "libros_presentados": [
+  "Historias de bares, conflictos y amores"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "personas": [
+  {
+   "nombre": "Carlos Zárate",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "tecnología e IA",
+  "ensayo y pensamiento"
+ ],
+ "libros_presentados": [
+  "El desafío civilizatorio de la inteligencia artificial"
+ ]
+}

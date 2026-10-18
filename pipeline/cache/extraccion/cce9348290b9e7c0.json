@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Mariano Medina",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Sole Rebelles",
+   "rol": "a_cargo"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes"
+ ]
+}

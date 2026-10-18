@@ -1,0 +1,38 @@
+{
+ "personas": [
+  {
+   "nombre": "Paulina Cruzeňo",
+   "rol": "participa"
+  },
+  {
+   "nombre": "La Lauri Fire",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Angie Ferrero",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Leo Azul",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Paz Chasseing",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gustavo Álvarez Núñez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Santi Guerrero",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "poesía",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

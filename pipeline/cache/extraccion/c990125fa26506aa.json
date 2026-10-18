@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Carina Andrea Angiula",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Mariana Aranguren",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [],
+ "libros_presentados": [
+  "Cuando la persona no encaja en el sistema"
+ ]
+}

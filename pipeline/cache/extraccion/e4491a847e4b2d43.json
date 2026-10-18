@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Fabio Martínez",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Juan Cruz Sánchez Delgado",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

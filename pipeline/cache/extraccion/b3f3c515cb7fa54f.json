@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Ismael Arce",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Tamara Sternberg",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Emporio Ediciones",
+ "temas": [
+  "historia"
+ ],
+ "libros_presentados": [
+  "La huella de San Martín en Europa"
+ ]
+}

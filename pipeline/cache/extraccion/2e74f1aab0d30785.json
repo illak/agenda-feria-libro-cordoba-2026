@@ -1,0 +1,24 @@
+{
+ "personas": [
+  {
+   "nombre": "José Heinz",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Soledad Toledo",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Nelson Specchia",
+   "rol": "presenta"
+  }
+ ],
+ "libros_presentados": [
+  "Murallas de Neón",
+  "Moscú no cree en lágrimas"
+ ],
+ "editorial": "Clarice",
+ "temas": [
+  "no ficción y periodismo"
+ ]
+}

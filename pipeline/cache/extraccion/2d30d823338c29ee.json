@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Juan Stahli",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Gabriela Parra Garzón",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Juan Ramia",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "historia"
+ ]
+}

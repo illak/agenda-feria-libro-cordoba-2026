@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Vanesa Salazar",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Federico Gaumet",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

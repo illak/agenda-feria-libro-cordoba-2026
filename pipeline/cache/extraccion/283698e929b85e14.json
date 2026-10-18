@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Sonia Masia",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Alejandra Melone",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Mariela Argüello",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Tamara Sternberg",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Emporio Ediciones",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

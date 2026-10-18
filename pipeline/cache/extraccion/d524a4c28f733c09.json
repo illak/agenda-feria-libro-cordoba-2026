@@ -1,0 +1,37 @@
+{
+ "personas": [
+  {
+   "nombre": "Graciela Bialet",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Susana Cabuchi",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Juan Yaser",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Salah Al Hamdami",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Leandro Calle",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Toto López",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Sofía De Mauro",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "poesía"
+ ],
+ "libros_presentados": []
+}

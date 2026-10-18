@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Mariana Gómez",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "Editorial de la UNC",
+ "temas": [
+  "ensayo y pensamiento"
+ ],
+ "libros_presentados": [
+  "Funestas Segregaciones"
+ ]
+}

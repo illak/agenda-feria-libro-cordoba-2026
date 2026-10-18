@@ -1,0 +1,22 @@
+{
+ "personas": [
+  {
+   "nombre": "Hernán Ronsino",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Liliana Tozzi",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Florencia Drewniak",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa",
+  "cine y audiovisual"
+ ],
+ "libros_presentados": []
+}

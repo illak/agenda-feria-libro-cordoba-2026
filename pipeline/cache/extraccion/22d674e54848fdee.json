@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Micael Margiotta",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Ariel Aguilar",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Alejandro Sarramea",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "tecnología e IA"
+ ],
+ "libros_presentados": []
+}

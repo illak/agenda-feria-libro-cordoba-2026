@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Víctor Suárez",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Rodrigo Canessa",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Celia Rodríguez",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Paula Gastaldi",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Antipop y Triángulo Editorial",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

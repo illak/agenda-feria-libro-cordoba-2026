@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Ariel Gómez Ponce",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Gabriela Timossi",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "Prometeo",
+ "temas": [
+  "poesía",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": [
+  "Taylor Swift. Versiones de una crítica pop"
+ ]
+}

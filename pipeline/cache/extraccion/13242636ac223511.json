@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Raúl Lelli",
+   "rol": "autor"
+  }
+ ],
+ "libros_presentados": [
+  "Novelas policiales diversas del comisario Martos"
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "personas": [
+  {
+   "nombre": "Matías Dreizik",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Dolores Bertarelli",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Silvia Belga",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Mariana Mandacovik",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [],
+ "libros_presentados": []
+}

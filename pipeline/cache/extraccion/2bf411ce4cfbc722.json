@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Carlos Noriega",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Gustavo Palomeque",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "Alma Editorial",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": [
+  "La sombra del pastor"
+ ]
+}

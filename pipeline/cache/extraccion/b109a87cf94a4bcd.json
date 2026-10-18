@@ -1,0 +1,32 @@
+{
+ "personas": [
+  {
+   "nombre": "César Tcach",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Verónica Basile",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Juan Cruz Taborda Varela",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Marta Philp",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Alicia Servetto",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Editorial de la UNC",
+ "temas": [
+  "memoria y dictadura",
+  "historia"
+ ],
+ "libros_presentados": [
+  "A cincuenta años del golpe: la Córdoba procesista (1976-1983)"
+ ]
+}

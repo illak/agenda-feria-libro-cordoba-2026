@@ -1,0 +1,41 @@
+{
+ "personas": [
+  {
+   "nombre": "Sara Malek",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Natalia González",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Catalina Berlaffa",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Adriana Isar",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Silvia Plaza",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Mariela Reynares",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Claudia Cedrón",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Belén Valletto",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "memoria y dictadura"
+ ],
+ "libros_presentados": []
+}

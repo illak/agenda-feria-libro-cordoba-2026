@@ -1,0 +1,18 @@
+{
+ "personas": [
+  {
+   "nombre": "Sole Rebelles",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Clarisa Valdez",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes",
+  "memoria y dictadura"
+ ],
+ "libros_presentados": []
+}

@@ -1,0 +1,26 @@
+{
+ "personas": [
+  {
+   "nombre": "Natalia Elías",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Carla Isabel",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Florencia Mina",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Enrico Barbizi",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Editorial Tinta Libre",
+ "temas": [
+  "poesía",
+  "tecnología e IA"
+ ],
+ "libros_presentados": []
+}

@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Damián Godetti",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Virginia Ventura",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Adrián Ochoa",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gonzalo Zanini",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

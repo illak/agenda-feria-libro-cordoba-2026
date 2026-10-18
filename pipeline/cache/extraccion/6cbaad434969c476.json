@@ -1,0 +1,22 @@
+{
+ "personas": [
+  {
+   "nombre": "Silvia Zúñiga",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Celeste Guzmán",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Elena Quiroga",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "memoria y dictadura",
+  "historia"
+ ],
+ "libros_presentados": []
+}

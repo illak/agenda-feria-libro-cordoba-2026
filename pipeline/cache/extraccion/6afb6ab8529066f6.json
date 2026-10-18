@@ -1,0 +1,31 @@
+{
+ "personas": [
+  {
+   "nombre": "Fernando López",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Silvia Atwood",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Lucio Yudiccello",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Enrique Aurora",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Ramiro Iraola",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Editorial Babel",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": [
+  "Decamerón Cordobés"
+ ]
+}

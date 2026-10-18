@@ -1,0 +1,33 @@
+{
+ "personas": [
+  {
+   "nombre": "Graciela del Carmen Vidal",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Liliana Alem",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Cristina Bellisonzi",
+   "rol": "participa"
+  },
+  {
+   "nombre": "María Elena Módica",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Mirta Fachini",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Tamara Sternberg",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Emporio Ediciones",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

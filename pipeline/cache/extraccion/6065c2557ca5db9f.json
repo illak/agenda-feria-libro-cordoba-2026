@@ -1,0 +1,33 @@
+{
+ "personas": [
+  {
+   "nombre": "Sol Morais",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Sol Morais",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Rama Simondi Secchi",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Flor López",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Paulina Cruzeño",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Jorge L Carranza",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "poesía"
+ ],
+ "libros_presentados": []
+}

@@ -1,0 +1,22 @@
+{
+ "personas": [
+  {
+   "nombre": "Santiago Sein",
+   "rol": "realizador"
+  },
+  {
+   "nombre": "Mónica Medina",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Mónica Medina",
+   "rol": "modera"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "cine y audiovisual",
+  "historia"
+ ]
+}

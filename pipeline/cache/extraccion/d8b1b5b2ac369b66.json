@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Mónica Lungo",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Guadalupe Gómez",
+   "rol": "a_cargo"
+  }
+ ],
+ "libros_presentados": [
+  "Agenda libro Alegría Ahora 2027"
+ ],
+ "editorial": "",
+ "temas": []
+}

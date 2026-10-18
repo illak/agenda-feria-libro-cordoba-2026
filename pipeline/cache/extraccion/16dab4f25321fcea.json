@@ -1,0 +1,33 @@
+{
+ "personas": [
+  {
+   "nombre": "Juan Cruz Taborda Varela",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Elizabeth Martin",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Ángel Sebastián Ramia",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Andrés Yaremczuk",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Pablo Rodríguez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Soledad Ceballos",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

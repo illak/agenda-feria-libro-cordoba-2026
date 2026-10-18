@@ -1,0 +1,29 @@
+{
+ "personas": [
+  {
+   "nombre": "Graciela Ferrero",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Matías Meichtri Quintans",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Luciano del Prato",
+   "rol": "participa"
+  },
+  {
+   "nombre": "María Laura Perassi",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Natalia Andreini",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "ensayo y pensamiento"
+ ]
+}

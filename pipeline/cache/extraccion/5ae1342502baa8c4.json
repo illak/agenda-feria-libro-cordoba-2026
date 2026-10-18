@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Betina González",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Fernanda Juárez",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": [
+  "Un amor sin futuro"
+ ]
+}

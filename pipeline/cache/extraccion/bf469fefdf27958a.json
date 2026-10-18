@@ -1,0 +1,34 @@
+{
+ "personas": [
+  {
+   "nombre": "Cristina Bajo",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Cristina Loza",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Reyna Carranza",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Florencia Bonelli",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Fer Pérez",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Florencia Vercellone",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa",
+  "historia"
+ ],
+ "libros_presentados": []
+}

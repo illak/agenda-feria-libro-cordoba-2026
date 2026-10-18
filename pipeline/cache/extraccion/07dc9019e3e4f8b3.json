@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Gisele Salgado",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "Editorial Tinta Libre",
+ "temas": [
+  "música y artes escénicas"
+ ],
+ "libros_presentados": [
+  "Tu voz escénica"
+ ]
+}

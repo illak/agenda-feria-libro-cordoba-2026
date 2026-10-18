@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Pepe Angonoa",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Javier Solar",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Dulce Hogar Ediciones",
+ "temas": [
+  "historia"
+ ],
+ "libros_presentados": [
+  "Cómo yo gané la guerra"
+ ]
+}

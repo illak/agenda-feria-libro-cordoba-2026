@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Darío Villarreal",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Tamara Sternberg",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Emporio Ediciones",
+ "temas": [
+  "ensayo y pensamiento"
+ ],
+ "libros_presentados": []
+}

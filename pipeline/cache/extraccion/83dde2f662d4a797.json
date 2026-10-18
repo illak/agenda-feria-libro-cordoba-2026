@@ -1,0 +1,23 @@
+{
+ "personas": [
+  {
+   "nombre": "Cynthia Ottaviano",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Roberto Caballero",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Gabriela Estévez",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "no ficción y periodismo"
+ ],
+ "libros_presentados": [
+  "Proscripta y Sublevada"
+ ]
+}

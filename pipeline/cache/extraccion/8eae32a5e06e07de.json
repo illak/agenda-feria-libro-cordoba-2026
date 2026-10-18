@@ -1,0 +1,29 @@
+{
+ "personas": [
+  {
+   "nombre": "Gonzalo Marull",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Emilce Martínez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Pablo Federico Muñoz",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Avery Martínez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Ana Luz Coronel",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "Editorial Municipal",
+ "temas": [
+  "música y artes escénicas"
+ ]
+}

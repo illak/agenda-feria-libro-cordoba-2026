@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Julia Rosemberg",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Alejandro Rabinovich",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Lorenzo Abbona",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "historia"
+ ],
+ "libros_presentados": []
+}

@@ -1,0 +1,30 @@
+{
+ "personas": [
+  {
+   "nombre": "Cristina Cordera",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Hilda Chiappero",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Roxana del Prado",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Susana Maldonado",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Nilda Ramírez",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "memoria y dictadura",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

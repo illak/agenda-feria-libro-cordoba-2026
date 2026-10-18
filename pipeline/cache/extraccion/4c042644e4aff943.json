@@ -1,0 +1,16 @@
+{
+ "personas": [
+  {
+   "nombre": "Juanjo Vargas",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "Yammal Contenidos",
+ "temas": [
+  "infancias y juventudes",
+  "historia"
+ ],
+ "libros_presentados": [
+  "Del mar a San Lorenzo"
+ ]
+}

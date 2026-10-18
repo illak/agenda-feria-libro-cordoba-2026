@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Mario Bohmeker",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "María Teresa Andruetto",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Nelson Specchia",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Tamara Sternberg",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Emporio Ediciones",
+ "temas": [],
+ "libros_presentados": [
+  "Historias de bibliotecas"
+ ]
+}

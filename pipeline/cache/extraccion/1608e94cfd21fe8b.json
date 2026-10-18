@@ -1,0 +1,24 @@
+{
+ "personas": [
+  {
+   "nombre": "Roberto Pittaluga",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Ana Carol Solis",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Victoria Chabrando",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Las Cuarenta",
+ "temas": [
+  "historia",
+  "ensayo y pensamiento"
+ ],
+ "libros_presentados": [
+  "2001. Rastros de historia y política"
+ ]
+}

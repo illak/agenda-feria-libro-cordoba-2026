@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Nicolás Abello",
+   "rol": "realizador"
+  },
+  {
+   "nombre": "Alejandro Cozza",
+   "rol": "realizador"
+  },
+  {
+   "nombre": "María de la Paz Linares",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "María de la Paz Linares",
+   "rol": "modera"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "cine y audiovisual"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Soledad Venier",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Román Cagliero",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Tamara Sternberg",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Emporio Ediciones",
+ "temas": [],
+ "libros_presentados": []
+}

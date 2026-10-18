@@ -1,0 +1,34 @@
+{
+ "personas": [
+  {
+   "nombre": "María Teresa Andruetto",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Waldo Cebrero",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Sergio Gaiteri",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Fabio Martínez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Nato López",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Andrea Bocco",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "tecnología e IA",
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

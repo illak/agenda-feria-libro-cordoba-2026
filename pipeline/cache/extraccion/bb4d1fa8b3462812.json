@@ -1,0 +1,13 @@
+{
+ "personas": [
+  {
+   "nombre": "Luis Antonio Gómez Orsini",
+   "rol": "autor"
+  }
+ ],
+ "libros_presentados": [
+  "Marcel"
+ ],
+ "editorial": "",
+ "temas": []
+}

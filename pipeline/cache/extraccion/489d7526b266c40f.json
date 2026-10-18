@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Fernando López",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Carlos Ríos",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Luis Alberto Luján",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Tamara Sternberg",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Emporio Ediciones",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

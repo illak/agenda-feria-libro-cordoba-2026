@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Martín Gómez",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Franciso Araoz",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Araoz Ediciones",
+ "temas": [
+  "historia",
+  "no ficción y periodismo"
+ ],
+ "libros_presentados": [
+  "La yerba mate: mitos, verdades y chamuyos"
+ ]
+}

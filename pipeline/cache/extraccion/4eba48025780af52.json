@@ -1,0 +1,38 @@
+{
+ "personas": [
+  {
+   "nombre": "Cecilia Buzonni",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Soledad Rebelles",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Graciela Feliz",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Daniel Sosa",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Viviana Aguirre",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Rubén López",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Andrea Suárez",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes",
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

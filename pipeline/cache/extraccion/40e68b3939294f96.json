@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Pablo Sánchez Ceci",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Carlos Surghi",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Andrés Biga",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "no ficción y periodismo"
+ ],
+ "libros_presentados": []
+}

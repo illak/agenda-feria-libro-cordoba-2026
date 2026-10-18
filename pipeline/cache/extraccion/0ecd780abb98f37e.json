@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Luisa Valenzuela",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Mario Bomheker",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa",
+  "memoria y dictadura"
+ ],
+ "libros_presentados": [
+  "Cambio de armas"
+ ]
+}

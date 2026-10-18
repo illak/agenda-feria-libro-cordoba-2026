@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Juan Juares",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "Editorial Yammal",
+ "temas": [
+  "infancias y juventudes"
+ ],
+ "libros_presentados": [
+  "Hacer arte, dibujos pinturas y estampas"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Mario Raskovsky",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Maximiliano Blanche",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Francisco Araoz",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Araoz Ediciones",
+ "temas": [],
+ "libros_presentados": []
+}

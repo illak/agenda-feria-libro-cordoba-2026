@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Pablo Blank",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Carlos Julio",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [
+  "Cuadernos de la Memoria",
+  "A 50 años del Golpe: hacemos memoria, construimos futuro"
+ ],
+ "editorial": "",
+ "temas": [
+  "memoria y dictadura"
+ ]
+}

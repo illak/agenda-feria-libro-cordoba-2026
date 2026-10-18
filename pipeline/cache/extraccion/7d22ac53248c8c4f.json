@@ -1,0 +1,33 @@
+{
+ "personas": [
+  {
+   "nombre": "María Elena Mercado",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Soledad García Quiroga",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Ana Barnes",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Rosy Alber Montoya",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Marta De La Vega",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Patricia Aseff",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "memoria y dictadura"
+ ],
+ "libros_presentados": []
+}

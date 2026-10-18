@@ -1,0 +1,29 @@
+{
+ "personas": [
+  {
+   "nombre": "Valentina Lellin",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Eric Fleitas",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Luciana Garraza",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Pablo Fuu",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Diego G. Medina",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "cine y audiovisual"
+ ],
+ "libros_presentados": []
+}

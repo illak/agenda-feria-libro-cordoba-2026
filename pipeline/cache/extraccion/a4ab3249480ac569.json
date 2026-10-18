@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Graciela Ramos",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Florencia Vercellone",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": [
+  "Antonia"
+ ]
+}

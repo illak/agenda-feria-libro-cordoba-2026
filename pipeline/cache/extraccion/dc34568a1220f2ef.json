@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Juan Cruz Taborda",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "historia"
+ ],
+ "libros_presentados": [
+  "La ley de la revolución"
+ ]
+}

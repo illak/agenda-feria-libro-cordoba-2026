@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Florencia Vercellone",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Fernanda Pérez",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Beatriz Ferrari Pellenc",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Filomena Trivellone",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Eduardo Díaz de Guijarro",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Laura Ortiz",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Prometeo",
+ "temas": [
+  "historia",
+  "ensayo y pensamiento"
+ ],
+ "libros_presentados": [
+  "Las universidades en la historia: su evolución y sus vínculos con el resto de la sociedad, desde sus orígenes hasta hoy"
+ ]
+}

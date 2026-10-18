@@ -1,0 +1,27 @@
+{
+ "personas": [
+  {
+   "nombre": "Ariel Gómez Ponce",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Rodrigo Bruera",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Camila Aguirre Vallés",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Nahir Salman Sosa",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "EDUVIM",
+ "temas": [
+  "ensayo y pensamiento"
+ ],
+ "libros_presentados": [
+  "Cultura pop. Manual de uso para consumos desviados"
+ ]
+}

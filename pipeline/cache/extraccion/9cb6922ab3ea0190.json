@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Carla Dogliani",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Félix González",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Tomás Arinci",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

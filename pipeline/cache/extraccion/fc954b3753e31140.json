@@ -1,0 +1,61 @@
+{
+ "personas": [
+  {
+   "nombre": "Marta Barrandeguy",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Rosa Brunner",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Marisa Cañadas",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Paula Cordoni",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Carolina Díaz",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Carmen Echarri",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "M. Aramburú",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Mabel Levkoff",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "María Eugenia Méndez",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Liliana Nieulandt",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "María Luisa Orellana",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Nora Suter",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "María Eugenia Laguinge",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

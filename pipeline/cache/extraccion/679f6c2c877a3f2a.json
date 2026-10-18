@@ -1,0 +1,28 @@
+{
+ "personas": [
+  {
+   "nombre": "Liliana Arraya",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Mariela Edelstein",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Pía Reynoso",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Lilian Luque",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Editorial de la UPC",
+ "temas": [
+  "memoria y dictadura",
+  "historia"
+ ],
+ "libros_presentados": [
+  "No olvidaré. A 50 años del golpe militar. Argentina 1976 - 1983"
+ ]
+}

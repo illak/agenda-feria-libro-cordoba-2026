@@ -1,0 +1,57 @@
+{
+ "personas": [
+  {
+   "nombre": "Waldo Cebrero",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Sab Alegre",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Goldenberg",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Francisco Ojeda",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Lucía Giménez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "David Voloj",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Leti Martínez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Florencia Colombetti",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Luciano Lamberti",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Utz Gregorczuk",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Miguel Ángel Barroso",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Fabio Martínez",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

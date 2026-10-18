@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Vilma Rodríguez",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Marycruz Lárez",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [],
+ "libros_presentados": [
+  "La caída fue buena"
+ ]
+}

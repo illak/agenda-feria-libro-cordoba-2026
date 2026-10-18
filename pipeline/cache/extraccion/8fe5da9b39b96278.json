@@ -1,0 +1,27 @@
+{
+ "personas": [
+  {
+   "nombre": "Constanza Brunet",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Debret Viana",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Luciana Echeverria",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Martín Fresneda",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Marea Editorial",
+ "temas": [
+  "memoria y dictadura"
+ ],
+ "libros_presentados": [
+  "Dijimos nunca más"
+ ]
+}

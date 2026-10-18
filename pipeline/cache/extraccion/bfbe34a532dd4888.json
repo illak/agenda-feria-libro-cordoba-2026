@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "G.S. Goldenberg",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Emi Salto",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Agustina Bustos",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Cezary Novek",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Mauro Ordóñez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Alejandro Sarramea",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "tecnología e IA"
+ ],
+ "libros_presentados": []
+}

@@ -1,0 +1,27 @@
+{
+ "personas": [
+  {
+   "nombre": "Lucas Brizuela",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Maribel Baraldo",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Alejandro López",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Armando Bisio",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Tamara Sternberg",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Emporio Ediciones",
+ "temas": [],
+ "libros_presentados": []
+}

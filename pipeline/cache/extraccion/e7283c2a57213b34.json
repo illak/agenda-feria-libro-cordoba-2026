@@ -1,0 +1,28 @@
+{
+ "personas": [
+  {
+   "nombre": "Alejandro Bringas",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Jimena Ponce",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gabriel Bernardello",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Cecilia Argañaraz",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Editorial de la UNC",
+ "temas": [
+  "historia",
+  "no ficción y periodismo"
+ ],
+ "libros_presentados": [
+  "Diarios de viaje de Paul G. Lorentz entre 1871 y 1876 y Un holandés en el extranjero. Relatos de Hendrik Weyenbergh en Córdoba, 1873 a 1884"
+ ]
+}

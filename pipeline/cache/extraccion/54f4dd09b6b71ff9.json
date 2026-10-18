@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Claudia Piñeiro",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Nelson Specchia",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": [
+  "El canto invisible"
+ ]
+}

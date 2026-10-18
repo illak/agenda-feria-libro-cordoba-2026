@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Rosario Del Corro",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Paula Sosa Ocanto",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "Madeja de Letras",
+ "temas": [
+  "infancias y juventudes"
+ ],
+ "libros_presentados": [
+  "Acá mando yo! Una historia sobre límites"
+ ]
+}

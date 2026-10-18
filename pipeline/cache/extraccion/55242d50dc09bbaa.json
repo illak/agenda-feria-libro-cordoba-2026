@@ -1,0 +1,38 @@
+{
+ "personas": [
+  {
+   "nombre": "Ceferino Lisboa",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Tobías Uriel Ceballos",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Mery Murúa",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Paola Bernal",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Candela De la Torre",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gabriela Arribillaga",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Juana Stahli Egea",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Inquieta Editora",
+ "temas": [
+  "poesía",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

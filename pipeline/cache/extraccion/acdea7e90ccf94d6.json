@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Mariano Llinás",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gastón Sironi",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "cine y audiovisual"
+ ],
+ "libros_presentados": []
+}

@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Juan Zangla",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "Tinta Libre Ediciones",
+ "temas": [
+  "ensayo y pensamiento"
+ ],
+ "libros_presentados": [
+  "Responsabilidad Electiva: solos, juntos o libres"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "personas": [
+  {
+   "nombre": "Lucio Yudicello",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Daniel Teobaldi",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Mirian Pino",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Pablo Aguiar Cau",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Guillermo Orsi",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Laura Rossi",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

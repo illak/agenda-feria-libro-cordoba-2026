@@ -1,0 +1,13 @@
+{
+ "personas": [
+  {
+   "nombre": "Andrea Rojas",
+   "rol": "autor"
+  }
+ ],
+ "libros_presentados": [
+  "Sacre"
+ ],
+ "editorial": "",
+ "temas": []
+}

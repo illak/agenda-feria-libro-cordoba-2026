@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Andrea Bocco",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Pablo Heredia",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Domingo Ighina",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

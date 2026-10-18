@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Mónica Ambort",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Ilda Bustos",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "memoria y dictadura",
+  "no ficción y periodismo"
+ ],
+ "libros_presentados": [
+  "Si te dicen que no es cierto"
+ ]
+}

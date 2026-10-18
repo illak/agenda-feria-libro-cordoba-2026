@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Silvina Potenza",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Ivana Barujel",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Paola Rimieri",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Tamara Sternberg",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Emporio Ediciones",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

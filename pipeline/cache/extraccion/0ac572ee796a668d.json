@@ -1,0 +1,29 @@
+{
+ "personas": [
+  {
+   "nombre": "Alexis Comamala",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Daría Poncio",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Eloísa Oliva",
+   "rol": "participa"
+  },
+  {
+   "nombre": "José Di Marco",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Tina Elorriaga",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "poesía"
+ ],
+ "libros_presentados": []
+}

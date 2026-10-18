@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "María Elena Roquier",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Javier del Corro",
+   "rol": "autor"
+  }
+ ],
+ "libros_presentados": [
+  "Voces del alma",
+  "La cruz de los Andes",
+  "La Escultura"
+ ],
+ "editorial": "",
+ "temas": []
+}

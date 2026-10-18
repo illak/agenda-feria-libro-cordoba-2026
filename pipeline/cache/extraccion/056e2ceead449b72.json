@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Pablo Giesenow",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Tamara Sternberg",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Emporio Ediciones",
+ "temas": [],
+ "libros_presentados": [
+  "Corré tus límites"
+ ]
+}

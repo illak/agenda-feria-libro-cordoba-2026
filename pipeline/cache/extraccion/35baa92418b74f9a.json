@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Edgardo Esteban",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Aldo Leiva",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "historia"
+ ],
+ "libros_presentados": [
+  "La batalla final y Hasta aquí llegué"
+ ]
+}

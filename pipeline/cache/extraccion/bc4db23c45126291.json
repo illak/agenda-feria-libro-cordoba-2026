@@ -1,0 +1,18 @@
+{
+ "personas": [
+  {
+   "nombre": "Cuca Becerra",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Adriana Musitano",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "poesía",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

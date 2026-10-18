@@ -1,0 +1,29 @@
+{
+ "personas": [
+  {
+   "nombre": "Leticia Martínez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Natalia Monasterolo",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Marianela Jiménez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Candelaria de Olmos",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Paula Gastaldi",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "no ficción y periodismo"
+ ],
+ "libros_presentados": []
+}

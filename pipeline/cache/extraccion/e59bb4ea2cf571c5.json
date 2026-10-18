@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Oscar Santini",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Leticia Minhot",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Mariela Reynares",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "ensayo y pensamiento"
+ ],
+ "libros_presentados": []
+}

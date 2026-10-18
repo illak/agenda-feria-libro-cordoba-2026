@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Fernando Pacella",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Alfio Germán Acosta",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "Editorial de la UNC",
+ "temas": [
+  "historia"
+ ],
+ "libros_presentados": []
+}

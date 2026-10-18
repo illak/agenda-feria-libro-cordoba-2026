@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Raquel Robles",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Flavio Lo Presti",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "memoria y dictadura",
+  "narrativa"
+ ],
+ "libros_presentados": [
+  "La organización vence al tiempo"
+ ]
+}

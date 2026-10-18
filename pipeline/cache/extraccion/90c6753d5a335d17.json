@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Marco Aurelio Roselli",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "historia"
+ ],
+ "libros_presentados": [
+  "Los indispensables de la patria"
+ ]
+}

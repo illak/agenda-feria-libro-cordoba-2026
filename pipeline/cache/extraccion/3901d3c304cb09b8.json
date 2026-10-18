@@ -1,0 +1,26 @@
+{
+ "personas": [
+  {
+   "nombre": "Flor López",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Eugenia Hadandoniou",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Lautaro Ruiz",
+   "rol": "autor"
+  }
+ ],
+ "libros_presentados": [
+  "Apnea, La boca es una fosa",
+  "Yo vi morder al fuego, la casa del jaguar",
+  "De frente mar, o la jugosa valentía de los cetáceos",
+  "El ruido de los árboles"
+ ],
+ "editorial": "El brote",
+ "temas": [
+  "música y artes escénicas"
+ ]
+}

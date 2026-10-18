@@ -1,0 +1,22 @@
+{
+ "personas": [
+  {
+   "nombre": "Gabriela Exilart",
+   "rol": "participa"
+  },
+  {
+   "nombre": "María Laura Lerma",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Fernanda Pérez",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa",
+  "historia"
+ ],
+ "libros_presentados": []
+}

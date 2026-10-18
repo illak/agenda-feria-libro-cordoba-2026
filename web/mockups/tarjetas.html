@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tarjetas de evento</title>
+<style>
+  :root {
+    --papel: #FAF6EE; --tinta: #1C1917; --tinta-suave: #57534E; --borde: #E4DCCB; --tarjeta: #FFFDF8;
+    --carpa-naranja: #B45309; --carpa-roja: #B91C1C; --carpa-azul: #1D4ED8;
+    --carpa-magenta: #A21CAF; --carpa-turquesa: #0F766E; --carpa-gris: #52525B;
+    --serif: ui-serif, Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-tema="claro"]) {
+      --papel: #17140F; --tinta: #F3EDE0; --tinta-suave: #B8B0A0; --borde: #3A3328; --tarjeta: #1F1B15;
+      --carpa-naranja: #FB923C; --carpa-roja: #F87171; --carpa-azul: #93B4FF;
+      --carpa-magenta: #E879F9; --carpa-turquesa: #2DD4BF; --carpa-gris: #A1A1AA;
+    }
+  }
+  :root[data-tema="oscuro"] {
+    --papel: #17140F; --tinta: #F3EDE0; --tinta-suave: #B8B0A0; --borde: #3A3328; --tarjeta: #1F1B15;
+    --carpa-naranja: #FB923C; --carpa-roja: #F87171; --carpa-azul: #93B4FF;
+    --carpa-magenta: #E879F9; --carpa-turquesa: #2DD4BF; --carpa-gris: #A1A1AA;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--papel); color: var(--tinta); font: 16px/1.45 system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 16px; }
+  .barra { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .barra button { min-height: 44px; padding: 0 14px; border: 1px solid var(--borde); border-radius: 10px;
+    background: var(--tarjeta); color: inherit; font: inherit; cursor: pointer; }
+  h2.folio { font: 700 1.9rem/1.1 var(--serif); margin: 20px 0 12px; }
+  h2.folio small { font: 500 .9rem system-ui; color: var(--tinta-suave); margin-left: 8px; }
+  .lista { display: grid; gap: 12px; padding: 0; margin: 0; list-style: none; }
+
+  .card { container-type: inline-size; position: relative; background: var(--tarjeta);
+    border: 1px solid var(--borde); border-left: 6px solid var(--c); border-radius: 10px; }
+  .card__open { all: unset; box-sizing: border-box; display: grid; gap: 4px; width: 100%;
+    padding: 12px 56px 12px 14px; cursor: pointer; }
+  .card__open:focus-visible, .card__fav:focus-visible, .barra button:focus-visible { outline: 3px solid var(--c, var(--tinta)); outline-offset: 2px; }
+  .card__hora { font: 700 1.05rem system-ui; font-variant-numeric: tabular-nums; }
+  .card__hora .fin { font-weight: 400; color: var(--tinta-suave); }
+  .card__titulo { font: 600 1.15rem/1.25 var(--serif); margin: 0;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card__personas { margin: 0; color: var(--tinta-suave); font-size: .92rem; }
+  .card__personas span { text-transform: uppercase; letter-spacing: .04em; font-size: .72rem; margin-left: 4px; }
+  .card__libro { margin: 2px 0 0; display: flex; gap: 8px; align-items: baseline; font-size: .92rem; }
+  .card__libro svg { flex: none; width: 14px; height: 16px; translate: 0 2px; color: var(--c); }
+  .card__libro small { display: block; color: var(--tinta-suave); }
+  .card__meta { margin: 6px 0 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .chip-carpa { display: inline-flex; gap: 6px; align-items: baseline; padding: 2px 8px;
+    border: 1.5px solid var(--c); border-radius: 999px; color: var(--c); font-size: .82rem; font-weight: 600; }
+  .tag { padding: 2px 8px; border-radius: 999px; background: color-mix(in srgb, var(--tinta) 8%, transparent);
+    font-size: .8rem; color: var(--tinta-suave); }
+  .tag--aviso { background: var(--tinta); color: var(--papel); font-weight: 600; }
+  .card__fav { position: absolute; top: 4px; right: 4px; width: 48px; height: 48px; border: 0;
+    background: none; color: var(--tinta); font-size: 1.5rem; cursor: pointer; border-radius: 10px; }
+  .card__fav[aria-pressed="true"] { color: var(--c); }
+
+  @container (min-width: 520px) {
+    .card__open { grid-template-columns: 5.5rem 1fr; column-gap: 12px; }
+    .card__hora { grid-row: 1 / span 5; }
+    .card__open > :not(.card__hora) { grid-column: 2; }
+  }
+  .nota { color: var(--tinta-suave); font-size: .85rem; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="barra">
+    <strong>Mockup · tarjetas</strong>
+    <button id="tema" type="button">Alternar tema</button>
+  </div>
+
+  <h2 class="folio">Viernes 30 <small>octubre</small></h2>
+  <ul class="lista">
+    <!-- 1. Actividad sin personas -->
+    <li><article class="card" style="--c: var(--carpa-naranja)">
+      <button class="card__fav" aria-pressed="false" aria-label="Guardar en Mi agenda: Apertura de la Feria del Libro Córdoba 2026">☆</button>
+      <button class="card__open" aria-haspopup="dialog">
+        <time class="card__hora" datetime="2026-10-30T19:00:00-03:00">19:00 <span class="fin">– 21:00</span></time>
+        <h3 class="card__titulo">Apertura de la Feria del Libro Córdoba 2026</h3>
+        <p class="card__meta"><span class="chip-carpa"><span aria-hidden="true">●</span> Carpa Lilia Lardone</span></p>
+      </button>
+    </article></li>
+    <!-- 2. Presentación con libro -->
+    <li><article class="card" style="--c: var(--carpa-roja)">
+      <button class="card__fav" aria-pressed="true" aria-label="Quitar de Mi agenda: Presentación del libro Mortero 2 La historia continúa">★</button>
+      <button class="card__open" aria-haspopup="dialog">
+        <time class="card__hora" datetime="2026-10-30T17:00:00-03:00">17:00</time>
+        <h3 class="card__titulo">Presentación del libro Mortero 2 La historia continúa</h3>
+        <p class="card__personas">Carlos Gonzáles <span>autor</span></p>
+        <p class="card__libro">
+          <svg aria-hidden="true" viewBox="0 0 14 16" fill="currentColor"><path d="M1 1h10a2 2 0 0 1 2 2v12H3a2 2 0 0 1-2-2V1Zm2 11v1h8v-1H3Z"/></svg>
+          <span>Mortero 2 La historia continúa<small>Editorial Yammal Contenidos</small></span>
+        </p>
+        <p class="card__meta">
+          <span class="chip-carpa"><span aria-hidden="true">▲</span> Carpa Glauce Baldovin</span>
+          <span class="tag">Historia</span>
+        </p>
+      </button>
+    </article></li>
+  </ul>
+
+  <h2 class="folio">Lunes 2 <small>noviembre</small></h2>
+  <ul class="lista">
+    <!-- 3. Proyección -->
+    <li><article class="card" style="--c: var(--carpa-gris)">
+      <button class="card__fav" aria-pressed="false" aria-label="Guardar en Mi agenda: Proyección de la película Le Fil">☆</button>
+      <button class="card__open" aria-haspopup="dialog">
+        <time class="card__hora" datetime="2026-11-02T19:00:00-03:00">19:00 <span class="fin">– 21:30</span></time>
+        <h3 class="card__titulo">PAÍS INVITADO - Proyección de la película Le Fil, Daniel Auteuil, 2024, y debate</h3>
+        <p class="card__personas">Dirección: Daniel Auteuil</p>
+        <p class="card__meta">
+          <span class="tag tag--aviso">Proyección</span>
+          <span class="chip-carpa"><span aria-hidden="true">○</span> Kultur Ensemble Córdoba · Auditorium Alianza Francesa</span>
+          <span class="tag">Cine y audiovisual</span><span class="tag">Países invitados</span>
+        </p>
+      </button>
+    </article></li>
+  </ul>
+
+  <h2 class="folio">Sábado 7 <small>noviembre</small></h2>
+  <ul class="lista">
+    <!-- 4. Taller de infancias -->
+    <li><article class="card" style="--c: var(--carpa-magenta)">
+      <button class="card__fav" aria-pressed="false" aria-label="Guardar en Mi agenda: Taller de collage El Reino del Revés">☆</button>
+      <button class="card__open" aria-haspopup="dialog">
+        <time class="card__hora" datetime="2026-11-07T11:00:00-03:00">11:00</time>
+        <h3 class="card__titulo">Taller de collage El Reino del Revés, por Zoe Simón.</h3>
+        <p class="card__personas">A cargo de Zoe Simón</p>
+        <p class="card__meta">
+          <span class="tag tag--aviso">Para infancias</span>
+          <span class="tag tag--aviso">Taller</span>
+          <span class="chip-carpa"><span aria-hidden="true">◆</span> Carpa Malicha Leguizamón</span>
+          <span class="tag">Infancias y juventudes</span>
+        </p>
+      </button>
+    </article></li>
+  </ul>
+
+  <p class="nota">Eventos reales de <code>data/eventos.json</code>. Sin hora de fin cuando el doc no la trae. Probá 360 px y 768 px de ancho, y el botón de tema.</p>
+</main>
+<script>
+  document.getElementById('tema').addEventListener('click', () => {
+    const r = document.documentElement;
+    const oscuro = matchMedia('(prefers-color-scheme: dark)').matches;
+    const actual = r.dataset.tema || (oscuro ? 'oscuro' : 'claro');
+    r.dataset.tema = actual === 'oscuro' ? 'claro' : 'oscuro';
+  });
+  document.querySelectorAll('.card__fav').forEach(b => b.addEventListener('click', () => {
+    const on = b.getAttribute('aria-pressed') !== 'true';
+    b.setAttribute('aria-pressed', on);
+    b.textContent = on ? '★' : '☆';
+  }));
+</script>
+</body>
+</html>

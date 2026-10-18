@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "María Teresa Andruetto",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Federico Falco",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Javier Quintá",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes"
+ ],
+ "libros_presentados": []
+}

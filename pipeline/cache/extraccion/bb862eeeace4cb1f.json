@@ -1,0 +1,13 @@
+{
+ "personas": [
+  {
+   "nombre": "Luis Reginaldo Pereyra",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "Editorial Tinta Libre",
+ "temas": [
+  "historia"
+ ],
+ "libros_presentados": []
+}

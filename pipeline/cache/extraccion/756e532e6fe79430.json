@@ -1,0 +1,23 @@
+{
+ "personas": [
+  {
+   "nombre": "Luciano Lamberti",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Brenda Herrero",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Fabio Martínez",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "China Editora",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": [
+  "Vidas ejemplares"
+ ]
+}

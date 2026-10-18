@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Martín Rodríguez",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Franca Maccioni",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "poesía"
+ ],
+ "libros_presentados": [
+  "Benito y Balada para una prisionera"
+ ]
+}

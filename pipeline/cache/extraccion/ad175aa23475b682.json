@@ -1,0 +1,53 @@
+{
+ "personas": [
+  {
+   "nombre": "Daniela María Tamburini",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Juan Manuel Rodríguez",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Liliana Argüello",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Julián Arriaga",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Edith Raquel Filippini",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Pablo Goldner",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Marta Juliá",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Mateo La Rosa",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Estela Cecilia Mlewski",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Romina Cecilia Torres",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Alejandro Orlando Vera",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "Editorial de la UNC",
+ "temas": [],
+ "libros_presentados": [
+  "Derecho para la protección del ambiente"
+ ]
+}

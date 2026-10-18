@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Mariano Donoso",
+   "rol": "realizador"
+  },
+  {
+   "nombre": "Federico Cardone",
+   "rol": "realizador"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "cine y audiovisual"
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "personas": [
+  {
+   "nombre": "Sol Bianchi",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Mariana Macarlupú Peña",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Pía Barragán",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

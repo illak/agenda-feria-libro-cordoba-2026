@@ -1,0 +1,22 @@
+{
+ "personas": [
+  {
+   "nombre": "Mariana Tello Weiss",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Waldo Cebrero",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Luis García",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "memoria y dictadura",
+  "historia"
+ ],
+ "libros_presentados": []
+}

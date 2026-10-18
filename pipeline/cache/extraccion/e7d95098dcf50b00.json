@@ -1,0 +1,28 @@
+{
+ "personas": [
+  {
+   "nombre": "Esteban Dómina",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Rolo Perotti",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Nacho Alcántara",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Federico Sylvester",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Ediciones del Boulevard",
+ "temas": [
+  "narrativa",
+  "historia"
+ ],
+ "libros_presentados": [
+  "Yo, Rivadavia. Una memoria conjetural"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "personas": [
+  {
+   "nombre": "Nina Jäger",
+   "rol": "autor"
+  }
+ ],
+ "libros_presentados": [
+  "Clases de sapito",
+  "Enciclopedia de Fauna confusa"
+ ],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Mari Salinas",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Cristian Blasco",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Athos Pastore",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "oficio editorial"
+ ],
+ "libros_presentados": []
+}

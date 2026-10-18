@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Pedro Lambertini",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gonzalo Oyola",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [],
+ "libros_presentados": []
+}

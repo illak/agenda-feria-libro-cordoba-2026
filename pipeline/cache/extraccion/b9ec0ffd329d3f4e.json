@@ -1,0 +1,23 @@
+{
+ "personas": [
+  {
+   "nombre": "Sylvia Saítta",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Laura Juárez",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Carlos Gazzera",
+   "rol": "presenta"
+  }
+ ],
+ "libros_presentados": [
+  "El juguete rabioso"
+ ],
+ "editorial": "Eduvim",
+ "temas": [
+  "narrativa"
+ ]
+}

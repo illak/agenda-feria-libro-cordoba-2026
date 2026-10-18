@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Beatriz Vignoli",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Elisa Molina",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Laura López Morales",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "poesía"
+ ],
+ "libros_presentados": []
+}

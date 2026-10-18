@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Manuel Molina",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Eugenia Roldán",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Carina Cagnolo",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Mariana Robles",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "Lote 11",
+ "temas": [],
+ "libros_presentados": [
+  "Rescatar las imágenes. Iconoclasia para un mundo hipervisual"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Guillermo Martínez",
+   "rol": "autor"
+  },
+  {
+   "nombre": "José Heinz",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "Planeta",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": [
+  "Un crimen dialéctico"
+ ]
+}

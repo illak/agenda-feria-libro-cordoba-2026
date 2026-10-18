@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Liliana Herrero",
+   "rol": "autor"
+  },
+  {
+   "nombre": "María Pía López",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Juan Garrido",
+   "rol": "presenta"
+  }
+ ],
+ "libros_presentados": [
+  "Desandar los días. Correspondencias y conjuros"
+ ],
+ "editorial": "Las cuarenta",
+ "temas": []
+}

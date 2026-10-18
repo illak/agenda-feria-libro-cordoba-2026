@@ -1,0 +1,49 @@
+{
+ "personas": [
+  {
+   "nombre": "Jacqueline Vassallo",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Moisés Dib",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gabriel Wainstein",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Hernán Vaca Narvaja",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Alexis Oliva",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Irene Haimovichi",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Carlos Ruiz",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Santiago Sein",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gastón Tremsal",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Oscar Salcito",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

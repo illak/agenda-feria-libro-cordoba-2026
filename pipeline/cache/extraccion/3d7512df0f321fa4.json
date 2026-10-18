@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Liliana Tozzi",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Laura Fandiño",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Mateo Green",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

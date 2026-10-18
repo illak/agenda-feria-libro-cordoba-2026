@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Paz Solís Durigo",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Tania Rapoport",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "BoRiS Ediciones",
+ "temas": [
+  "infancias y juventudes"
+ ],
+ "libros_presentados": [
+  "Los gatos de la abuela Queché"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Valeria Mussio",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Camila Vázquez",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "Elefanta Editorial",
+ "temas": [
+  "poesía"
+ ],
+ "libros_presentados": [
+  "La llanura y yo"
+ ]
+}

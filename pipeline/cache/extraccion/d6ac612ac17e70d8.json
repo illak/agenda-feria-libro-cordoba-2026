@@ -1,0 +1,23 @@
+{
+ "personas": [
+  {
+   "nombre": "Francisco Zanichelli",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Natalia de la Sota",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Hernán Brienza",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "ensayo y pensamiento"
+ ],
+ "libros_presentados": [
+  "Un lugar en el mundo para Argentina"
+ ]
+}

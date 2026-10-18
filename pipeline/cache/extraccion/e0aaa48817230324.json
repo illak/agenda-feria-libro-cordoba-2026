@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Gonzalo Ludueña",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Micaela Galván",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa",
+  "infancias y juventudes"
+ ],
+ "libros_presentados": [
+  "Y los veranos pasarán; Lo que nos dejó el verano"
+ ]
+}

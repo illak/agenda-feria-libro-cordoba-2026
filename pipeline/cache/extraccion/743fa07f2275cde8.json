@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Federico Sartori",
+   "rol": "presenta"
+  }
+ ],
+ "libros_presentados": [
+  "Pueblos Indígenas de Córdoba"
+ ],
+ "editorial": "Imprenta del Monserrat",
+ "temas": [
+  "historia"
+ ]
+}

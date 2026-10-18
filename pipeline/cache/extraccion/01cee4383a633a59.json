@@ -1,0 +1,40 @@
+{
+ "personas": [
+  {
+   "nombre": "Noelia Rivero",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Ángeles D'aveta",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Paz Herón",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Aída Ximena Álvarez",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Candelaria Rivero",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Luciana Bedini",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Victoria Luna",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Potencia Editora",
+ "temas": [
+  "poesía",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": [
+  "Entramar mundos: tejer poéticas de cuidados"
+ ]
+}

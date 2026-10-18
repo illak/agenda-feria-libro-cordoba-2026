@@ -1,0 +1,38 @@
+{
+ "personas": [
+  {
+   "nombre": "Juan Manuel Martín",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Franco Cuvertino",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Federico Sposato",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Mikael Eli",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Julia Soneira",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Delfina María Pacheco",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Fiorela Boratto",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

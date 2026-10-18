@@ -1,0 +1,18 @@
+{
+ "personas": [
+  {
+   "nombre": "Pedro Garabán",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Marina Acuña",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "música y artes escénicas",
+  "países invitados"
+ ],
+ "libros_presentados": []
+}

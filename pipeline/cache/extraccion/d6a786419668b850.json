@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Carlos Gonzáles",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "Yammal Contenidos",
+ "temas": [
+  "historia"
+ ],
+ "libros_presentados": [
+  "Mortero 2 La historia continúa"
+ ]
+}

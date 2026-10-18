@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Daniel Tortosa",
+   "rol": "realizador"
+  },
+  {
+   "nombre": "María de la Paz Linares",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "María de la Paz Linares",
+   "rol": "modera"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "cine y audiovisual"
+ ]
+}

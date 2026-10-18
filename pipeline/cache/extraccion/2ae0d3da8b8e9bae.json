@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Claudia Tejeda",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Rubén Capodaqua",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Sandra Barrera Andrada",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "José Oviedo Oller",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

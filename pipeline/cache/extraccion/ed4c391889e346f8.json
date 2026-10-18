@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Leo Azul",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Demian Orosz",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Mercedes Fernández Tío",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Leonardo Vergara",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "oficio editorial"
+ ],
+ "libros_presentados": []
+}

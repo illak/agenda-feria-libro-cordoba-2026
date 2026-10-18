@@ -1,0 +1,33 @@
+{
+ "personas": [
+  {
+   "nombre": "Soledad Graffigna",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Rubén Goldberg",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Flavia Rojas",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Dolores González",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Juan Maldonado",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Ibero Martínez",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "oficio editorial"
+ ],
+ "libros_presentados": []
+}

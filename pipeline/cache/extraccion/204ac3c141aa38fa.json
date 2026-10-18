@@ -1,0 +1,29 @@
+{
+ "personas": [
+  {
+   "nombre": "Valeria Naya",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Ludmila Ramis",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Laura Gambero",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Mariela Giménez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Flor Vercellone",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

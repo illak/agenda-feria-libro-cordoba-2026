@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Mario Polacov",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Tamara Sternberg",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "Emporio Ediciones",
+ "temas": [],
+ "libros_presentados": [
+  "Crianza inteligente"
+ ]
+}

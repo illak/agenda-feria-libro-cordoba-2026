@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Marcelo Larraquy",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Dante Leguizamón",
+   "rol": "presenta"
+  }
+ ],
+ "libros_presentados": [
+  "Gordon el Aniquilador"
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa",
+  "historia"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "personas": [
+  {
+   "nombre": "Erica Bortni",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Agustín Didier",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Juan Pablo Gutiérrez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Fanue",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Guau Ediciones",
+ "temas": [
+  "narrativa",
+  "infancias y juventudes"
+ ],
+ "libros_presentados": []
+}

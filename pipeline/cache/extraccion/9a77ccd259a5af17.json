@@ -1,0 +1,23 @@
+{
+ "personas": [
+  {
+   "nombre": "Mariela Edelstein",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Pía Reynoso",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Lucas Crisafulli",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "UPC",
+ "temas": [
+  "memoria y dictadura"
+ ],
+ "libros_presentados": [
+  "Repensar lo común. Glosario de derechos humanos"
+ ]
+}

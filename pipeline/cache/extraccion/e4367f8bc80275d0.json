@@ -1,0 +1,27 @@
+{
+ "personas": [
+  {
+   "nombre": "Malú Urriola",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Claudia Masin",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Laura Escudero Tobler",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Laura García",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [
+  "Huesos que no teman hacerse polvo"
+ ],
+ "editorial": "",
+ "temas": [
+  "poesía"
+ ]
+}

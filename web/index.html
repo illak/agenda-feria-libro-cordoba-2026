@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Agenda filtrable de la programación de la Feria del Libro Córdoba 2026. Proyecto no oficial.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:,">
+  <script>
+    // Aplica el tema guardado antes del primer pintado, para que no parpadee.
+    try { const t = localStorage.getItem('tema'); if (t === 'claro' || t === 'oscuro') document.documentElement.dataset.tema = t; } catch {}
+  </script>
+  <title>Agenda Feria del Libro Córdoba 2026</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

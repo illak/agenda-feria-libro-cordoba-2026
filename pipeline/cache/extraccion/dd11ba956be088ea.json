@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Víctor Hugo Robledo",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Roberto Rojo",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Claudia Rosana Cabrera",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "historia"
+ ],
+ "libros_presentados": []
+}

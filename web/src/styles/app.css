@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+/* Cada token es light-dark(claro, oscuro): el tema sale de `color-scheme`, que sigue al sistema
+   salvo que la persona elija uno (data-tema en <html>, ver estado/tema.js).
+   En oscuro las carpas se aclaran para mantener contraste AA sobre la tarjeta. */
+@theme static {
+  --color-papel: light-dark(#FAF6EE, #17140F);
+  --color-tarjeta: light-dark(#FFFDF8, #1F1B15);
+  --color-tinta: light-dark(#1C1917, #F3EDE0);
+  --color-tinta-suave: light-dark(#57534E, #B8B0A0);
+  --color-borde: light-dark(#E4DCCB, #3A3328);
+
+  --color-carpa-naranja: light-dark(#B45309, #FB923C);
+  --color-carpa-roja: light-dark(#B91C1C, #F87171);
+  --color-carpa-azul: light-dark(#1D4ED8, #93B4FF);
+  --color-carpa-magenta: light-dark(#A21CAF, #E879F9);
+  --color-carpa-turquesa: light-dark(#0F766E, #2DD4BF);
+  --color-carpa-gris: light-dark(#52525B, #A1A1AA);
+
+  --font-serif: ui-serif, Georgia, "Times New Roman", serif;
+}
+
+:root { color-scheme: light dark; }
+:root[data-tema="claro"] { color-scheme: light; }
+:root[data-tema="oscuro"] { color-scheme: dark; }
+
+body {
+  background: var(--color-papel);
+  color: var(--color-tinta);
+  font: 16px/1.45 system-ui, sans-serif;
+}
+
+:focus-visible {
+  outline: 3px solid var(--c, var(--color-tinta));
+  outline-offset: 2px;
+}
+
+/* Tarjeta de evento (ver mockups/tarjetas.html) */
+.card {
+  container-type: inline-size;
+  background: var(--color-tarjeta);
+  border: 1px solid var(--color-borde);
+  border-left: 6px solid var(--c);
+  border-radius: 10px;
+}
+.card__open {
+  all: unset;
+  box-sizing: border-box;
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  padding: 12px 14px;
+  cursor: pointer;
+}
+.card__open:focus-visible { outline: 3px solid var(--c); outline-offset: 2px; }
+.card__hora { font-weight: 700; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+.card__hora .fin { font-weight: 400; color: var(--color-tinta-suave); }
+.card__titulo {
+  font: 600 1.15rem/1.25 var(--font-serif);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card__personas { margin: 0; color: var(--color-tinta-suave); font-size: .92rem; }
+.card__libro { margin: 2px 0 0; display: flex; gap: 8px; align-items: baseline; font-size: .92rem; }
+.card__libro svg { flex: none; width: 14px; height: 16px; translate: 0 2px; color: var(--c); }
+.card__libro small { display: block; color: var(--color-tinta-suave); }
+.card__meta { margin: 6px 0 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+@container (min-width: 520px) {
+  .card:not(.card--compacta) .card__open { grid-template-columns: 5.5rem 1fr; column-gap: 12px; }
+  .card:not(.card--compacta) .card__hora { grid-row: 1 / span 6; }
+  .card:not(.card--compacta) .card__open > :not(.card__hora) { grid-column: 2; }
+}
+
+/* Chip de carpa: color + glifo + nombre, nunca solo color */
+.chip-carpa {
+  display: inline-flex; gap: 6px; align-items: baseline;
+  padding: 2px 8px; border: 1.5px solid var(--c); border-radius: 999px;
+  color: var(--c); font-size: .82rem; font-weight: 600;
+}
+.tag {
+  padding: 2px 8px; border-radius: 999px; font-size: .8rem;
+  background: color-mix(in srgb, var(--color-tinta) 8%, transparent);
+  color: var(--color-tinta-suave);
+}
+.tag--aviso { background: var(--color-tinta); color: var(--color-papel); font-weight: 600; }
+
+/* Botones de filtro (chips): 44 px de alto para el pulgar */
+.filtro {
+  min-height: 44px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+  border: 1.5px solid var(--c, var(--color-borde)); background: var(--color-tarjeta);
+  color: var(--c, var(--color-tinta)); font: inherit; font-weight: 600; font-size: .9rem;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  padding-block: 6px; text-align: center; line-height: 1.2; /* en bloques: el nombre puede ocupar 2 líneas */
+}
+.filtro[aria-pressed="true"] { background: var(--c, var(--color-tinta)); color: var(--color-papel); }
+.filtro:focus-visible { outline-color: var(--c, var(--color-tinta)); }
+
+.campo {
+  min-height: 44px; border: 1.5px solid var(--color-borde); border-radius: 10px;
+  background: var(--color-tarjeta); color: var(--color-tinta); font: inherit; padding: 0 12px; width: 100%;
+}
+.boton {
+  min-height: 44px; padding: 0 16px; border-radius: 10px; cursor: pointer; font: inherit; font-weight: 600;
+  border: 1.5px solid var(--color-tinta); background: transparent; color: var(--color-tinta);
+}
+
+dialog.detalle {
+  margin: auto; width: min(640px, calc(100vw - 24px)); max-height: calc(100dvh - 24px);
+  padding: 0; border: 1px solid var(--color-borde); border-left: 6px solid var(--c);
+  border-radius: 12px; background: var(--color-tarjeta); color: var(--color-tinta);
+}
+dialog.detalle::backdrop { background: rgb(0 0 0 / .55); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+}
+
+/* Calendario de días */
+.calendario > summary { list-style: none; }
+.calendario > summary::-webkit-details-marker { display: none; }
+.calendario[open] .chevron { rotate: 180deg; }
+.dia-cal {
+  min-height: 48px; border-radius: 10px; cursor: pointer; font: inherit;
+  border: 1.5px solid transparent; background: transparent; color: var(--color-tinta);
+  display: grid; place-content: center; justify-items: center; line-height: 1.15;
+}
+.dia-cal__numero { font-weight: 700; }
+.dia-cal__cantidad { font-size: .7rem; color: var(--color-tinta-suave); font-variant-numeric: tabular-nums; }
+.dia-cal[data-en-rango] { background: color-mix(in srgb, var(--color-tinta) 12%, transparent); }
+.dia-cal[aria-pressed="true"] { background: var(--color-tinta); color: var(--color-papel); }
+.dia-cal[aria-pressed="true"] .dia-cal__cantidad { color: inherit; }
+
+/* Sugerencias del buscador */
+.sugerencias-panel {
+  position: absolute; z-index: 20; inset-inline: 0; top: calc(100% + 4px);
+  max-height: min(60dvh, 420px); overflow-y: auto;
+  background: var(--color-tarjeta); border: 1.5px solid var(--color-tinta); border-radius: 10px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / .18);
+}
+.sugerencias-panel[hidden] { display: none; }
+.sugerencias { margin: 0; padding: 0; list-style: none; }
+.sugerencias__estado { margin: 0; padding: 8px 12px; font-size: .8rem; color: var(--color-tinta-suave); border-bottom: 1px solid var(--color-borde); }
+.sugerencias__estado:empty { display: none; }
+.sugerencia { min-height: 44px; padding: 8px 12px; display: grid; gap: 2px; cursor: pointer; border-bottom: 1px solid var(--color-borde); }
+.sugerencia:last-child { border-bottom: 0; }
+.sugerencia[aria-selected="true"], .sugerencia:hover { background: color-mix(in srgb, var(--color-tinta) 10%, transparent); }
+.sugerencia__titulo { font: 600 .98rem/1.25 var(--font-serif); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.sugerencia__meta { font-size: .8rem; color: var(--color-tinta-suave); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+
+/* Vista "A la misma hora": un bloque por hora de inicio */
+.momento { border: 1.5px solid var(--color-tinta); border-radius: 12px; padding: 0 12px 12px; background: color-mix(in srgb, var(--color-tinta) 3%, transparent); }
+.momento--sola { border-color: var(--color-borde); }
+.momento__cab {
+  position: sticky; top: 0; z-index: 10; display: flex; align-items: baseline; gap: 10px;
+  margin-inline: -12px; padding: 10px 12px; border-radius: 10px 10px 0 0;
+  background: var(--color-papel); border-bottom: 1px solid var(--color-borde); margin-bottom: 10px;
+}
+.momento__cab time { font: 700 1.4rem/1 var(--font-serif); font-variant-numeric: tabular-nums; }
+.momento__cab span { font-size: .9rem; font-weight: 600; color: var(--color-tinta-suave); }
+.momento__lista { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+@media (min-width: 560px) { .momento__lista { grid-template-columns: 1fr 1fr; } }
+.momento__siguen { margin-top: 10px; }
+.momento__siguen > summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 600; color: var(--color-tinta-suave); }
+.momento__siguen[open] > summary { margin-bottom: 8px; }
+.card__una-linea { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card--compacta .card__titulo { -webkit-line-clamp: 3; }

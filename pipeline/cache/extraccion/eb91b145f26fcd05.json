@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Mauro Da Fini",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Ilsa Rubio Recalde",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [],
+ "libros_presentados": [
+  "Santo Mensajero. Cura Brochero"
+ ]
+}

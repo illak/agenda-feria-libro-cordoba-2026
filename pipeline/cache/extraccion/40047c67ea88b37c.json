@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Ramiro Baron",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Francisco Araoz",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Araoz Ediciones",
+ "temas": [],
+ "libros_presentados": [
+  "El poder de las aptitudes estratégicas"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "personas": [
+  {
+   "nombre": "Damián Godetti",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Franco Boczkowski",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Manuel Podestá",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Mercedes García",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Editorial Maquinita",
+ "temas": [
+  "poesía"
+ ],
+ "libros_presentados": [
+  "Sonar cansado"
+ ]
+}

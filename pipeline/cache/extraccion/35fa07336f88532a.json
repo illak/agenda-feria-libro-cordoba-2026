@@ -1,0 +1,27 @@
+{
+ "personas": [
+  {
+   "nombre": "José Carlos Mariátegui",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Juan Francisco Martínez Peria",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Matías Rodeiro",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Gerardo Coccio",
+   "rol": "modera"
+  }
+ ],
+ "libros_presentados": [
+  "Por el Oriente asoma la revolución mundial: escritos sobre el sur global"
+ ],
+ "editorial": "De todos los mares",
+ "temas": [
+  "ensayo y pensamiento"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Miguel Ángel Rodríguez",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Ivana Alochis",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "El Rescoldo ediciones",
+ "temas": []
+}

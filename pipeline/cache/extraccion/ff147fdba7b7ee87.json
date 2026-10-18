@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Micaela Lescano",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Josefina Álvarez Quirós",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Manuel Agüero Aliaga",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

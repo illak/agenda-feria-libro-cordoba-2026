@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Adrián Vitali",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Leandro Calle",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "ensayo y pensamiento"
+ ],
+ "libros_presentados": [
+  "Ensayo sobre la muerte y el tiempo"
+ ]
+}

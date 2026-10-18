@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Liliana Villarroel",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Hernán Cottura",
+   "rol": "autor"
+  }
+ ],
+ "editorial": "Yammal Contenidos",
+ "temas": [],
+ "libros_presentados": []
+}

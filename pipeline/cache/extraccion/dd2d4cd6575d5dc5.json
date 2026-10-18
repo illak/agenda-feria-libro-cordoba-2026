@@ -1,0 +1,18 @@
+{
+ "personas": [
+  {
+   "nombre": "Alejandrina Ayastuy",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Alfredo Fisher",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

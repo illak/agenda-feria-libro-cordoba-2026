@@ -1,0 +1,26 @@
+{
+ "personas": [
+  {
+   "nombre": "Marcos Cáceres",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Laura Fobbio",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Eugenia Hadandoniou",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Nadir Medina",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "países invitados",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

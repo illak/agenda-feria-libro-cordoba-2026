@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Hernán Brienza",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Hugo Vaca Narvaja",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "ensayo y pensamiento",
+  "historia"
+ ],
+ "libros_presentados": [
+  "En contra del bien"
+ ]
+}

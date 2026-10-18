@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Lucero Gómez Cruz",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Nina Jäger",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Cecilia Malem",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes"
+ ],
+ "libros_presentados": []
+}

@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Guillermo Ruibal",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Susana Amancio",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Susana Gómez",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "memoria y dictadura"
+ ]
+}

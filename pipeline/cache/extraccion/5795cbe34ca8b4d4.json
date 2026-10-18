@@ -1,0 +1,27 @@
+{
+ "personas": [
+  {
+   "nombre": "Pachi Herrera",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Martín Belzunce",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Genaro Carrizo",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Carolina Montoya",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "música y artes escénicas"
+ ],
+ "libros_presentados": [
+  "Charanguitos y Ronrocos historias en diez cuerdas"
+ ]
+}

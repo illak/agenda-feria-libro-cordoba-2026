@@ -1,0 +1,26 @@
+{
+ "personas": [
+  {
+   "nombre": "Luis Parodi",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Luca Cáceres",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Mora Soriano",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Vicky Cemborain",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "poesía",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

@@ -1,0 +1,27 @@
+{
+ "personas": [
+  {
+   "nombre": "María Elena Tarbine",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Federico Sartori",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Ornella Biazzutti",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Tristán Fita",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "Imprenta del Monserrat",
+ "temas": [
+  "historia"
+ ],
+ "libros_presentados": [
+  "El libro de las Cofradías del Monserrat"
+ ]
+}

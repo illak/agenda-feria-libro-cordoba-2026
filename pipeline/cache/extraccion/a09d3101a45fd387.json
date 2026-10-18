@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Cecilia de la Vega",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Angélica Gaido",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Micaela van Muylem",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [],
+ "libros_presentados": []
+}

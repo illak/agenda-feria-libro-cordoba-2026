@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Viviana Rivero",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Brenda Petrone",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": [
+  "Ellas"
+ ]
+}

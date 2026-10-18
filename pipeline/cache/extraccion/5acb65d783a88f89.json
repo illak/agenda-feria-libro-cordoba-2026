@@ -1,0 +1,61 @@
+{
+ "personas": [
+  {
+   "nombre": "Joaquín Deon",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Nadia Balmaceda",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Marcela Alarcón",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Nelida Herrera",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Ornella Paz Ruggia",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Marina Poldi",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Rapainú",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Suri Mistol",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Claudio Juárez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Leopoldo Rivarola",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Yama Raez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Fernanda Salinas",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Poli",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "no ficción y periodismo"
+ ],
+ "libros_presentados": []
+}

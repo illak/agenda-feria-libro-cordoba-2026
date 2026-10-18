@@ -1,0 +1,22 @@
+{
+ "personas": [
+  {
+   "nombre": "Juan Mattio",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Flor Canosa",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Martín Cristal",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa",
+  "oficio editorial"
+ ],
+ "libros_presentados": []
+}

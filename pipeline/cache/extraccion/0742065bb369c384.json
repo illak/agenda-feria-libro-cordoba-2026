@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Liliana Agra",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Magali Ferrero",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Daniel Reinoso",
+   "rol": "presenta"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": []
+}

@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Graciela Bialet",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Perla Suez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "María Teresa Andruetto",
+   "rol": "participa"
+  },
+  {
+   "nombre": "David Voloj",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Editorial Comunicarte",
+ "temas": [
+  "infancias y juventudes"
+ ],
+ "libros_presentados": []
+}

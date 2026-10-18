@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Ángel Sebastián Ramia",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Juan Cruz Oliver",
+   "rol": "presenta"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": [
+  "La Vuelta, un libro en cordobés"
+ ]
+}

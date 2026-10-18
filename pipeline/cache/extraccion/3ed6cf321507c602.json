@@ -1,0 +1,29 @@
+{
+ "personas": [
+  {
+   "nombre": "Julieta Sinchich",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Verónica Zanuttini",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Martina Sinchich",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Candela Vignal",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Camila Sinchich",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes"
+ ],
+ "libros_presentados": []
+}

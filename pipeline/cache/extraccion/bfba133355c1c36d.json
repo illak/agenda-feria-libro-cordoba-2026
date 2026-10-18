@@ -1,0 +1,18 @@
+{
+ "personas": [
+  {
+   "nombre": "Mario Emilio González",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Diego Reyna",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa",
+  "poesía"
+ ],
+ "libros_presentados": []
+}

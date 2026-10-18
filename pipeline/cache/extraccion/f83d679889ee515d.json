@@ -1,0 +1,18 @@
+{
+ "personas": [
+  {
+   "nombre": "Juan Manuel Brarda",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Pedro Garabán",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "países invitados",
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

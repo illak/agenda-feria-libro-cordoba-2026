@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Marcelo Figueras",
+   "rol": "participa"
+  },
+  {
+   "nombre": "César González",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Ibero Martínez",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}

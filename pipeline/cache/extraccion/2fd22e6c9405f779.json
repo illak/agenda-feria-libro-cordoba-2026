@@ -1,0 +1,29 @@
+{
+ "personas": [
+  {
+   "nombre": "Guadalupe Gómez",
+   "rol": "autor"
+  },
+  {
+   "nombre": "María Teresa Andruetto",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Claudia Masín",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Eva Bianco",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Mónica Lungo",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [],
+ "libros_presentados": [
+  "Cuando no sé qué hacer, canto"
+ ]
+}

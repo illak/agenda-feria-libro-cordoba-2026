@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Sol Aliverti",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Beatriz Grinberg",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Laura Castellano",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Guillermina Delupi",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa"
+ ],
+ "libros_presentados": []
+}

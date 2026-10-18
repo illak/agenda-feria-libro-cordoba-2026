@@ -1,0 +1,23 @@
+{
+ "personas": [
+  {
+   "nombre": "Ricardo Forster",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Diego Tatian",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Guillermo Ricca",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "Tusquets",
+ "temas": [
+  "ensayo y pensamiento"
+ ],
+ "libros_presentados": [
+  "Entre dos Siglos. Cartografía de un tiempo de crisis"
+ ]
+}

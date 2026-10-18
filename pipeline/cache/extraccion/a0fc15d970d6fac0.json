@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Irma Montiel",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Tony Valdés",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Diego Lima",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Ignacio Conese",
+   "rol": "modera"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "no ficción y periodismo"
+ ],
+ "libros_presentados": []
+}

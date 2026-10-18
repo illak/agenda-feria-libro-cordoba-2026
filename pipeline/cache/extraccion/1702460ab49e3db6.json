@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Solana Cortes",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Esteban Gutiérrez",
+   "rol": "a_cargo"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "música y artes escénicas"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "personas": [
+  {
+   "nombre": "Francisco D'Intino",
+   "rol": "realizador"
+  },
+  {
+   "nombre": "Guillermo López",
+   "rol": "realizador"
+  },
+  {
+   "nombre": "Francisco Nieves",
+   "rol": "realizador"
+  },
+  {
+   "nombre": "Juan Oliva",
+   "rol": "realizador"
+  },
+  {
+   "nombre": "María de la Paz Linares",
+   "rol": "modera"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "cine y audiovisual"
+ ]
+}

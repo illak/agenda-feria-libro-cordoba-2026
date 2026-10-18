@@ -1,0 +1,429 @@
+[
+  {
+    "id": "lilia-lardone",
+    "nombre": "Carpa Lilia Lardone",
+    "color": "naranja",
+    "tipo": "carpa",
+    "direccion": ""
+  },
+  {
+    "id": "glauce-baldovin",
+    "nombre": "Carpa Glauce Baldovin",
+    "color": "roja",
+    "tipo": "carpa",
+    "direccion": ""
+  },
+  {
+    "id": "juan-filloy",
+    "nombre": "Carpa Juan Filloy",
+    "color": "azul",
+    "tipo": "carpa",
+    "direccion": ""
+  },
+  {
+    "id": "malicha-leguizamon",
+    "nombre": "Carpa Malicha Leguizamón",
+    "color": "magenta",
+    "tipo": "carpa",
+    "direccion": ""
+  },
+  {
+    "id": "leonor-marzano",
+    "nombre": "Escenario Leonor Marzano",
+    "color": "turquesa",
+    "tipo": "carpa",
+    "direccion": "Explanada Palacio Municipal 6 de Julio"
+  },
+  {
+    "id": "biblioteca-cordoba-27-de-abril-375",
+    "nombre": "Biblioteca Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "27 de Abril 375"
+  },
+  {
+    "id": "biblioteca-popular-barrio-talleres-carlos-iii-1669-b-tallere",
+    "nombre": "Biblioteca Popular Barrio Talleres",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Carlos III 1669 B° Talleres Este"
+  },
+  {
+    "id": "salon-de-actos-colegio-nacional-de-monserrat-obispo-trejo-29",
+    "nombre": "Salón de Actos",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Colegio Nacional de Monserrat (Obispo Trejo 294)"
+  },
+  {
+    "id": "goethe-institut-cordoba-hall-cultural-kultur-ensemble-cordob",
+    "nombre": "Goethe-Institut Córdoba | Hall Cultural / Kultur Ensemble Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "teatro-municipal-comedia-rivadavia-254",
+    "nombre": "Teatro Municipal Comedia",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Rivadavia 254"
+  },
+  {
+    "id": "kultur-ensemble-ayacucho-46",
+    "nombre": "Kultur Ensemble",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "escuela-presidente-yrigoyen-av-castro-barros-862-b-san-marti",
+    "nombre": "Escuela Presidente Yrigoyen",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Av. Castro Barros 862 B° San Martín"
+  },
+  {
+    "id": "cineclub-municipal-bv-san-juan-49",
+    "nombre": "Cineclub Municipal",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Bv. San Juan 49"
+  },
+  {
+    "id": "salon-de-actos-biblioteca-cordoba-27-de-abril-375",
+    "nombre": "Salón de Actos - Biblioteca Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "27 de Abril 375"
+  },
+  {
+    "id": "supermanzana-de-la-intendencia-caseros-esq-gral-simon-boliva",
+    "nombre": "Supermanzana de la Intendencia",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Caseros esq. Gral. Simón Bolívar"
+  },
+  {
+    "id": "cabildo-de-cordoba-independencia-33",
+    "nombre": "Cabildo de Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Independencia 33"
+  },
+  {
+    "id": "kultur-ensemble-cordoba-auditorium-alianza-francesa-de-cordo",
+    "nombre": "Kultur Ensemble Córdoba - Auditorium - Alianza Francesa de Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "biblioteca-popular-atahualpa-tomas-de-irobi-401-b-marques-de",
+    "nombre": "Biblioteca Popular Atahualpa",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Tomás de Irobi 401- B° Marqués de Sobremonte"
+  },
+  {
+    "id": "auditorio-facultad-de-lenguas-velez-sarsfield-187",
+    "nombre": "Auditorio - Facultad de Lenguas",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Vélez Sarsfield 187"
+  },
+  {
+    "id": "mediateca-alianza-francesa-de-cordoba-kultur-ensemble-cordob",
+    "nombre": "Mediateca - Alianza Francesa de Córdoba - Kultur Ensemble Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "cine-arte-cordoba-27-de-abril-275",
+    "nombre": "Cine Arte Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "27 de Abril 275"
+  },
+  {
+    "id": "auditorium-alianza-francesa-de-cordoba-kultur-ensamble-cordo",
+    "nombre": "Auditorium - Alianza Francesa de Córdoba - Kultur Ensamble Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "biblioteca-casa-de-los-trabajadores-salon-sivialco-27-de-abr",
+    "nombre": "Biblioteca Casa de Los Trabajadores - Salon Sivialco",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "27 de abril 884"
+  },
+  {
+    "id": "mediateca-kultur-ensemble-ayacucho-46",
+    "nombre": "Mediateca - Kultur Ensemble",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "fundacion-pedro-milesi-y-bibl-popular-de-bella-vista-rufino",
+    "nombre": "Fundación Pedro Milesi y Bibl. Popular de Bella Vista",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Rufino Zado 633 - B° Bella Vista"
+  },
+  {
+    "id": "biblioteca-popular-velez-sarsfield-lima-995-b-gral-paz",
+    "nombre": "Biblioteca Popular Vélez Sarsfield",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Lima 995 - B° Gral. Paz"
+  },
+  {
+    "id": "auditorium-alianza-francesa-de-cordoba-kultur-ensemble-ayacu",
+    "nombre": "Auditorium - Alianza Francesa de Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Kultur Ensemble - Ayacucho 46"
+  },
+  {
+    "id": "facultad-de-lenguas-sede-centro-av-velez-sarsfield-187",
+    "nombre": "Facultad de Lenguas. Sede Centro. Av. Vélez Sarsfield 187",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": ""
+  },
+  {
+    "id": "archivo-provincial-de-la-memoria-pasaje-santa-catalina-66",
+    "nombre": "Archivo provincial de la Memoria",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Pasaje Santa Catalina 66"
+  },
+  {
+    "id": "biblioteca-popular-maria-saleme-gral-jose-artigas-60-b-centr",
+    "nombre": "Biblioteca Popular María Saleme",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Gral José Artigas 60 - B° Centro"
+  },
+  {
+    "id": "academia-nacional-de-ciencias-velez-sarsfield-249",
+    "nombre": "Academia Nacional de Ciencias",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Vélez Sarsfield 249"
+  },
+  {
+    "id": "auditorio-kultur-ensemble-ayacucho-46",
+    "nombre": "Auditorio - Kultur Ensemble",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "centro-cultural-espana-cordoba",
+    "nombre": "Centro Cultural España Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": ""
+  },
+  {
+    "id": "cenma-manuel-dorrego-punta-del-sauce-1550-b-talleres-este",
+    "nombre": "CENMA Manuel Dorrego",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Punta del Sauce 1550 - B° Talleres Este"
+  },
+  {
+    "id": "patio-centro-cultural-unc-duarte-quiros-107",
+    "nombre": "Patio - Centro Cultural UNC",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Duarte Quirós 107"
+  },
+  {
+    "id": "carpa-caseros-y-bolivar",
+    "nombre": "Carpa Caseros y Bolívar",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": ""
+  },
+  {
+    "id": "ruben-libros-dean-funes-163-pasaje-santa-catalina",
+    "nombre": "Rubén Libros",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Deán Funes 163. Pasaje Santa Catalina"
+  },
+  {
+    "id": "museo-evita-palacio-ferreyra",
+    "nombre": "Museo Evita-Palacio Ferreyra",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": ""
+  },
+  {
+    "id": "biblioteca-popular-nelly-ruiz-de-llorens-de-los-alemanes-399",
+    "nombre": "Biblioteca Popular Nelly Ruiz de Llorens",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "De los Alemanes 3990 - B° Los Boulevares"
+  },
+  {
+    "id": "biblioteca-acic-villanueva-3040-b-jardin",
+    "nombre": "Biblioteca ACIC",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Villanueva 3040 - B° Jardín"
+  },
+  {
+    "id": "hall-cultural-goethe-institut-cordoba-kultur-ensemble-ayacuc",
+    "nombre": "Hall cultural - Goethe-Institut Córdoba - Kultur Ensemble",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "hall-cultural-kultur-ensemble-ayacucho-46",
+    "nombre": "Hall Cultural - Kultur Ensemble",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "feria-de-vecinos-agrupados-plaza-malvinas-argentinas-ex-plaz",
+    "nombre": "Feria de Vecinos agrupados",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Plaza Malvinas Argentinas (ex plaza de Los cañones) B° Sta. Isabel 1° sección"
+  },
+  {
+    "id": "biblioteca-popular-agustin-tosco-baigorri-950-b-alta-cordoba",
+    "nombre": "Biblioteca Popular Agustín Tosco",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Baigorrí 950 - B° Alta Córdoba"
+  },
+  {
+    "id": "centro-cultural-la-piojera-av-colon-1559",
+    "nombre": "Centro Cultural La Piojera",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Av. Colón 1559"
+  },
+  {
+    "id": "asoc-civil-biblioteca-popular-casa-del-pueblo-alberdi-el-cha",
+    "nombre": "Asoc. Civil Biblioteca Popular Casa del Pueblo Alberdi",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "El Chaco 74 - B° Alberdi"
+  },
+  {
+    "id": "escuela-aeronautica-argentina-esmeralda-3749-b-matienzo",
+    "nombre": "Escuela Aeronáutica Argentina",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Esmeralda 3749 - B° Matienzo"
+  },
+  {
+    "id": "biblioteca-popular-madre-teresa-de-calcuta-ricardo-gutierrez",
+    "nombre": "Biblioteca Popular Madre Teresa de Calcuta",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ricardo Gutiérrez 4673 - B° Liceo 2° Sección"
+  },
+  {
+    "id": "auditorio-de-la-facultad-de-lenguas-sede-ciudad-universitari",
+    "nombre": "Auditorio de la Facultad de Lenguas | Sede Ciudad Universitaria",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Bv. Enrique Barros s/n"
+  },
+  {
+    "id": "hall-cultural-goethe-institut-kultur-ensemble-ayacucho-46",
+    "nombre": "Hall Cultural - Goethe-Institut | Kultur Ensemble",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "hall-central-kultur-ensemble-ayacucho-46",
+    "nombre": "Hall Central - Kultur Ensemble",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "patio-de-eventos-biblioteca-cordoba-27-de-abril-375",
+    "nombre": "Patio de eventos - Biblioteca Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "27 de Abril 375"
+  },
+  {
+    "id": "auditorium-centro-cultural-unc-ob-trejo-314",
+    "nombre": "Auditorium – Centro Cultural UNC",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ob. Trejo 314"
+  },
+  {
+    "id": "patio-menor-cabildo-de-cordoba-independencia-30",
+    "nombre": "Patio Menor - Cabildo de Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Independencia 30"
+  },
+  {
+    "id": "explanada-palacio-municipal-6-de-julio",
+    "nombre": "Explanada Palacio Municipal 6 de Julio",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": ""
+  },
+  {
+    "id": "sala-mayor-teatro-del-libertador-general-san-martin-av-velez",
+    "nombre": "Sala Mayor - Teatro del Libertador General San Martín",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Av. Vélez Sarsfield 365"
+  },
+  {
+    "id": "sala-de-concierto-unc-ciencias-exactas-av-velez-sarsfield-29",
+    "nombre": "Sala de concierto UNC - Ciencias Exactas",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Av. Vélez Sarsfield 299"
+  },
+  {
+    "id": "centro-cultural-unc-duarte-quiros-107",
+    "nombre": "Centro Cultural UNC",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Duarte Quirós 107"
+  },
+  {
+    "id": "plaza-lavalle-san-jeronimo-3200-b-san-vicente",
+    "nombre": "Plaza Lavalle",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "San Jerónimo 3200 - B° San Vicente"
+  },
+  {
+    "id": "biblioteca-popular-del-bicentenario-teniente-nivoli-490-b-in",
+    "nombre": "Biblioteca Popular del Bicentenario",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Teniente Nivoli 490 - B° Inaudi"
+  },
+  {
+    "id": "biblioteca-popular-alfonsina-storni-muluches-9611-b-villa-al",
+    "nombre": "Biblioteca Popular Alfonsina Storni",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Muluches 9611 - B° Villa Allende Parque"
+  }
+]

@@ -1,0 +1,29 @@
+{
+ "personas": [
+  {
+   "nombre": "Mara Beger Balboa",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Leandro Llull",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Marcelo D. Díaz",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Antonella Mazzitello",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Rafael Urretabizcaya",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "poesía"
+ ],
+ "libros_presentados": []
+}

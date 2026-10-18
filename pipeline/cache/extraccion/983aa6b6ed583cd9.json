@@ -1,0 +1,21 @@
+{
+ "personas": [
+  {
+   "nombre": "Anna Cubeiro",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Alejandra Toledo",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Mariano Medina",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes"
+ ],
+ "libros_presentados": []
+}

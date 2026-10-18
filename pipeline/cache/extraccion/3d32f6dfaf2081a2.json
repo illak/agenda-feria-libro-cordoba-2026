@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Daniel Sosa",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Rubén López",
+   "rol": "a_cargo"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes"
+ ],
+ "libros_presentados": []
+}

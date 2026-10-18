@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Sebastián Romero",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Pablo Riorda",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Roni Gowlett",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Edgardo Medina",
+   "rol": "participa"
+  }
+ ],
+ "editorial": "",
+ "temas": [
+  "música y artes escénicas"
+ ],
+ "libros_presentados": []
+}
