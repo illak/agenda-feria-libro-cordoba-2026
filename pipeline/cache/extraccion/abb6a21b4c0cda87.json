@@ -1,0 +1,30 @@
+{
+ "personas": [
+  {
+   "nombre": "Candelaria de Olmos",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Leti Martínez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Lucía Citto",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Emiliano Salto",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Julián Torti",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "música y artes escénicas",
+  "narrativa"
+ ]
+}

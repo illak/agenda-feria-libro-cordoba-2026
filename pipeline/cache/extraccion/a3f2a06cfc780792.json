@@ -1,0 +1,43 @@
+{
+ "personas": [
+  {
+   "nombre": "Claudia Huergo",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gemma Ríos",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Leticia Ressia",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gonzalo Marull",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Franca Chiafitella",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Félix González",
+   "rol": "modera"
+  },
+  {
+   "nombre": "Juan Pablo Toch",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Tomás Arinci",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Javier Artaza",
+   "rol": "a_cargo"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": []
+}

@@ -1,0 +1,31 @@
+{
+ "personas": [
+  {
+   "nombre": "Pampa O. Arán",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Silvia Barei",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Candelaria de Olmos",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Baal de Lupi",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Luis Ángel Meriles",
+   "rol": "presenta"
+  }
+ ],
+ "libros_presentados": [
+  "Mundos Alternativos"
+ ],
+ "editorial": "",
+ "temas": [
+  "ensayo y pensamiento"
+ ]
+}

@@ -35,6 +35,13 @@
     "direccion": "Explanada Palacio Municipal 6 de Julio"
   },
   {
+    "id": "kultur-ensemble-ayacucho-46",
+    "nombre": "Kultur Ensemble",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
     "id": "biblioteca-cordoba-27-de-abril-375",
     "nombre": "Biblioteca Córdoba",
     "color": "gris",
@@ -49,6 +56,13 @@
     "direccion": "Carlos III 1669 B° Talleres Este"
   },
   {
+    "id": "kultur-ensemble-cordoba-ayacucho-46",
+    "nombre": "Kultur Ensemble Córdoba",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
     "id": "salon-de-actos-colegio-nacional-de-monserrat-obispo-trejo-29",
     "nombre": "Salón de Actos",
     "color": "gris",
@@ -56,8 +70,8 @@
     "direccion": "Colegio Nacional de Monserrat (Obispo Trejo 294)"
   },
   {
-    "id": "goethe-institut-cordoba-hall-cultural-kultur-ensemble-cordob",
-    "nombre": "Goethe-Institut Córdoba | Hall Cultural / Kultur Ensemble Córdoba",
+    "id": "goethe-institut-cordoba-kultur-ensemble-cordoba-ayacucho-46",
+    "nombre": "Goethe-Institut Córdoba | Kultur Ensemble Córdoba",
     "color": "gris",
     "tipo": "externa",
     "direccion": "Ayacucho 46"
@@ -70,11 +84,11 @@
     "direccion": "Rivadavia 254"
   },
   {
-    "id": "kultur-ensemble-ayacucho-46",
-    "nombre": "Kultur Ensemble",
+    "id": "auditorio-flce-facultad-de-lenguas-av-velez-sarsfield-187",
+    "nombre": "Auditorio FLCE -  Facultad de Lenguas",
     "color": "gris",
     "tipo": "externa",
-    "direccion": "Ayacucho 46"
+    "direccion": "Av. Vélez Sarsfield 187"
   },
   {
     "id": "escuela-presidente-yrigoyen-av-castro-barros-862-b-san-marti",
@@ -112,8 +126,8 @@
     "direccion": "Independencia 33"
   },
   {
-    "id": "kultur-ensemble-cordoba-auditorium-alianza-francesa-de-cordo",
-    "nombre": "Kultur Ensemble Córdoba - Auditorium - Alianza Francesa de Córdoba",
+    "id": "alianza-francesa-de-cordoba-kultur-ensemble-cordoba-ayacucho",
+    "nombre": "Alianza Francesa de Córdoba | Kultur Ensemble Córdoba",
     "color": "gris",
     "tipo": "externa",
     "direccion": "Ayacucho 46"
@@ -133,13 +147,6 @@
     "direccion": "Vélez Sarsfield 187"
   },
   {
-    "id": "mediateca-alianza-francesa-de-cordoba-kultur-ensemble-cordob",
-    "nombre": "Mediateca - Alianza Francesa de Córdoba - Kultur Ensemble Córdoba",
-    "color": "gris",
-    "tipo": "externa",
-    "direccion": "Ayacucho 46"
-  },
-  {
     "id": "cine-arte-cordoba-27-de-abril-275",
     "nombre": "Cine Arte Córdoba",
     "color": "gris",
@@ -147,8 +154,8 @@
     "direccion": "27 de Abril 275"
   },
   {
-    "id": "auditorium-alianza-francesa-de-cordoba-kultur-ensamble-cordo",
-    "nombre": "Auditorium - Alianza Francesa de Córdoba - Kultur Ensamble Córdoba",
+    "id": "alianza-francesa-de-cordoba-kultur-ensamble-cordoba-ayacucho",
+    "nombre": "Alianza Francesa de Córdoba | Kultur Ensamble Córdoba",
     "color": "gris",
     "tipo": "externa",
     "direccion": "Ayacucho 46"
@@ -161,8 +168,8 @@
     "direccion": "27 de abril 884"
   },
   {
-    "id": "mediateca-kultur-ensemble-ayacucho-46",
-    "nombre": "Mediateca - Kultur Ensemble",
+    "id": "goethe-institut-cordoba-kultur-ensemble-ayacucho-46",
+    "nombre": "Goethe-Institut Córdoba | Kultur Ensemble",
     "color": "gris",
     "tipo": "externa",
     "direccion": "Ayacucho 46"
@@ -182,11 +189,18 @@
     "direccion": "Lima 995 - B° Gral. Paz"
   },
   {
-    "id": "auditorium-alianza-francesa-de-cordoba-kultur-ensemble-ayacu",
-    "nombre": "Auditorium - Alianza Francesa de Córdoba",
+    "id": "alianza-francesa-cordoba-kultur-ensemble-ayacucho-46",
+    "nombre": "Alianza Francesa Córdoba | Kultur Ensemble",
     "color": "gris",
     "tipo": "externa",
-    "direccion": "Kultur Ensemble - Ayacucho 46"
+    "direccion": "Ayacucho 46"
+  },
+  {
+    "id": "alianza-francesa-de-cordoba-kultur-ensemble-ayacucho-46",
+    "nombre": "Alianza Francesa de Córdoba | Kultur Ensemble",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
   },
   {
     "id": "facultad-de-lenguas-sede-centro-av-velez-sarsfield-187",
@@ -217,18 +231,11 @@
     "direccion": "Vélez Sarsfield 249"
   },
   {
-    "id": "auditorio-kultur-ensemble-ayacucho-46",
-    "nombre": "Auditorio - Kultur Ensemble",
-    "color": "gris",
-    "tipo": "externa",
-    "direccion": "Ayacucho 46"
-  },
-  {
-    "id": "centro-cultural-espana-cordoba",
+    "id": "centro-cultural-espana-cordoba-entre-rios-40",
     "nombre": "Centro Cultural España Córdoba",
     "color": "gris",
     "tipo": "externa",
-    "direccion": ""
+    "direccion": "Entre Ríos 40"
   },
   {
     "id": "cenma-manuel-dorrego-punta-del-sauce-1550-b-talleres-este",
@@ -259,6 +266,13 @@
     "direccion": "Deán Funes 163. Pasaje Santa Catalina"
   },
   {
+    "id": "goethe-institut-kultur-ensemble-ayacucho-46",
+    "nombre": "Goethe-Institut | Kultur Ensemble",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": "Ayacucho 46"
+  },
+  {
     "id": "museo-evita-palacio-ferreyra",
     "nombre": "Museo Evita-Palacio Ferreyra",
     "color": "gris",
@@ -278,13 +292,6 @@
     "color": "gris",
     "tipo": "externa",
     "direccion": "Villanueva 3040 - B° Jardín"
-  },
-  {
-    "id": "hall-cultural-goethe-institut-cordoba-kultur-ensemble-ayacuc",
-    "nombre": "Hall cultural - Goethe-Institut Córdoba - Kultur Ensemble",
-    "color": "gris",
-    "tipo": "externa",
-    "direccion": "Ayacucho 46"
   },
   {
     "id": "hall-cultural-kultur-ensemble-ayacucho-46",
@@ -322,6 +329,13 @@
     "direccion": "El Chaco 74 - B° Alberdi"
   },
   {
+    "id": "carpa-lila-lardone-naranja",
+    "nombre": "Carpa Lila Lardone | Naranja",
+    "color": "gris",
+    "tipo": "externa",
+    "direccion": ""
+  },
+  {
     "id": "escuela-aeronautica-argentina-esmeralda-3749-b-matienzo",
     "nombre": "Escuela Aeronáutica Argentina",
     "color": "gris",
@@ -343,20 +357,6 @@
     "direccion": "Bv. Enrique Barros s/n"
   },
   {
-    "id": "hall-cultural-goethe-institut-kultur-ensemble-ayacucho-46",
-    "nombre": "Hall Cultural - Goethe-Institut | Kultur Ensemble",
-    "color": "gris",
-    "tipo": "externa",
-    "direccion": "Ayacucho 46"
-  },
-  {
-    "id": "hall-central-kultur-ensemble-ayacucho-46",
-    "nombre": "Hall Central - Kultur Ensemble",
-    "color": "gris",
-    "tipo": "externa",
-    "direccion": "Ayacucho 46"
-  },
-  {
     "id": "patio-de-eventos-biblioteca-cordoba-27-de-abril-375",
     "nombre": "Patio de eventos - Biblioteca Córdoba",
     "color": "gris",
@@ -376,13 +376,6 @@
     "color": "gris",
     "tipo": "externa",
     "direccion": "Independencia 30"
-  },
-  {
-    "id": "explanada-palacio-municipal-6-de-julio",
-    "nombre": "Explanada Palacio Municipal 6 de Julio",
-    "color": "gris",
-    "tipo": "externa",
-    "direccion": ""
   },
   {
     "id": "sala-mayor-teatro-del-libertador-general-san-martin-av-velez",

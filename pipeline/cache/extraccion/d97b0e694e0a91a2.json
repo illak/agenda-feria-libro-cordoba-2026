@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Guillermo Martínez",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Francisco Marchiaro",
+   "rol": "presenta"
+  }
+ ],
+ "libros_presentados": [
+  "Un crimen dialéctico"
+ ],
+ "editorial": "Planeta",
+ "temas": [
+  "narrativa"
+ ]
+}

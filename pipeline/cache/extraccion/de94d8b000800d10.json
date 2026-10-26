@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Juan Carlos Mansilla",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Diego Ruiz",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": []
+}

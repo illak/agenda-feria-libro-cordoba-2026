@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Benjamin Lavaque",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Francisco Araoz",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [
+  "Las Tardes"
+ ],
+ "editorial": "Araoz Ediciones",
+ "temas": [
+  "poesía",
+  "narrativa"
+ ]
+}

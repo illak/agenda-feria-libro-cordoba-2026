@@ -1,0 +1,26 @@
+{
+ "personas": [
+  {
+   "nombre": "Marcelo Acevedo",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Flor Canosa",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Martín Cristal",
+   "rol": "participa"
+  },
+  {
+   "nombre": "El Negro Viglietti",
+   "rol": "modera"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "narrativa",
+  "oficio editorial"
+ ]
+}

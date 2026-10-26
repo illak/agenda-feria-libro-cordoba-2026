@@ -1,0 +1,14 @@
+{
+ "personas": [
+  {
+   "nombre": "Thomas Konrad",
+   "rol": "a_cargo"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "países invitados",
+  "historia"
+ ]
+}

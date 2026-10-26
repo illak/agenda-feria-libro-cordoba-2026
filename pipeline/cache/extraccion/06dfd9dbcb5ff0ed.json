@@ -1,0 +1,18 @@
+{
+ "personas": [
+  {
+   "nombre": "Manuel Wirzt",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Cintia Suárez",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "historia",
+  "música y artes escénicas"
+ ]
+}

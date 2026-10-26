@@ -1,0 +1,30 @@
+{
+ "personas": [
+  {
+   "nombre": "Valeria Tentoni",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Sergio Gaiteri",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Roque Larraquy",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Sebastián Martínez Daniell",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Javier Serena",
+   "rol": "modera"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "narrativa",
+  "ensayo y pensamiento"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Pecas Soriano",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Susana Vidal",
+   "rol": "presenta"
+  }
+ ],
+ "libros_presentados": [
+  "Morir con dignidad en Argentina"
+ ],
+ "editorial": "",
+ "temas": [
+  "no ficción y periodismo"
+ ]
+}

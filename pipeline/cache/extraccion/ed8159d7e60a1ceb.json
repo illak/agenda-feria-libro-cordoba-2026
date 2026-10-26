@@ -1,0 +1,19 @@
+{
+ "personas": [
+  {
+   "nombre": "Marcelo Taborda",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Santiago Flores",
+   "rol": "presenta"
+  }
+ ],
+ "libros_presentados": [
+  "Manual de Historia Antigua y Medieval"
+ ],
+ "editorial": "Imprenta del Monserrat",
+ "temas": [
+  "historia"
+ ]
+}

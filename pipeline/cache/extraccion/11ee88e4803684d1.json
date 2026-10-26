@@ -1,0 +1,18 @@
+{
+ "personas": [
+  {
+   "nombre": "Patrick Eser",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Micaela van Muylem",
+   "rol": "a_cargo"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "poesía",
+  "países invitados"
+ ]
+}

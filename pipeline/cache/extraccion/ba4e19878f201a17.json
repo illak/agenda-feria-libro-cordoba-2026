@@ -1,0 +1,35 @@
+{
+ "personas": [
+  {
+   "nombre": "Bertolt Brecht",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Walter Benjamin",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Steffen Thiemann",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Micaela van Muylem",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gabriela Milone",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Sara Bosoer",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [
+  "Muerte en el ascensor"
+ ],
+ "editorial": "",
+ "temas": [
+  "países invitados"
+ ]
+}

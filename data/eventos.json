@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-10-30-0900-kultur-ensemble-ayacucho-exposicion-diversidad-genero-inclusion-comic",
+    "fecha": "2026-10-30",
+    "hora_inicio": "2026-10-30T09:00:00-03:00",
+    "hora_fin": "2026-10-30T21:00:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "Exposición: Diversidad, género e inclusión en el cómic.",
+    "descripcion": "Esta muestra reúne doce historietas creadas en el marco de un programa de tutorías impulsado por instituciones francesas, alemanas y argentinas. Las obras abordan las temáticas de diversidad, género e inclusión desde diferentes estilos y perspectivas, que van del humor al drama. Un recorrido por distintas formas de representación que pone en diálogo la historieta, la diversidad y las cuestiones de género. La exposición estará disponible durante todo el período de la Feria del Libro, en el edificio del Kultur Ensemble. Se podrá visitar desde el 30 de octubre hasta el 15 de noviembre.",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [],
+    "sede_id": "kultur-ensemble-ayacucho-46",
+    "personas": [],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
+  },
+  {
     "id": "2026-10-30-1100-biblioteca-cordoba-27-de-taller-vida-secreta-cosas-memoria",
     "fecha": "2026-10-30",
     "hora_inicio": "2026-10-30T11:00:00-03:00",
@@ -252,6 +270,30 @@
     "editorial": "",
     "publico": "general",
     "confianza": 1.0
+  },
+  {
+    "id": "2026-10-30-1700-kultur-ensemble-cordoba-espacio-dedicatorias-filosofo-escritor-frances",
+    "fecha": "2026-10-30",
+    "hora_inicio": "2026-10-30T17:00:00-03:00",
+    "hora_fin": "",
+    "hora_fin_estimada": "2026-10-30T18:00:00-03:00",
+    "titulo": "Espacio de dedicatorias del filósofo y escritor francés Éric Sadin",
+    "descripcion": "",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [],
+    "sede_id": "kultur-ensemble-cordoba-ayacucho-46",
+    "personas": [
+      {
+        "autor_id": "eric-sadin",
+        "nombre": "Éric Sadin",
+        "rol": "participa"
+      }
+    ],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.7
   },
   {
     "id": "2026-10-30-1700-lilia-lardone-presentacion-concurso-literario-saben-paso",
@@ -512,38 +554,36 @@
     "confianza": 0.4
   },
   {
-    "id": "2026-10-30-1900-glauce-baldovin-poderes-violencias-invisibilizadas-derecho-libertad",
+    "id": "2026-10-30-1900-glauce-baldovin-tardes",
     "fecha": "2026-10-30",
     "hora_inicio": "2026-10-30T19:00:00-03:00",
     "hora_fin": "",
     "hora_fin_estimada": "2026-10-30T20:00:00-03:00",
-    "titulo": "Poderes, violencias invisibilizadas y el derecho a la libertad de religión.",
-    "descripcion": "Darío Villarreal presenta el segundo tomo de la llamada Trilogía de la inclusión. Modera Tamara Sternberg. Autor:  Darío Villarreal A cargo de: Emporio Ediciones",
+    "titulo": "Las Tardes",
+    "descripcion": "Presentación del libro de Benjamin Lavaque.  Un libro que reúne poemas, cuentos y reflexiones sobre distintas etapas de la vida, desde la adolescencia hasta la madurez. A través de una escritura íntima y personal, el autor explora las emociones, las experiencias y los pensamientos que nos acompañan a lo largo del tiempo. Disertantes: Benjamín Lavaque y Francisco Araoz. Editorial: Araoz Ediciones A cargo de: Mundo Gráfico SA",
     "tipo": "otro",
     "ciclo": "",
     "temas": [
-      "ensayo y pensamiento"
+      "poesía",
+      "narrativa"
     ],
     "sede_id": "glauce-baldovin",
     "personas": [
       {
-        "autor_id": "dario-villarreal",
-        "nombre": "Darío Villarreal",
-        "rol": "autor"
+        "autor_id": "benjamin-lavaque",
+        "nombre": "Benjamín Lavaque",
+        "rol": "participa"
       },
       {
-        "autor_id": "emporio-ediciones",
-        "nombre": "Emporio Ediciones",
-        "rol": "a_cargo"
-      },
-      {
-        "autor_id": "tamara-sternberg",
-        "nombre": "Tamara Sternberg",
-        "rol": "modera"
+        "autor_id": "francisco-araoz",
+        "nombre": "Francisco Araoz",
+        "rol": "participa"
       }
     ],
-    "libros_presentados": [],
-    "editorial": "Emporio Ediciones",
+    "libros_presentados": [
+      "Las Tardes"
+    ],
+    "editorial": "Araoz Ediciones",
     "publico": "general",
     "confianza": 1.0
   },
@@ -560,7 +600,7 @@
     "temas": [
       "países invitados"
     ],
-    "sede_id": "goethe-institut-cordoba-hall-cultural-kultur-ensemble-cordob",
+    "sede_id": "goethe-institut-cordoba-kultur-ensemble-cordoba-ayacucho-46",
     "personas": [
       {
         "autor_id": "daad",
@@ -1376,6 +1416,33 @@
     "confianza": 1.0
   },
   {
+    "id": "2026-10-31-2000-auditorio-flce-facultad-conferencia-eric-sadin-ia-generativas",
+    "fecha": "2026-10-31",
+    "hora_inicio": "2026-10-31T20:00:00-03:00",
+    "hora_fin": "2026-10-31T21:30:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "Conferencia de Éric Sadin: “IA generativas: un seísmo social, cultural y civilizatorio.”",
+    "descripcion": "La Feria recibe a Éric Sadin, filósofo y escritor francés reconocido por su trabajo sobre las tecnologías digitales y su impacto social, político y cultural. Autor de diez libros sobre la materia, sus obras han sido traducidas a varios idiomas y colabora regularmente en medios como Le Monde, Libération, El País y Página/12. Durante su conferencia, el autor abordará las transformaciones vinculadas al desarrollo de las IA generativas a partir de su libro El desierto de nosotros mismos. El giro intelectual y creativo de la inteligencia artificial, publicado en español en 2026 por Caja Negra Editora. Entrada gratuita, con cupo limitado hasta agotar capacidad de sala. La inscripción previa es obligatoria para garantizar el acceso. Ingresar AQUÍ Quienes quieran aprovechar el servicio de interpretación francés-español deberán traer su propio celular y auriculares.",
+    "tipo": "otro",
+    "ciclo": "PAÍS INVITADO",
+    "temas": [
+      "tecnología e IA",
+      "países invitados"
+    ],
+    "sede_id": "auditorio-flce-facultad-de-lenguas-av-velez-sarsfield-187",
+    "personas": [
+      {
+        "autor_id": "eric-sadin",
+        "nombre": "Éric Sadin",
+        "rol": "participa"
+      }
+    ],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
+  },
+  {
     "id": "2026-10-31-2000-glauce-baldovin-charla-literatura-desde-alma",
     "fecha": "2026-10-31",
     "hora_inicio": "2026-10-31T20:00:00-03:00",
@@ -1454,33 +1521,6 @@
       {
         "autor_id": "mori-ponsowy",
         "nombre": "Mori Ponsowy",
-        "rol": "participa"
-      }
-    ],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
-    "id": "2026-10-31-2000-lilia-lardone-conferencia-eric-sadin-ia-generativas",
-    "fecha": "2026-10-31",
-    "hora_inicio": "2026-10-31T20:00:00-03:00",
-    "hora_fin": "2026-10-31T21:30:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "Conferencia de Éric Sadin: “IA generativas: un seísmo social, cultural y civilizatorio.”",
-    "descripcion": "La Feria recibe a Éric Sadin, filósofo y escritor francés reconocido por su trabajo sobre las tecnologías digitales y su impacto social, político y cultural. Autor de diez libros sobre la materia, sus obras han sido traducidas a varios idiomas y colabora regularmente en medios como Le Monde, Libération, El País y Página/12. Durante su conferencia, el autor abordará las transformaciones vinculadas al desarrollo de las IA generativas a partir de su libro El desierto de nosotros mismos. El giro intelectual y creativo de la inteligencia artificial, publicado en español en 2026 por Caja Negra Editora.",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "tecnología e IA",
-      "ensayo y pensamiento"
-    ],
-    "sede_id": "lilia-lardone",
-    "personas": [
-      {
-        "autor_id": "eric-sadin",
-        "nombre": "Éric Sadin",
         "rol": "participa"
       }
     ],
@@ -1898,10 +1938,10 @@
     "tipo": "otro",
     "ciclo": "",
     "temas": [
-      "países invitados",
-      "música y artes escénicas"
+      "música y artes escénicas",
+      "países invitados"
     ],
-    "sede_id": "goethe-institut-cordoba-hall-cultural-kultur-ensemble-cordob",
+    "sede_id": "goethe-institut-cordoba-kultur-ensemble-cordoba-ayacucho-46",
     "personas": [
       {
         "autor_id": "suono-mobile-argentina",
@@ -1921,17 +1961,18 @@
     "hora_fin": "",
     "hora_fin_estimada": "2026-11-01T20:00:00-03:00",
     "titulo": "Una historia, una canción, otra historia",
-    "descripcion": "Una propuesta donde la literatura y la música se encuentran en vivo. Candelaria Olmos, Leti Martínez, Lucía Citto y Emiliano Salto comparten sus textos en una lectura colectiva, mientras Julián Torti canta y toca entre las historias, construyendo un diálogo entre las palabras, las voces y las canciones. Participan: Candelaria Olmos (Lote 11), Leti Martínez (Vaca Muerta), Lucía Citto (Triángulo Editorial) y Emiliano Salto (Antipop). Música en vivo: Julián Torti.",
+    "descripcion": "Una propuesta donde la literatura y la música se encuentran en vivo. Candelaria de Olmos, Leti Martínez, Lucía Citto y Emiliano Salto comparten sus textos en una lectura colectiva, mientras Julián Torti canta y toca entre las historias, construyendo un diálogo entre las palabras, las voces y las canciones. Participan: Candelaria de Olmos (Lote 11), Leti Martínez (Vaca Muerta), Lucía Citto (Triángulo Editorial) y Emiliano Salto (Antipop). Música en vivo: Julián Torti.",
     "tipo": "otro",
     "ciclo": "ESPACIO ALBERTO BURNICHON",
     "temas": [
-      "música y artes escénicas"
+      "música y artes escénicas",
+      "narrativa"
     ],
     "sede_id": "juan-filloy",
     "personas": [
       {
-        "autor_id": "candelaria-olmos",
-        "nombre": "Candelaria Olmos",
+        "autor_id": "candelaria-de-olmos",
+        "nombre": "Candelaria de Olmos",
         "rol": "participa"
       },
       {
@@ -1952,7 +1993,7 @@
       {
         "autor_id": "julian-torti",
         "nombre": "Julián Torti",
-        "rol": "a_cargo"
+        "rol": "participa"
       }
     ],
     "libros_presentados": [],
@@ -2713,6 +2754,33 @@
     "confianza": 0.9
   },
   {
+    "id": "2026-11-02-1900-alianza-francesa-de-pais-invitado-proyeccion-pelicula-le",
+    "fecha": "2026-11-02",
+    "hora_inicio": "2026-11-02T19:00:00-03:00",
+    "hora_fin": "2026-11-02T21:30:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "PAÍS INVITADO - Proyección de la película Le Fil, Daniel Auteuil, 2024, y debate",
+    "descripcion": "Como parte de un ciclo de cine de tres días, de lunes a miércoles, y en colaboración con Córdoba Mata, Festival Internacional de Literatura Negra y Policial, se propone la proyección de Le Fil, de Daniel Auteuil (2024). La propuesta se inscribe en una selección de cine policial, judicial y negro, con películas clásicas y contemporáneas, y contará con un debate después de la proyección.",
+    "tipo": "proyeccion",
+    "ciclo": "",
+    "temas": [
+      "cine y audiovisual",
+      "países invitados"
+    ],
+    "sede_id": "alianza-francesa-de-cordoba-kultur-ensemble-cordoba-ayacucho",
+    "personas": [
+      {
+        "autor_id": "daniel-auteuil",
+        "nombre": "Daniel Auteuil",
+        "rol": "realizador"
+      }
+    ],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
+  },
+  {
     "id": "2026-11-02-1900-glauce-baldovin-charla-reencuentro-poetico-musical-sin",
     "fecha": "2026-11-02",
     "hora_inicio": "2026-11-02T19:00:00-03:00",
@@ -2758,33 +2826,6 @@
     "editorial": "Editorial Tinta Libre",
     "publico": "general",
     "confianza": 1.0
-  },
-  {
-    "id": "2026-11-02-1900-kultur-ensemble-cordoba-pais-invitado-proyeccion-pelicula-le",
-    "fecha": "2026-11-02",
-    "hora_inicio": "2026-11-02T19:00:00-03:00",
-    "hora_fin": "2026-11-02T21:30:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "PAÍS INVITADO - Proyección de la película Le Fil, Daniel Auteuil, 2024, y debate",
-    "descripcion": "Como parte de un ciclo de cine de tres días, de lunes a miércoles, y en colaboración con Córdoba Mata, Festival Internacional de Literatura Negra y Policial, se propone la proyección de Le Fil, de Daniel Auteuil (2024). La propuesta se inscribe en una selección de cine policial, judicial y negro, con películas clásicas y contemporáneas, y contará con un debate después de la proyección.",
-    "tipo": "proyeccion",
-    "ciclo": "",
-    "temas": [
-      "cine y audiovisual",
-      "países invitados"
-    ],
-    "sede_id": "kultur-ensemble-cordoba-auditorium-alianza-francesa-de-cordo",
-    "personas": [
-      {
-        "autor_id": "daniel-auteuil",
-        "nombre": "Daniel Auteuil",
-        "rol": "realizador"
-      }
-    ],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
   },
   {
     "id": "2026-11-02-1900-lilia-lardone-derecho-proteccion-ambiente-daniela-maria",
@@ -2988,11 +3029,10 @@
     "hora_fin": "2026-11-02T21:00:00-03:00",
     "hora_fin_estimada": "",
     "titulo": "Antonio Birabent",
-    "descripcion": "Con una trayectoria artística de 35 años, Antonio Birabent ha consolidado su carrera en la música, la actuación y la escritura, sumando más de treinta discos grabados, participaciones en numerosas series y películas, y los libros Tres y El Filo. Actualmente trabaja en su tercera obra literaria centrada en relatos urbanos y ultimando los detalles del estreno de Un Imperio que Nunca Existió, pieza teatral de su autoría que él mismo protagonizará.",
+    "descripcion": "Charla y show acústico. Con una trayectoria artística de 35 años, Antonio Birabent ha consolidado su carrera en la música, la actuación y la escritura, sumando más de treinta discos grabados, participaciones en numerosas series y películas, y los libros Tres y El Filo. Actualmente trabaja en su tercera obra literaria centrada en relatos urbanos y ultimando los detalles del estreno de Un Imperio que Nunca Existió, pieza teatral de su autoría que él mismo protagonizará.",
     "tipo": "otro",
     "ciclo": "",
     "temas": [
-      "narrativa",
       "música y artes escénicas"
     ],
     "sede_id": "lilia-lardone",
@@ -3206,7 +3246,7 @@
     "hora_fin": "2026-11-03T18:00:00-03:00",
     "hora_fin_estimada": "",
     "titulo": "Pecas Soriano presenta su libro Morir con dignidad en Argentina",
-    "descripcion": "El libro trata de un tema tabú en occidente como es el de la muerte, que por diversos motivos es poco reflexionado, tanto en los profesionales de la salud como en la población en general.",
+    "descripcion": "El libro trata de un tema tabú en occidente como es el de la muerte, que por diversos motivos es poco reflexionado, tanto en los profesionales de la salud como en la población en general. Presenta: Dra. Susana Vidal.",
     "tipo": "presentacion",
     "ciclo": "",
     "temas": [
@@ -3215,9 +3255,19 @@
     "sede_id": "juan-filloy",
     "personas": [
       {
+        "autor_id": "dra",
+        "nombre": "Dra",
+        "rol": "presenta"
+      },
+      {
         "autor_id": "pecas-soriano",
         "nombre": "Pecas Soriano",
         "rol": "autor"
+      },
+      {
+        "autor_id": "susana-vidal",
+        "nombre": "Susana Vidal",
+        "rol": "presenta"
       }
     ],
     "libros_presentados": [
@@ -3294,6 +3344,26 @@
         "rol": "a_cargo"
       }
     ],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
+  },
+  {
+    "id": "2026-11-03-1800-alianza-francesa-de-pais-invitado-clase-muestra-frances",
+    "fecha": "2026-11-03",
+    "hora_inicio": "2026-11-03T18:00:00-03:00",
+    "hora_fin": "2026-11-03T19:00:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "PAÍS INVITADO - Clase de muestra de francés",
+    "descripcion": "La Alianza Francesa de Córdoba propone una clase abierta y lúdica para descubrir las bases del francés de manera dinámica y entretenida. La institución ofrece una amplia variedad de cursos de francés para distintos niveles y públicos, y esta clase será una oportunidad para acercarse al idioma, descubrir otra cultura y animarse a aprender algo nuevo. Un primer encuentro para probar, jugar con el idioma y, quién sabe, ¡descubrir el gusto por el francés!",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [
+      "países invitados"
+    ],
+    "sede_id": "alianza-francesa-de-cordoba-kultur-ensemble-cordoba-ayacucho",
+    "personas": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3381,10 +3451,9 @@
     "titulo": "A cargo de Silvia Barei, Candelaria de Olmos, Baal de Lupi y Luis Ángel Meriles",
     "descripcion": "Presentación del último libro en el que trabajaba Pampa Arán, destacada profesora e investigadora de la UNC especialista en narrativa fantástica. Los ensayos exploran el género a partir del \"desorden de las certezas\" que propone, indagando la percepción extrañada del mundo, la puesta en escena de las emociones y las fronteras entre lo humano y lo no humano. La presentación estará a cargo de Silvia Barei, Candelaria de Olmos, Baal de Lupi y Luis Ángel Meriles.",
     "tipo": "otro",
-    "ciclo": "Mundos Alternativos - Pampa O. Arán (†)",
+    "ciclo": "Mundos Alternativos - Pampa O. Arán",
     "temas": [
-      "ensayo y pensamiento",
-      "narrativa"
+      "ensayo y pensamiento"
     ],
     "sede_id": "lilia-lardone",
     "personas": [
@@ -3449,26 +3518,6 @@
     "confianza": 0.5
   },
   {
-    "id": "2026-11-03-1800-mediateca-alianza-pais-invitado-clase-muestra-frances",
-    "fecha": "2026-11-03",
-    "hora_inicio": "2026-11-03T18:00:00-03:00",
-    "hora_fin": "2026-11-03T19:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "PAÍS INVITADO - Clase de muestra de francés",
-    "descripcion": "La Alianza Francesa de Córdoba propone una clase abierta y lúdica para descubrir las bases del francés de manera dinámica y entretenida. La institución ofrece una amplia variedad de cursos de francés para distintos niveles y públicos, y esta clase será una oportunidad para acercarse al idioma, descubrir otra cultura y animarse a aprender algo nuevo. Un primer encuentro para probar, jugar con el idioma y, quién sabe, ¡descubrir el gusto por el francés!",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "países invitados"
-    ],
-    "sede_id": "mediateca-alianza-francesa-de-cordoba-kultur-ensemble-cordob",
-    "personas": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
-  },
-  {
     "id": "2026-11-03-1800-salon-de-actos-biblioteca-presentacion-libros-sociedad-argentina-escritores",
     "fecha": "2026-11-03",
     "hora_inicio": "2026-11-03T18:00:00-03:00",
@@ -3507,7 +3556,7 @@
     "hora_inicio": "2026-11-03T18:00:00-03:00",
     "hora_fin": "2026-11-03T20:00:00-03:00",
     "hora_fin_estimada": "",
-    "titulo": "Presentación del libro: Manual de Historia Antigua y Medieval, obra dirigida por Darío Sánchez Vendramini y Federico SartoriI, es la primera entrega de la Serie Historia, publicada por la Imprenta del Monserrat en su Colección Didaskalia. La obra fue escrita por docentes, egresados e investigadores de la Universidad Nacional de Córdoba. La presentación estará a cargo Marcelo Taborda y Santiago Flores.",
+    "titulo": "Presentación del libro: Manual de Historia Antigua y Medieval, obra dirigida por Darío Sánchez Vendramini y Federico SartoriI, es la primera entrega de la Serie Historia, publicada por la Imprenta del Monserrat en su Colección Didaskalia. La obra fue escrita por docentes, egresados e investigadores de la Universidad Nacional de Córdoba. La presentación estará a cargo de Marcelo Taborda y Santiago Flores.",
     "descripcion": "",
     "tipo": "presentacion",
     "ciclo": "",
@@ -3535,7 +3584,7 @@
     "confianza": 0.4
   },
   {
-    "id": "2026-11-03-1900-auditorium-alianza-pais-invitado-proyeccion-pelicula-max",
+    "id": "2026-11-03-1900-alianza-francesa-de-pais-invitado-proyeccion-pelicula-max",
     "fecha": "2026-11-03",
     "hora_inicio": "2026-11-03T19:00:00-03:00",
     "hora_fin": "2026-11-03T21:30:00-03:00",
@@ -3548,7 +3597,7 @@
       "cine y audiovisual",
       "países invitados"
     ],
-    "sede_id": "auditorium-alianza-francesa-de-cordoba-kultur-ensamble-cordo",
+    "sede_id": "alianza-francesa-de-cordoba-kultur-ensamble-cordoba-ayacucho",
     "personas": [
       {
         "autor_id": "claude-sautet",
@@ -3910,6 +3959,26 @@
     "confianza": 0.9
   },
   {
+    "id": "2026-11-04-1100-goethe-institut-cordoba-pais-invitado-clases-abiertas-aleman",
+    "fecha": "2026-11-04",
+    "hora_inicio": "2026-11-04T11:00:00-03:00",
+    "hora_fin": "2026-11-04T12:00:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "PAÍS INVITADO - Clases abiertas de alemán Aprender alemán es también descubrir una cultura.",
+    "descripcion": "El Goethe-Institut invita a participar de clases abiertas de alemán para acercarse al idioma de manera dinámica, conocer sus particularidades y dar los primeros pasos en una de las lenguas más habladas de Europa. A cargo de: Goethe-Institut Córdoba.",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [
+      "países invitados"
+    ],
+    "sede_id": "goethe-institut-cordoba-kultur-ensemble-ayacucho-46",
+    "personas": [],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
+  },
+  {
     "id": "2026-11-04-1100-juan-filloy-didascalias-dialogo-dramaturgia-ensenanza-creacion",
     "fecha": "2026-11-04",
     "hora_inicio": "2026-11-04T11:00:00-03:00",
@@ -3954,26 +4023,6 @@
     "editorial": "Editorial Municipal",
     "publico": "general",
     "confianza": 1.0
-  },
-  {
-    "id": "2026-11-04-1100-mediateca-kultur-ensemble-pais-invitado-clases-abiertas-aleman",
-    "fecha": "2026-11-04",
-    "hora_inicio": "2026-11-04T11:00:00-03:00",
-    "hora_fin": "2026-11-04T12:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "PAÍS INVITADO - Clases abiertas de alemán Aprender alemán es también descubrir una cultura.",
-    "descripcion": "El Goethe-Institut invita a participar de clases abiertas de alemán para acercarse al idioma de manera dinámica, conocer sus particularidades y dar los primeros pasos en una de las lenguas más habladas de Europa. A cargo de: Goethe-Institut Córdoba.",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "países invitados"
-    ],
-    "sede_id": "mediateca-kultur-ensemble-ayacucho-46",
-    "personas": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
   },
   {
     "id": "2026-11-04-1500-salon-de-actos-biblioteca-presentacion-libros-sociedad-argentina-escritores",
@@ -4300,6 +4349,33 @@
     "confianza": 0.7
   },
   {
+    "id": "2026-11-04-1800-alianza-francesa-cordoba-pais-invitado-concierto-coro-alianza",
+    "fecha": "2026-11-04",
+    "hora_inicio": "2026-11-04T18:00:00-03:00",
+    "hora_fin": "2026-11-04T18:45:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "PAÍS INVITADO - Concierto del Coro de la Alianza Francesa de Córdoba",
+    "descripcion": "Formado en 2014 y dirigido por el maestro Javier Bustos, el coro reúne a más de 15 personas apasionadas por la música y la cultura francesa. Su repertorio recorre canciones clásicas y contemporáneas, canciones tradicionales francesas, música de películas, así como canciones argentinas y de otras culturas.",
+    "tipo": "espectaculo",
+    "ciclo": "",
+    "temas": [
+      "música y artes escénicas",
+      "países invitados"
+    ],
+    "sede_id": "alianza-francesa-cordoba-kultur-ensemble-ayacucho-46",
+    "personas": [
+      {
+        "autor_id": "javier-bustos",
+        "nombre": "Javier Bustos",
+        "rol": "a_cargo"
+      }
+    ],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
+  },
+  {
     "id": "2026-11-04-1800-glauce-baldovin-cuernos-orgullo",
     "fecha": "2026-11-04",
     "hora_inicio": "2026-11-04T18:00:00-03:00",
@@ -4350,33 +4426,6 @@
     "editorial": "Tres Salas editorial",
     "publico": "general",
     "confianza": 1.0
-  },
-  {
-    "id": "2026-11-04-1800-kultur-ensemble-ayacucho-pais-invitado-concierto-coro-alianza",
-    "fecha": "2026-11-04",
-    "hora_inicio": "2026-11-04T18:00:00-03:00",
-    "hora_fin": "2026-11-04T18:45:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "PAÍS INVITADO - Concierto del Coro de la Alianza Francesa de Córdoba",
-    "descripcion": "Formado en 2014 y dirigido por el maestro Javier Bustos, el coro reúne a más de 15 personas apasionadas por la música y la cultura francesa. Su repertorio recorre canciones clásicas y contemporáneas, canciones tradicionales francesas, música de películas, así como canciones argentinas y de otras culturas.",
-    "tipo": "espectaculo",
-    "ciclo": "",
-    "temas": [
-      "países invitados",
-      "música y artes escénicas"
-    ],
-    "sede_id": "kultur-ensemble-ayacucho-46",
-    "personas": [
-      {
-        "autor_id": "javier-bustos",
-        "nombre": "Javier Bustos",
-        "rol": "a_cargo"
-      }
-    ],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
   },
   {
     "id": "2026-11-04-1800-lilia-lardone-graciela-ramos-presenta-ultimo-libro",
@@ -4438,7 +4487,7 @@
     "confianza": 0.9
   },
   {
-    "id": "2026-11-04-1900-auditorium-alianza-pais-invitado-proyeccion-pelicula-les",
+    "id": "2026-11-04-1900-alianza-francesa-de-pais-invitado-proyeccion-pelicula-les",
     "fecha": "2026-11-04",
     "hora_inicio": "2026-11-04T19:00:00-03:00",
     "hora_fin": "2026-11-04T21:30:00-03:00",
@@ -4448,10 +4497,10 @@
     "tipo": "proyeccion",
     "ciclo": "",
     "temas": [
-      "países invitados",
-      "cine y audiovisual"
+      "cine y audiovisual",
+      "países invitados"
     ],
-    "sede_id": "auditorium-alianza-francesa-de-cordoba-kultur-ensemble-ayacu",
+    "sede_id": "alianza-francesa-de-cordoba-kultur-ensemble-ayacucho-46",
     "personas": [
       {
         "autor_id": "rene-clement",
@@ -4889,6 +4938,35 @@
     "confianza": 0.9
   },
   {
+    "id": "2026-11-05-1600-glauce-baldovin-ciudades-ida-vuelta-dibujando-no",
+    "fecha": "2026-11-05",
+    "hora_inicio": "2026-11-05T16:00:00-03:00",
+    "hora_fin": "",
+    "hora_fin_estimada": "2026-11-05T17:00:00-03:00",
+    "titulo": "Ciudades de Ida y Vuelta. Dibujando lo que no sale en el mapa",
+    "descripcion": "Taller de ilustración con FeRe Duelli. Se hará una muestra de obras del artista, una charla introductoria (se utilizará la tv para proyectar) y luego se propone a los participantes un ejercicio de dibujo relacionado a la ilustración de anécdotas de viaje conectado con la obra del artista. Coordina: Federico Duelli (FeRe Duelli) A cargo de: Triángulo Editorial",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [],
+    "sede_id": "glauce-baldovin",
+    "personas": [
+      {
+        "autor_id": "triangulo-editorial",
+        "nombre": "Triángulo Editorial",
+        "rol": "a_cargo"
+      },
+      {
+        "autor_id": "federico-duelli",
+        "nombre": "Federico Duelli",
+        "rol": "a_cargo"
+      }
+    ],
+    "libros_presentados": [],
+    "editorial": "Triángulo Editorial",
+    "publico": "general",
+    "confianza": 1.0
+  },
+  {
     "id": "2026-11-05-1600-juan-filloy-taller-conservacion-preventiva-reparacion-libros",
     "fecha": "2026-11-05",
     "hora_inicio": "2026-11-05T16:00:00-03:00",
@@ -5279,7 +5357,7 @@
     "confianza": 1.0
   },
   {
-    "id": "2026-11-05-1830-auditorio-kultur-ensemble-pais-invitado-lectura-compartida-novela",
+    "id": "2026-11-05-1830-goethe-institut-cordoba-pais-invitado-lectura-compartida-novela",
     "fecha": "2026-11-05",
     "hora_inicio": "2026-11-05T18:30:00-03:00",
     "hora_fin": "2026-11-05T20:00:00-03:00",
@@ -5291,7 +5369,7 @@
     "temas": [
       "países invitados"
     ],
-    "sede_id": "auditorio-kultur-ensemble-ayacucho-46",
+    "sede_id": "goethe-institut-cordoba-kultur-ensemble-ayacucho-46",
     "personas": [
       {
         "autor_id": "bertolt-brecht",
@@ -5306,7 +5384,7 @@
       {
         "autor_id": "steffen-thiemann",
         "nombre": "Steffen Thiemann",
-        "rol": "autor"
+        "rol": "participa"
       },
       {
         "autor_id": "micaela-van-muylem",
@@ -5417,15 +5495,22 @@
     "hora_fin": "2026-11-05T20:30:00-03:00",
     "hora_fin_estimada": "",
     "titulo": "Sobre la escondida ideología de los textos",
-    "descripcion": "Charla con la presencia de los autores/as  Valeria Tentoni, Roque Larraquy y Sebastián Martínez Daniell. La mesa estará moderada por Javier Serena, escritor y editor español, director de la revista Cuadernos Hispanoamericanos.",
+    "descripcion": "¿Qué escrituras son más o menos conservadoras o lo contrario? Indagamos sobre este posible gran equívoco, como si la simple elección de un tema o la posición adoptada ante los mismos fuera suficiente para catalogarlos de un modo u otro. También sobre la sospecha de que las escrituras se han ido instalando en un estado de normalización o comodidad, de producción hecha para una aceptación mecánica, de un letargo satisfecho en la creación y la recepción cultural. Charla con la presencia de los autores/as Valeria Tentoni, Eloísa Oliva, Roque Larraquy y Sebastián Martínez Daniell. La mesa estará moderada por Javier Serena, escritor y editor español, director de la revista Cuadernos Hispanoamericanos.",
     "tipo": "otro",
     "ciclo": "",
-    "temas": [],
-    "sede_id": "centro-cultural-espana-cordoba",
+    "temas": [
+      "ensayo y pensamiento"
+    ],
+    "sede_id": "centro-cultural-espana-cordoba-entre-rios-40",
     "personas": [
       {
         "autor_id": "valeria-tentoni",
         "nombre": "Valeria Tentoni",
+        "rol": "participa"
+      },
+      {
+        "autor_id": "eloisa-oliva",
+        "nombre": "Eloísa Oliva",
         "rol": "participa"
       },
       {
@@ -5946,20 +6031,19 @@
     "confianza": 0.7
   },
   {
-    "id": "2026-11-06-1800-auditorium-alianza-pais-invitado-conferencia-puente-entre",
+    "id": "2026-11-06-1800-alianza-francesa-de-pais-invitado-conferencia-anahi-ginarte",
     "fecha": "2026-11-06",
     "hora_inicio": "2026-11-06T18:00:00-03:00",
     "hora_fin": "2026-11-06T19:00:00-03:00",
     "hora_fin_estimada": "",
-    "titulo": "PAÍS INVITADO - Conferencia: Un puente entre la antropología, la memoria y la lengua.",
+    "titulo": "PAÍS INVITADO - Conferencia de Anahí Ginarte: Un puente entre la antropología, la memoria y la lengua.",
     "descripcion": "Anahí Ginarte, especialista en antropología forense, compartirá parte de su trayectoria profesional, marcada por misiones en Argelia, el Congo y otros países africanos francófonos, así como por su participación actual en las excavaciones de La Perla. A lo largo de su recorrido, el francés ocupó un lugar fundamental y le permitió participar en distintas misiones internacionales. Una charla para reflexionar sobre los vínculos entre la antropología, la memoria y la importancia de las lenguas.",
     "tipo": "otro",
     "ciclo": "",
     "temas": [
-      "países invitados",
       "memoria y dictadura"
     ],
-    "sede_id": "auditorium-alianza-francesa-de-cordoba-kultur-ensemble-ayacu",
+    "sede_id": "alianza-francesa-de-cordoba-kultur-ensemble-ayacucho-46",
     "personas": [
       {
         "autor_id": "anahi-ginarte",
@@ -5994,6 +6078,26 @@
         "rol": "realizador"
       }
     ],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
+  },
+  {
+    "id": "2026-11-06-1800-goethe-institut-kultur-pais-invitado-clases-abiertas-aleman",
+    "fecha": "2026-11-06",
+    "hora_inicio": "2026-11-06T18:00:00-03:00",
+    "hora_fin": "2026-11-06T19:00:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "PAÍS INVITADO - Clases abiertas de alemán Aprender alemán es también descubrir una cultura.",
+    "descripcion": "El Goethe-Institut invita a participar de clases abiertas de alemán para acercarse al idioma de manera dinámica, conocer sus particularidades y dar los primeros pasos en una de las lenguas más habladas de Europa. A cargo de: Goethe-Institut Córdoba",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [
+      "países invitados"
+    ],
+    "sede_id": "goethe-institut-kultur-ensemble-ayacucho-46",
+    "personas": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6085,26 +6189,6 @@
     "editorial": "",
     "publico": "general",
     "confianza": 1.0
-  },
-  {
-    "id": "2026-11-06-1800-mediateca-kultur-ensemble-pais-invitado-clases-abiertas-aleman",
-    "fecha": "2026-11-06",
-    "hora_inicio": "2026-11-06T18:00:00-03:00",
-    "hora_fin": "2026-11-06T19:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "PAÍS INVITADO - Clases abiertas de alemán Aprender alemán es también descubrir una cultura.",
-    "descripcion": "El Goethe-Institut invita a participar de clases abiertas de alemán para acercarse al idioma de manera dinámica, conocer sus particularidades y dar los primeros pasos en una de las lenguas más habladas de Europa. A cargo de: Goethe-Institut Córdoba",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "países invitados"
-    ],
-    "sede_id": "mediateca-kultur-ensemble-ayacucho-46",
-    "personas": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
   },
   {
     "id": "2026-11-06-1800-museo-evita-palacio-rescatar-imagenes-iconoclasia-mundo-hipervisual",
@@ -6218,6 +6302,53 @@
     "confianza": 0.9
   },
   {
+    "id": "2026-11-06-1900-centro-cultural-espana-margenes-genealogias-ocultas-como-autores",
+    "fecha": "2026-11-06",
+    "hora_inicio": "2026-11-06T19:00:00-03:00",
+    "hora_fin": "2026-11-06T20:30:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "Los márgenes y las genealogías ocultas: Cómo autores y autoras poco leídos en su época, por su rareza, por haber estado fuera del canon, sobreviven mejor al paso del tiempo, y encuentran sus lectores décadas después de su escritura. Transformación del imaginario lector de manera retrospectiva y la validez de las obras escrituras fuera de la centralidad”",
+    "descripcion": "Charla con la presencia de los autores/as Valeria Tentoni, Sergio Gaiteri, Roque Larraquy y Sebastián Martínez Daniell. La mesa estará moderada por Javier Serena, escritor y editor español, director de la revista Cuadernos Hispanoamericanos.",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [
+      "narrativa",
+      "ensayo y pensamiento"
+    ],
+    "sede_id": "centro-cultural-espana-cordoba-entre-rios-40",
+    "personas": [
+      {
+        "autor_id": "valeria-tentoni",
+        "nombre": "Valeria Tentoni",
+        "rol": "participa"
+      },
+      {
+        "autor_id": "sergio-gaiteri",
+        "nombre": "Sergio Gaiteri",
+        "rol": "participa"
+      },
+      {
+        "autor_id": "roque-larraquy",
+        "nombre": "Roque Larraquy",
+        "rol": "participa"
+      },
+      {
+        "autor_id": "sebastian-martinez-daniell",
+        "nombre": "Sebastián Martínez Daniell",
+        "rol": "participa"
+      },
+      {
+        "autor_id": "javier-serena",
+        "nombre": "Javier Serena",
+        "rol": "modera"
+      }
+    ],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.6
+  },
+  {
     "id": "2026-11-06-1900-glauce-baldovin-claves-entendernos-mejor",
     "fecha": "2026-11-06",
     "hora_inicio": "2026-11-06T19:00:00-03:00",
@@ -6257,7 +6388,7 @@
     "confianza": 1.0
   },
   {
-    "id": "2026-11-06-1900-hall-cultural-goethe-pais-invitado-charla-relaciones-germano",
+    "id": "2026-11-06-1900-goethe-institut-cordoba-pais-invitado-charla-relaciones-germano",
     "fecha": "2026-11-06",
     "hora_inicio": "2026-11-06T19:00:00-03:00",
     "hora_fin": "2026-11-06T20:00:00-03:00",
@@ -6267,9 +6398,10 @@
     "tipo": "charla",
     "ciclo": "",
     "temas": [
-      "países invitados"
+      "países invitados",
+      "historia"
     ],
-    "sede_id": "hall-cultural-goethe-institut-cordoba-kultur-ensemble-ayacuc",
+    "sede_id": "goethe-institut-cordoba-kultur-ensemble-ayacucho-46",
     "personas": [
       {
         "autor_id": "dr",
@@ -6279,7 +6411,7 @@
       {
         "autor_id": "thomas-konrad",
         "nombre": "Thomas Konrad",
-        "rol": "participa"
+        "rol": "a_cargo"
       }
     ],
     "libros_presentados": [],
@@ -6877,38 +7009,6 @@
     "confianza": 1.0
   },
   {
-    "id": "2026-11-07-1700-auditorio-kultur-ensemble-pais-invitado-leer-poesia-tiempos",
-    "fecha": "2026-11-07",
-    "hora_inicio": "2026-11-07T17:00:00-03:00",
-    "hora_fin": "2026-11-07T18:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "PAÍS INVITADO - Leer poesía en tiempos oscuros. La actualidad de Brecht.",
-    "descripcion": "Se compartirán algunos de los poemas más emblemáticos de Bertolt Brecht para reflexionar acerca de cómo, setenta años después de la muerte del importante dramaturgo y poeta alemán, aún nos puede ayudar a observar la realidad. A cargo de: Patrick Eser (UBA, DAAD), Micaela van Muylem (FL UNC), Goethe-Institut Córdoba",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "poesía",
-      "países invitados"
-    ],
-    "sede_id": "auditorio-kultur-ensemble-ayacucho-46",
-    "personas": [
-      {
-        "autor_id": "patrick-eser",
-        "nombre": "Patrick Eser",
-        "rol": "a_cargo"
-      },
-      {
-        "autor_id": "micaela-van-muylem",
-        "nombre": "Micaela van Muylem",
-        "rol": "a_cargo"
-      }
-    ],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
-  },
-  {
     "id": "2026-11-07-1700-glauce-baldovin-guardabosques-rescatando-colores-naturaleza",
     "fecha": "2026-11-07",
     "hora_inicio": "2026-11-07T17:00:00-03:00",
@@ -6938,6 +7038,38 @@
     "confianza": 1.0
   },
   {
+    "id": "2026-11-07-1700-goethe-institut-cordoba-pais-invitado-leer-poesia-tiempos",
+    "fecha": "2026-11-07",
+    "hora_inicio": "2026-11-07T17:00:00-03:00",
+    "hora_fin": "2026-11-07T18:00:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "PAÍS INVITADO - Leer poesía en tiempos oscuros. La actualidad de Brecht.",
+    "descripcion": "Se compartirán algunos de los poemas más emblemáticos de Bertolt Brecht para reflexionar acerca de cómo, setenta años después de la muerte del importante dramaturgo y poeta alemán, aún nos puede ayudar a observar la realidad. A cargo de: Patrick Eser (UBA, DAAD), Micaela van Muylem (FL UNC), Goethe-Institut Córdoba",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [
+      "poesía",
+      "países invitados"
+    ],
+    "sede_id": "goethe-institut-cordoba-kultur-ensemble-ayacucho-46",
+    "personas": [
+      {
+        "autor_id": "patrick-eser",
+        "nombre": "Patrick Eser",
+        "rol": "a_cargo"
+      },
+      {
+        "autor_id": "micaela-van-muylem",
+        "nombre": "Micaela van Muylem",
+        "rol": "a_cargo"
+      }
+    ],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
+  },
+  {
     "id": "2026-11-07-1700-juan-filloy-feria-historietas",
     "fecha": "2026-11-07",
     "hora_inicio": "2026-11-07T17:00:00-03:00",
@@ -6962,7 +7094,7 @@
     "hora_fin": "2026-11-07T18:00:00-03:00",
     "hora_fin_estimada": "",
     "titulo": "Soledad No Deseada – Presentación del material bibliográfico para Linkeadores Sociales y el Estudio Epidemiológico sobre Soledad no Deseada en Córdoba.",
-    "descripcion": "En este encuentro, el director ejecutivo del Instituto de Planificación Municipal (IPLAMU), Mgter. Juan Carlos Mansilla, presentara el material elaborado para el estudio durante el curso de Linkeadores Sociales que está llevando adelante la Municipalidad de Córdoba, junto a la Universidad Provincial de Córdoba. De igual manera, el director de Epidemiología de la Sec. de Salud de la Municipalidad en Córdoba, Mgter. Diego Ruiz, compartirá los resultados del estudio realizado sobre Soledad No Deseada en Personas Mayores de la ciudad de Córdoba.",
+    "descripcion": "En este encuentro, el director ejecutivo del Instituto de Planificación Municipal (IPLAMU), Mgter. Juan Carlos Mansilla, presentará el material elaborado para el estudio durante el curso de Linkeadores Sociales que está llevando adelante la Municipalidad de Córdoba, junto a la Universidad Provincial de Córdoba. De igual manera, el director de Epidemiología de la Sec. de Salud de la Municipalidad de Córdoba, Mgter. Diego Ruiz, compartirá los resultados del estudio realizado sobre Soledad No Deseada en Personas Mayores de la ciudad de Córdoba.",
     "tipo": "presentacion",
     "ciclo": "",
     "temas": [],
@@ -6971,7 +7103,7 @@
       {
         "autor_id": "juan-carlos-mansilla",
         "nombre": "Juan Carlos Mansilla",
-        "rol": "presenta"
+        "rol": "participa"
       },
       {
         "autor_id": "diego-ruiz",
@@ -7209,11 +7341,13 @@
     "hora_inicio": "2026-11-07T19:00:00-03:00",
     "hora_fin": "2026-11-07T20:00:00-03:00",
     "hora_fin_estimada": "",
-    "titulo": "Desandar los días. Correspondencias y conjuros, de Liliana Herrero y María Pía López (Buenos Aires, Las cuarenta, 2026), tercer título de la colección Los pájaros.",
+    "titulo": "Desandar los días. Correspondencias y conjuros, de Liliana Herrero y María Pia López (Buenos Aires, Las cuarenta, 2026), tercer título de la colección Los pájaros.",
     "descripcion": "En Desandar los días, las autoras reúnen años de correspondencias y conversaciones para tejer una obra que reflexiona sobre la historia, el sufrimiento y el placer a través de la palabra. Atentas al “chirriar de las cosas” y a las incógnitas de su realidad compartida, transforman la oralidad cotidiana en testimonio escrito. De esta manera, el libro funciona como un registro de la memoria, donde lo hablado y lo cotidiano hallan un sentido permanente. Presenta: Juan Garrido, director de Centros Culturales y Formación de la Municipalidad de Córdoba.",
     "tipo": "otro",
     "ciclo": "",
-    "temas": [],
+    "temas": [
+      "historia"
+    ],
     "sede_id": "lilia-lardone",
     "personas": [
       {
@@ -7233,7 +7367,7 @@
       },
       {
         "autor_id": "maria-pia-lopez",
-        "nombre": "María Pía López",
+        "nombre": "María Pia López",
         "rol": "autor"
       }
     ],
@@ -7373,7 +7507,7 @@
     "hora_fin": "",
     "hora_fin_estimada": "2026-11-07T21:00:00-03:00",
     "titulo": "Voces extrañas. La forja del New Weird en Argentina",
-    "descripcion": "¿Cómo y dónde encontramos lo latinoamericano en el new weird argentino? ¿Qué rasgos en sus obras los caracterizan como new weird? Charla sobre el oficio autoral y editorial, trabajar en, desde y para la ficción y cómo abordar la profusión de la realidad. Participan: Juan Mattio (autor de La nación de los sueños diurnos); Flor Canosa (autora de La tercera aberración). Modera: Martín Cristal (Autor de Las Ostras y El sueño del tsunami, entre otros).",
+    "descripcion": "¿Cómo y dónde encontramos lo latinoamericano en el new weird argentino? ¿Qué rasgos en sus obras los caracterizan como new weird? Charla sobre el oficio autoral y editorial, trabajar en, desde y para la ficción y cómo abordar la profusión de la realidad. Participan: Marcelo Acevedo (autor de En busca del cine weird y antologador de Sombra Terrible), Flor Canosa (autora de La tercera aberración), Martín Cristal (Autor de Las Ostras y El sueño del tsunami, entre otros). Modera: El Negro Viglietti (coordinador del ciclo y editor de Láudano)",
     "tipo": "otro",
     "ciclo": "RARAZO. CICLO DE FICCIÓN EXTRAÑA",
     "temas": [
@@ -7383,24 +7517,29 @@
     "sede_id": "lilia-lardone",
     "personas": [
       {
-        "autor_id": "juan-mattio-flor-canosa",
-        "nombre": "Juan Mattio ; Flor Canosa",
-        "rol": "participa"
-      },
-      {
-        "autor_id": "martin-cristal",
-        "nombre": "Martín Cristal",
-        "rol": "modera"
-      },
-      {
-        "autor_id": "juan-mattio",
-        "nombre": "Juan Mattio",
+        "autor_id": "marcelo-acevedo",
+        "nombre": "Marcelo Acevedo",
         "rol": "participa"
       },
       {
         "autor_id": "flor-canosa",
         "nombre": "Flor Canosa",
         "rol": "participa"
+      },
+      {
+        "autor_id": "martin-cristal",
+        "nombre": "Martín Cristal",
+        "rol": "participa"
+      },
+      {
+        "autor_id": "negro-viglietti",
+        "nombre": "Negro Viglietti",
+        "rol": "modera"
+      },
+      {
+        "autor_id": "el-negro-viglietti",
+        "nombre": "El Negro Viglietti",
+        "rol": "modera"
       }
     ],
     "libros_presentados": [],
@@ -7535,7 +7674,7 @@
     "titulo": "Mentoría de proyectos de historietas",
     "descripcion": "¿Cómo generar bases sólidas para tu proyecto de historieta? ¿Cómo presentar tu trabajo a editores? En este taller de seguimiento de proyectos de historietas, Patricio Oliver (FADU, Viñeta torcida, Rebis Comics, Croma comics), presentará diversas herramientas para la realización de proyectos gráficos, como presentarlos al mundo y crear estructuras creativas Inscripciones AQUÍ",
     "tipo": "otro",
-    "ciclo": "CICLO SUBTE. Espacio de historietas",
+    "ciclo": "PAÍS INVITADO / CICLO SUBTE. Espacio de historietas",
     "temas": [
       "oficio editorial"
     ],
@@ -7967,7 +8106,7 @@
     "titulo": "Charla/debate: Diversidad, agrupación y encuentro en la Historieta",
     "descripcion": "Patricio Oliver (FADU, Viñeta torcida, Rebis Comics, Croma comics) y Juli Gut (8M Gráfico, Encuentro transfeminista gráfico) participan de una charla sobre la importancia de la organización colectiva y su impacto en la visibilidad de disidencias en la historieta local en el marco de la muestra “Diversidad, género e inclusión en el cómic” (Goethe-Institut, Institut Français d'Argentine, Alianza Francesa de Córdoba, Centro de Historieta y Humor Gráfico de la Biblioteca Nacional)",
     "tipo": "charla",
-    "ciclo": "CICLO SUBTE. Espacio de historietas",
+    "ciclo": "PAÍS INVITADO / CICLO SUBTE. Espacio de historietas",
     "temas": [],
     "sede_id": "kultur-ensemble-ayacucho-46",
     "personas": [
@@ -8053,7 +8192,7 @@
     "hora_fin": "2026-11-08T22:00:00-03:00",
     "hora_fin_estimada": "",
     "titulo": "Guillermo Martínez presenta su último libro Un crimen dialéctico - Planeta 2026",
-    "descripcion": "El reconocido escritor y doctor en Ciencias Matemáticas Guillermo Martínez presenta una obra concebida como un inquietante policial filosófico sobre los actos de la elección humana. Autor de aclamadas novelas como Crímenes imperceptibles y Los crímenes de Alicia, sus ficciones han sido traducidas a decenas de idiomas y adaptadas con éxito al cine. Su vasta trayectoria lo consolida como una de las voces argentinas con mayor proyección e impacto internacional. Presenta: José “Jopi” Heinz",
+    "descripcion": "El reconocido escritor y doctor en Ciencias Matemáticas Guillermo Martínez presenta una obra concebida como un inquietante policial filosófico sobre los actos de la elección humana. Autor de aclamadas novelas como Crímenes imperceptibles y Los crímenes de Alicia, sus ficciones han sido traducidas a decenas de idiomas y adaptadas con éxito al cine. Su vasta trayectoria lo consolida como una de las voces argentinas con mayor proyección e impacto internacional. Presenta: Francisco “Pancho” Marchiaro",
     "tipo": "presentacion",
     "ciclo": "",
     "temas": [
@@ -8062,8 +8201,8 @@
     "sede_id": "lilia-lardone",
     "personas": [
       {
-        "autor_id": "jose-jopi-heinz",
-        "nombre": "José “Jopi” Heinz",
+        "autor_id": "francisco-pancho-marchiaro",
+        "nombre": "Francisco “Pancho” Marchiaro",
         "rol": "presenta"
       },
       {
@@ -8072,8 +8211,8 @@
         "rol": "autor"
       },
       {
-        "autor_id": "jose-heinz",
-        "nombre": "José Heinz",
+        "autor_id": "francisco-marchiaro",
+        "nombre": "Francisco Marchiaro",
         "rol": "presenta"
       }
     ],
@@ -8391,6 +8530,38 @@
     "confianza": 1.0
   },
   {
+    "id": "2026-11-09-2000-carpa-lila-lardone-mama-antula-entre-historia-santidad",
+    "fecha": "2026-11-09",
+    "hora_inicio": "2026-11-09T20:00:00-03:00",
+    "hora_fin": "",
+    "hora_fin_estimada": "2026-11-09T21:00:00-03:00",
+    "titulo": "Mama Antula: entre la historia y la santidad",
+    "descripcion": "Intervención musical del artista Manuel Wirzt y Cintia Suárez como biógrafa de la primera santa argentina. Ambos darán testimonio del proceso de canonización de Mama Antula. Este hecho artístico literario también la reconoce como la primera escritora rioplatense.",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [
+      "historia",
+      "música y artes escénicas"
+    ],
+    "sede_id": "carpa-lila-lardone-naranja",
+    "personas": [
+      {
+        "autor_id": "manuel-wirzt",
+        "nombre": "Manuel Wirzt",
+        "rol": "a_cargo"
+      },
+      {
+        "autor_id": "cintia-suarez",
+        "nombre": "Cintia Suárez",
+        "rol": "participa"
+      }
+    ],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
+  },
+  {
     "id": "2026-11-09-2000-glauce-baldovin-presentacion-libro-ensayo-sobre-muerte",
     "fecha": "2026-11-09",
     "hora_inicio": "2026-11-09T20:00:00-03:00",
@@ -8505,7 +8676,7 @@
     "confianza": 0.7
   },
   {
-    "id": "2026-11-11-1000-hall-cultural-kultur-pais-invitado-jornadas-estudio-creacion",
+    "id": "2026-11-11-1000-kultur-ensemble-ayacucho-pais-invitado-jornadas-estudio-creacion",
     "fecha": "2026-11-11",
     "hora_inicio": "2026-11-11T10:00:00-03:00",
     "hora_fin": "2026-11-11T13:00:00-03:00",
@@ -8515,10 +8686,9 @@
     "tipo": "otro",
     "ciclo": "",
     "temas": [
-      "países invitados",
       "música y artes escénicas"
     ],
-    "sede_id": "hall-cultural-kultur-ensemble-ayacucho-46",
+    "sede_id": "kultur-ensemble-ayacucho-46",
     "personas": [
       {
         "autor_id": "juan-manuel-brarda",
@@ -8756,33 +8926,6 @@
     "confianza": 0.9
   },
   {
-    "id": "2026-11-11-1800-auditorio-kultur-ensemble-pais-invitado-charla-sobre-obra",
-    "fecha": "2026-11-11",
-    "hora_inicio": "2026-11-11T18:00:00-03:00",
-    "hora_fin": "2026-11-11T19:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "PAÍS INVITADO - Charla sobre la obra de Laura Alcoba, La casa de los conejos",
-    "descripcion": "Un encuentro dedicado a la obra de la escritora argentina Laura Alcoba, cuya trayectoria literaria está marcada por el exilio, el desarraigo, la identidad y la memoria. A partir de novelas como La casa de los conejos, la charla propone descubrir los vínculos entre literatura, memoria histórica y escritura en francés. La disertación estará a cargo de la Dra. Natalia Ferreri, titular de la cátedra de Literatura Francófona de la Escuela de Letras de la Facultad de Filosofía y Humanidades de la UNC.",
-    "tipo": "charla",
-    "ciclo": "",
-    "temas": [
-      "países invitados",
-      "memoria y dictadura"
-    ],
-    "sede_id": "auditorio-kultur-ensemble-ayacucho-46",
-    "personas": [
-      {
-        "autor_id": "natalia-ferreri",
-        "nombre": "Natalia Ferreri",
-        "rol": "participa"
-      }
-    ],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
-  },
-  {
     "id": "2026-11-11-1800-cineclub-municipal-bv-san-foco-german-scelso-proyeccion-sensibilidad",
     "fecha": "2026-11-11",
     "hora_inicio": "2026-11-11T18:00:00-03:00",
@@ -8921,6 +9064,32 @@
     "confianza": 1.0
   },
   {
+    "id": "2026-11-11-1800-kultur-ensemble-ayacucho-pais-invitado-charla-sobre-obra",
+    "fecha": "2026-11-11",
+    "hora_inicio": "2026-11-11T18:00:00-03:00",
+    "hora_fin": "2026-11-11T19:00:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "PAÍS INVITADO - Charla sobre la obra de Laura Alcoba, La casa de los conejos",
+    "descripcion": "Un encuentro dedicado a la obra de la escritora argentina Laura Alcoba, cuya trayectoria literaria está marcada por el exilio, el desarraigo, la identidad y la memoria. A partir de novelas como La casa de los conejos, la charla propone descubrir los vínculos entre literatura, memoria histórica y escritura en francés. La disertación estará a cargo de la Dra. Natalia Ferreri, titular de la cátedra de Literatura Francófona de la Escuela de Letras de la Facultad de Filosofía y Humanidades de la UNC.",
+    "tipo": "charla",
+    "ciclo": "",
+    "temas": [
+      "narrativa"
+    ],
+    "sede_id": "kultur-ensemble-ayacucho-46",
+    "personas": [
+      {
+        "autor_id": "natalia-ferreri",
+        "nombre": "Natalia Ferreri",
+        "rol": "participa"
+      }
+    ],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
+  },
+  {
     "id": "2026-11-11-1800-lilia-lardone-concurso-literario-relatos-sobre-belgrano",
     "fecha": "2026-11-11",
     "hora_inicio": "2026-11-11T18:00:00-03:00",
@@ -9055,7 +9224,7 @@
     "confianza": 1.0
   },
   {
-    "id": "2026-11-11-1900-hall-cultural-goethe-pais-invitado-brechtiario-desmontaje-performatico",
+    "id": "2026-11-11-1900-goethe-institut-kultur-pais-invitado-brechtiario-desmontaje-performatico",
     "fecha": "2026-11-11",
     "hora_inicio": "2026-11-11T19:00:00-03:00",
     "hora_fin": "2026-11-11T20:00:00-03:00",
@@ -9065,10 +9234,10 @@
     "tipo": "otro",
     "ciclo": "",
     "temas": [
-      "países invitados",
+      "poesía",
       "música y artes escénicas"
     ],
-    "sede_id": "hall-cultural-goethe-institut-kultur-ensemble-ayacucho-46",
+    "sede_id": "goethe-institut-kultur-ensemble-ayacucho-46",
     "personas": [
       {
         "autor_id": "marcos-caceres",
@@ -9474,38 +9643,6 @@
         "autor_id": "german-scelso",
         "nombre": "Germán Scelso",
         "rol": "realizador"
-      }
-    ],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
-  },
-  {
-    "id": "2026-11-12-1000-hall-central-kultur-pais-invitado-jornadas-estudio-creacion",
-    "fecha": "2026-11-12",
-    "hora_inicio": "2026-11-12T10:00:00-03:00",
-    "hora_fin": "2026-11-12T13:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "PAÍS INVITADO - Jornadas de estudio - La Creación de Haydn: interpretación, estilo y construcción sonora",
-    "descripcion": "Dos jornadas intensivas de formación dedicadas a una de las obras fundamentales del repertorio coral-sinfónico. A través del análisis musical, la práctica interpretativa y el estudio de su contexto histórico, estudiantes, docentes y profesionales podrán profundizar en los desafíos artísticos de La Creación de Joseph Haydn, en un espacio de intercambio y perfeccionamiento junto al maestro invitado de trayectoria internacional, Pedro Garabán. A cargo de: Juan Manuel Brarda (Coro de Cámara de la Provincia de Córdoba)",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "países invitados",
-      "música y artes escénicas"
-    ],
-    "sede_id": "hall-central-kultur-ensemble-ayacucho-46",
-    "personas": [
-      {
-        "autor_id": "juan-manuel-brarda",
-        "nombre": "Juan Manuel Brarda",
-        "rol": "a_cargo"
-      },
-      {
-        "autor_id": "pedro-garaban",
-        "nombre": "Pedro Garabán",
-        "rol": "participa"
       }
     ],
     "libros_presentados": [],
@@ -10031,42 +10168,6 @@
     "confianza": 0.9
   },
   {
-    "id": "2026-11-12-1900-explanada-palacio-escena-infinita-tertulias-culturales",
-    "fecha": "2026-11-12",
-    "hora_inicio": "2026-11-12T19:00:00-03:00",
-    "hora_fin": "2026-11-12T21:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "La Escena Infinita – Tertulias Culturales",
-    "descripcion": "En cada encuentro, referentes de diferentes disciplinas artísticas participan de debates abiertos y pequeñas intervenciones artísticas. En esta oportunidad, La Escena Infinita llega a la Feria del Libro para su 4.a edición, esta vez para charlar con referentes de la escena literaria local. Con transmisión en vivo por el canal de streaming de Radio Eterogenia, del Centro Cultural España Córdoba. La jornada contará con la conducción de Carla Dogliani y Félix González. Como parte de la propuesta, habrá también bocaditos musicales a cargo de músicos invitados, acompañados en piano por Tomás Arinci.",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "música y artes escénicas"
-    ],
-    "sede_id": "explanada-palacio-municipal-6-de-julio",
-    "personas": [
-      {
-        "autor_id": "carla-dogliani",
-        "nombre": "Carla Dogliani",
-        "rol": "modera"
-      },
-      {
-        "autor_id": "felix-gonzalez",
-        "nombre": "Félix González",
-        "rol": "modera"
-      },
-      {
-        "autor_id": "tomas-arinci",
-        "nombre": "Tomás Arinci",
-        "rol": "participa"
-      }
-    ],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
-  },
-  {
     "id": "2026-11-12-1900-glauce-baldovin-charla-cuando-ficcion-habla-nosotros",
     "fecha": "2026-11-12",
     "hora_inicio": "2026-11-12T19:00:00-03:00",
@@ -10111,6 +10212,70 @@
     "editorial": "Emporio Ediciones",
     "publico": "general",
     "confianza": 1.0
+  },
+  {
+    "id": "2026-11-12-1900-leonor-marzano-escena-infinita-tertulias-culturales-cada",
+    "fecha": "2026-11-12",
+    "hora_inicio": "2026-11-12T19:00:00-03:00",
+    "hora_fin": "2026-11-12T21:00:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "La Escena Infinita – Tertulias Culturales: En cada encuentro, referentes de diferentes disciplinas artísticas participan de debates abiertos y pequeñas intervenciones artísticas. En esta oportunidad, La Escena Infinita llega a la Feria del Libro para su cuarta edición, esta vez para charlar con referentes de la escena literaria local. Claudia Huergo, Gemma Ríos, Leticia Ressia y Gonzalo Marull conformarán la mesa de esta tertulia, junto con la conducción de Franca Chiafitella y Félix González.",
+    "descripcion": "Como parte de la propuesta, habrá también bocaditos musicales a cargo de Juan Pablo Toch acompañado en piano por Tomás Arinci. Y mapping por Javier Artaza. Con transmisión en vivo por el canal de streaming de Radio Eterogenia, del Centro Cultural España Córdoba.",
+    "tipo": "charla",
+    "ciclo": "",
+    "temas": [],
+    "sede_id": "leonor-marzano",
+    "personas": [
+      {
+        "autor_id": "claudia-huergo",
+        "nombre": "Claudia Huergo",
+        "rol": "participa"
+      },
+      {
+        "autor_id": "gemma-rios",
+        "nombre": "Gemma Ríos",
+        "rol": "participa"
+      },
+      {
+        "autor_id": "leticia-ressia",
+        "nombre": "Leticia Ressia",
+        "rol": "participa"
+      },
+      {
+        "autor_id": "gonzalo-marull",
+        "nombre": "Gonzalo Marull",
+        "rol": "participa"
+      },
+      {
+        "autor_id": "franca-chiafitella",
+        "nombre": "Franca Chiafitella",
+        "rol": "modera"
+      },
+      {
+        "autor_id": "felix-gonzalez",
+        "nombre": "Félix González",
+        "rol": "modera"
+      },
+      {
+        "autor_id": "juan-pablo-toch",
+        "nombre": "Juan Pablo Toch",
+        "rol": "a_cargo"
+      },
+      {
+        "autor_id": "tomas-arinci",
+        "nombre": "Tomás Arinci",
+        "rol": "participa"
+      },
+      {
+        "autor_id": "javier-artaza",
+        "nombre": "Javier Artaza",
+        "rol": "a_cargo"
+      }
+    ],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.7
   },
   {
     "id": "2026-11-12-1900-lilia-lardone-feria-bibliotecas-populares-ciudad-cordoba",
@@ -10905,6 +11070,24 @@
     "editorial": "",
     "publico": "general",
     "confianza": 1.0
+  },
+  {
+    "id": "2026-11-13-2000-sin-sede-noche-museos-cordoba-edicion-2026",
+    "fecha": "2026-11-13",
+    "hora_inicio": "2026-11-13T20:00:00-03:00",
+    "hora_fin": "2026-11-14T01:00:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "Noche de los Museos Córdoba – Edición 2026",
+    "descripcion": "Bajo el lema Museos uniendo un mundo dividido, la ciudad de Córdoba se prepara para una noche llena de arte, historia, ciencia y patrimonio. Organizan: Universidad Nacional de Córdoba, Agencia Córdoba Cultura del Gobierno de Córdoba, y la secretaría de Fortalecimiento Vecinal, Cultura y Deportes de la Municipalidad de Córdoba. Entrada libre y gratuita. Más información en nochedelosmuseos.unc.edu.ar",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [],
+    "sede_id": "",
+    "personas": [],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.7
   },
   {
     "id": "2026-11-13-2000-glauce-baldovin-historias-no-olvidan",
@@ -11711,26 +11894,6 @@
     "confianza": 0.5
   },
   {
-    "id": "2026-11-14-1930-hall-cultural-kultur-pais-invitado-sabores-alemania-francia",
-    "fecha": "2026-11-14",
-    "hora_inicio": "2026-11-14T19:30:00-03:00",
-    "hora_fin": "2026-11-14T21:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "PAÍS INVITADO - Sabores de Alemania y Francia Una invitación a descubrir la cultura a través de la gastronomía.",
-    "descripcion": "Junto al Instituto Mariano Moreno, se realizará una demostración y preparación de platos típicos de Alemania y Francia, recorriendo sabores, tradiciones y técnicas que forman parte del patrimonio culinario de ambos países. Un encuentro para explorar cómo la cocina también cuenta historias y construye puentes entre culturas. A cargo de: Instituto Mariano Moreno, Goethe-Institut Córdoba, Alianza Francesa de Córdoba. Actividad con costo: $6.000 por persona, Inscripción previa a través del sitio web de la Alianza Francesa: https://alianzafrancesacba.org.ar/",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "países invitados"
-    ],
-    "sede_id": "hall-cultural-kultur-ensemble-ayacucho-46",
-    "personas": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
-  },
-  {
     "id": "2026-11-14-1930-juan-filloy-literatura-escena-conversatorio-maura-sajeva",
     "fecha": "2026-11-14",
     "hora_inicio": "2026-11-14T19:30:00-03:00",
@@ -11755,6 +11918,26 @@
     "editorial": "",
     "publico": "general",
     "confianza": 0.8
+  },
+  {
+    "id": "2026-11-14-1930-kultur-ensemble-ayacucho-pais-invitado-sabores-alemania-francia",
+    "fecha": "2026-11-14",
+    "hora_inicio": "2026-11-14T19:30:00-03:00",
+    "hora_fin": "2026-11-14T21:00:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "PAÍS INVITADO - Sabores de Alemania y Francia Una invitación a descubrir la cultura a través de la gastronomía.",
+    "descripcion": "Junto al Instituto Mariano Moreno, se realizará una demostración y preparación de platos típicos de Alemania y Francia, recorriendo sabores, tradiciones y técnicas que forman parte del patrimonio culinario de ambos países. Un encuentro para explorar cómo la cocina también cuenta historias y construye puentes entre culturas. A cargo de: Instituto Mariano Moreno, Goethe-Institut Córdoba, Alianza Francesa de Córdoba. Actividad con costo: $6.000 por persona, Inscripción previa a través del sitio web de la Alianza Francesa: https://alianzafrancesacba.org.ar/",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [
+      "países invitados"
+    ],
+    "sede_id": "kultur-ensemble-ayacucho-46",
+    "personas": [],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
   },
   {
     "id": "2026-11-14-1930-lilia-lardone-presentacion-libro-cuando-no-hacer",
@@ -11873,6 +12056,27 @@
     "confianza": 1.0
   },
   {
+    "id": "2026-11-14-2030-leonor-marzano-banda-juvenil-municipal",
+    "fecha": "2026-11-14",
+    "hora_inicio": "2026-11-14T20:30:00-03:00",
+    "hora_fin": "",
+    "hora_fin_estimada": "2026-11-14T21:30:00-03:00",
+    "titulo": "Banda Juvenil Municipal",
+    "descripcion": "La Banda Juvenil Municipal se originó en la Academia Municipal de Música Alfredo Luis Nihoul dependiente de la Municipalidad de Córdoba.  Se trata de un elenco formativo que aborda un repertorio amplio, adaptado a las condiciones de aprendizaje y desarrollo de habilidades instrumentales. Incluye música de carácter clásico y popular haciendo hincapié en la música latinoamericana, así como música de películas y jazz.",
+    "tipo": "espectaculo",
+    "ciclo": "ESCENARIO ARTÍSTICO",
+    "temas": [
+      "música y artes escénicas",
+      "infancias y juventudes"
+    ],
+    "sede_id": "leonor-marzano",
+    "personas": [],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 1.0
+  },
+  {
     "id": "2026-11-14-2100-glauce-baldovin-conversatorio-50-anos-historias-busquedas",
     "fecha": "2026-11-14",
     "hora_inicio": "2026-11-14T21:00:00-03:00",
@@ -11886,27 +12090,6 @@
       "memoria y dictadura"
     ],
     "sede_id": "glauce-baldovin",
-    "personas": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
-    "id": "2026-11-14-2100-leonor-marzano-banda-juvenil-municipal",
-    "fecha": "2026-11-14",
-    "hora_inicio": "2026-11-14T21:00:00-03:00",
-    "hora_fin": "",
-    "hora_fin_estimada": "2026-11-14T22:00:00-03:00",
-    "titulo": "Banda Juvenil Municipal",
-    "descripcion": "La Banda Juvenil Municipal se originó en la Academia Municipal de Música Alfredo Luis Nihoul dependiente de la Municipalidad de Córdoba.  Se trata de un elenco formativo que aborda un repertorio amplio, adaptado a las condiciones de aprendizaje y desarrollo de habilidades instrumentales. Incluye música de carácter clásico y popular haciendo hincapié en la música latinoamericana, así como música de películas y jazz.",
-    "tipo": "espectaculo",
-    "ciclo": "ESCENARIO ARTÍSTICO",
-    "temas": [
-      "música y artes escénicas",
-      "infancias y juventudes"
-    ],
-    "sede_id": "leonor-marzano",
     "personas": [],
     "libros_presentados": [],
     "editorial": "",
