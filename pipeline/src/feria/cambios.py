@@ -5,14 +5,24 @@ from .sedes import slug
 
 CAMPOS = [
     "fecha", "hora_inicio", "hora_fin", "sede_id", "titulo", "descripcion", "tipo", "ciclo",
-    "temas", "personas", "libros_presentados", "editorial", "publico",
+    "temas", "personas", "enlaces", "libros_presentados", "editorial", "publico",
 ]
 CRITICOS = {"fecha", "hora_inicio", "hora_fin", "sede_id"}
+
+
+LISTAS = {"temas", "personas", "enlaces", "libros_presentados"}
+
+
+def _campo(e: dict, campo: str):
+    """El campo de un evento publicado; si la versión vieja no lo tenía (ej. `enlaces`), vale vacío y no una diferencia."""
+    return e.get(campo, [] if campo in LISTAS else "")
 
 
 def _valor(campo: str, v) -> str:
     if campo == "personas":
         return ", ".join(f"{p['nombre']} ({p['rol']})" for p in v) or "—"
+    if campo == "enlaces":
+        return ", ".join(f"{e['texto']} → {e['url']}" for e in v) or "—"
     if isinstance(v, list):
         return ", ".join(v) or "—"
     if campo.startswith("hora"):
@@ -51,7 +61,7 @@ def calcular(viejos: list[dict], nuevos: list[dict]) -> dict:
 
     modificados = []
     for v, n in pares:
-        dif = [c for c in CAMPOS if v.get(c) != n.get(c)]
+        dif = [c for c in CAMPOS if _campo(v, c) != _campo(n, c)]
         if dif:
             modificados.append({"viejo": v, "nuevo": n, "campos": dif})
     modificados.sort(key=lambda m: (m["nuevo"]["hora_inicio"], m["nuevo"]["id"]))
@@ -74,14 +84,14 @@ def a_markdown(d: dict, encabezado: str) -> str:
             out.append(f"- **{m['nuevo']['titulo'][:90]}**")
             for c in m["campos"]:
                 if c in CRITICOS:
-                    out.append(f"  - {c}: {_valor(c, m['viejo'][c])} → {_valor(c, m['nuevo'][c])}")
+                    out.append(f"  - {c}: {_valor(c, _campo(m['viejo'], c))} → {_valor(c, _campo(m['nuevo'], c))}")
     otros = [m for m in d["modificados"] if m not in criticos]
     if otros:
         out += ["", "### Otras modificaciones", ""]
         for m in otros:
             out.append(f"- **{m['nuevo']['titulo'][:90]}** ({m['nuevo']['fecha']} {m['nuevo']['hora_inicio'][11:16]})")
             for c in m["campos"]:
-                out.append(f"  - {c}: {_valor(c, m['viejo'][c])} → {_valor(c, m['nuevo'][c])}")
+                out.append(f"  - {c}: {_valor(c, _campo(m['viejo'], c))} → {_valor(c, _campo(m['nuevo'], c))}")
     if d["agregados"]:
         out += ["", "### Agregados", ""] + [f"- {_linea(e)}" for e in d["agregados"]]
     if d["eliminados"]:

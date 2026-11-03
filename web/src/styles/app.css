@@ -76,6 +76,20 @@ body {
 .card__libro svg { flex: none; width: 14px; height: 16px; translate: 0 2px; color: var(--c); }
 .card__libro small { display: block; color: var(--color-tinta-suave); }
 .card__meta { margin: 6px 0 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+/* Enlaces del evento: fuera del botón de la tarjeta, con ícono y texto */
+.card__enlaces { margin: 0; padding: 0 14px 12px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.enlace-chip {
+  min-height: 44px; max-width: 100%; padding: 0 12px; border-radius: 999px; text-decoration: none;
+  display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; font-weight: 600;
+  border: 1.5px solid var(--color-tinta); color: var(--color-tinta); background: var(--color-tarjeta);
+}
+.enlace-chip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.enlace-chip:hover { text-decoration: underline; }
+.enlace-chip--grande { border-radius: 10px; font-size: 1rem; justify-self: start; }
+@container (min-width: 520px) {
+  .card:not(.card--compacta) .card__enlaces { padding-left: calc(14px + 5.5rem + 12px); }
+}
+
 @container (min-width: 520px) {
   .card:not(.card--compacta) .card__open { grid-template-columns: 5.5rem 1fr; column-gap: 12px; }
   .card:not(.card--compacta) .card__hora { grid-row: 1 / span 6; }

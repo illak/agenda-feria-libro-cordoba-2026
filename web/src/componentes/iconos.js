@@ -41,3 +41,11 @@ export const iconoDescarga = () =>
 /** Libro presentado. */
 export const iconoLibro = () =>
   svg({ viewBox: '0 0 14 16', relleno: true, tamano: 16 }, ['path', { d: 'M1 1h10a2 2 0 0 1 2 2v12H3a2 2 0 0 1-2-2V1Zm2 11v1h8v-1H3Z' }]);
+
+/** Enlace externo: cuadro con una flecha que sale. */
+export const iconoEnlace = () =>
+  svg({ viewBox: '0 0 24 24', tamano: 18 }, ['path', { d: 'M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5' }]);
+
+/** Sobre: escribir un mail. */
+export const iconoSobre = () =>
+  svg({ viewBox: '0 0 24 24', tamano: 18 }, ['rect', { x: 3, y: 5, width: 18, height: 14, rx: 2 }], ['path', { d: 'm3 7 9 6 9-6' }]);

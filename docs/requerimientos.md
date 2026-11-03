@@ -33,7 +33,7 @@ Cuatro archivos JSON normalizados, unidos por IDs estables (slugs). Separar los 
 | Archivo | Campos principales | Notas |
 | --- | --- | --- |
 | `sedes.json` | id, nombre, color, tipo (carpa o externa), dirección | Carpas: Lilia Lardone (naranja), Glauce Baldovin (roja), Juan Filloy (azul), Malicha Leguizamón (magenta), Escenario Leonor Marzano (turquesa). Externas en gris. |
-| `eventos.json` | id, fecha, hora_inicio, hora_fin, título, descripción, tipo, ciclo, temas[] (máximo 2), sede_id, personas[{autor_id, rol}], libros_presentados[], editorial, público, confianza | `rol`: autor, presenta, modera, participa, a_cargo, realizador (dirección, guion o realización audiovisual). `público`: general o infancias. Un bloque con varios horarios es un evento por horario. |
+| `eventos.json` | id, fecha, hora_inicio, hora_fin, título, descripción, tipo, ciclo, temas[] (máximo 2), sede_id, personas[{autor_id, rol}], enlaces[{texto, url}], libros_presentados[], editorial, público, confianza | `rol`: autor, presenta, modera, participa, a_cargo, realizador (dirección, guion o realización audiovisual). `público`: general o infancias. Un bloque con varios horarios es un evento por horario. |
 | `autores.json` | id, nombre, variantes[], ids externos (Google Books, Open Library, Wikidata), estado_verificación | Las variantes absorben errores de tipeo del doc. |
 | `libros.json` | id, autor_ids[], título, año, editorial, ISBN, tapa_url, sinopsis, fuente, confianza, presentado_en_feria | Ediciones del mismo título agrupadas en un solo registro. |
 

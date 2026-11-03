@@ -63,6 +63,7 @@ export function descripcionDe(e, { urlApp, maxPrograma = Infinity }) {
     lineas.push(`${e.libros_presentados.length > 1 ? 'Libros presentados' : 'Libro presentado'}: ${e.libros_presentados.join(' · ')}${e.editorial ? ` (${e.editorial})` : ''}`);
   }
   if (e.ciclo) lineas.push(`Ciclo: ${e.ciclo}`);
+  for (const x of e.enlaces ?? []) lineas.push(`${x.texto}: ${x.url}`);
 
   if (e.descripcion) {
     const t = e.descripcion.length > maxPrograma ? `${e.descripcion.slice(0, maxPrograma).trimEnd()}…` : e.descripcion;

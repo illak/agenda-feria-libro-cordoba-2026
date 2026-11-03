@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Copyright (C) 2026 Illak Zapata
-"""Corre el pipeline: snapshot -> data/eventos.json, data/sedes.json y data/meta.json, más el reporte."""
+"""Corre el pipeline: snapshots -> data/eventos.json, data/sedes.json y data/meta.json, más el reporte."""
 import argparse
 import json
 import sys
@@ -8,6 +8,7 @@ from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from .enlaces import extraer as extraer_enlaces
 from .extraccion import TEMAS, cargar_cache
 from .parser import Resultado, parsear
 
@@ -34,8 +35,60 @@ def ahora() -> datetime:
     return datetime.now(ZONA)
 
 
+def todos_los_snapshots() -> list[Path]:
+    """Todos los snapshots de fixtures/, del más viejo al más nuevo (el nombre lleva la fecha)."""
+    return sorted((RAIZ / "fixtures").glob("programacion_*.txt"))
+
+
 def ultimo_snapshot() -> Path:
-    return sorted((RAIZ / "fixtures").glob("programacion_*.txt"))[-1]
+    return todos_los_snapshots()[-1]
+
+
+def enlaces_de(snapshot: Path) -> dict | None:
+    """Hipervínculos del snapshot, si se guardó su HTML al lado (programacion_AAAA-MM-DD.html)."""
+    html = snapshot.with_suffix(".html")
+    return extraer_enlaces(html.read_text(encoding="utf-8")) if html.exists() else None
+
+
+def _fechas_de(res: Resultado) -> set[str]:
+    """Los días que un snapshot cubre: con actividades o con un aviso (como el 10/11)."""
+    return {e.fecha for e in res.eventos} | set(res.avisos_dias)
+
+
+def combinar(snapshots: list[Path], extracciones: dict | None) -> tuple[Resultado, dict[str, list[str]]]:
+    """Arma el resultado con todos los snapshots: cada día sale del más reciente que lo contiene.
+
+    El doc oficial va quitando los días que ya pasaron; así esos días siguen en la agenda con los datos
+    del último snapshot que los tenía, y los días vigentes se actualizan con el doc nuevo.
+    Devuelve también, por cada snapshot que no es el más nuevo, los días que aportó.
+    """
+    total = Resultado()
+    cubiertas: set[str] = set()
+    aportes: dict[str, list[str]] = {}
+    sedes = {}
+    for i, ruta in enumerate(sorted(snapshots, reverse=True)):
+        res = parsear(ruta.read_text(encoding="utf-8"), extracciones, enlaces_de(ruta))
+        fechas = _fechas_de(res) - cubiertas
+        if not fechas:
+            continue
+        cubiertas |= fechas
+        if i > 0:
+            aportes[ruta.name] = sorted(fechas)
+        hashes = {h for h, info in res.bloques_info.items() if info["fecha"] in fechas}
+        total.eventos += [e for e in res.eventos if e.fecha in fechas]
+        total.avisos_dias |= {d: t for d, t in res.avisos_dias.items() if d in fechas}
+        total.bloques |= {h: t for h, t in res.bloques.items() if h in hashes}
+        total.bloques_info |= {h: res.bloques_info[h] for h in hashes}
+        total.extraccion_pendiente |= {h: t for h, t in res.extraccion_pendiente.items() if h in hashes}
+        # advertencias y conflictos llevan la fecha en el texto: en los snapshots viejos solo las de los días que aportan
+        de_estos_dias = lambda texto: i == 0 or any(f in texto for f in fechas)  # noqa: E731
+        total.advertencias += [a for a in res.advertencias if de_estos_dias(a)]
+        total.conflictos += [c for c in res.conflictos if de_estos_dias(c)]
+        for sede in res.sedes:
+            sedes.setdefault(sede.id, sede)
+    total.sedes = list(sedes.values())
+    total.eventos.sort(key=lambda e: (e.hora_inicio, e.sede_id, e.id))
+    return total, aportes
 
 
 def escribir_json(ruta: Path, items: list) -> None:
@@ -91,20 +144,20 @@ def reporte(res: Resultado, antes: Resultado | None = None) -> str:
 
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(prog="feria.build")
-    ap.add_argument("snapshot", nargs="?", type=Path, help="por defecto, el último de fixtures/")
+    ap.add_argument("snapshot", nargs="?", type=Path, help="un solo snapshot; por defecto se combinan todos los de fixtures/")
     ap.add_argument(
         "--permitir-pendientes", action="store_true",
         help="construir aunque haya bloques sin extracción (esos eventos quedan solo con regex)",
     )
     args = ap.parse_args(argv)
 
-    fixture = args.snapshot or ultimo_snapshot()
-    texto = fixture.read_text(encoding="utf-8")
-    antes = parsear(texto)
-    res = parsear(texto, cargar_cache())
+    snapshots = [args.snapshot] if args.snapshot else todos_los_snapshots()
+    fixture = snapshots[-1]
+    antes, _ = combinar(snapshots, None)
+    res, aportes = combinar(snapshots, cargar_cache())
 
     if res.extraccion_pendiente and not args.permitir_pendientes:
-        print(f"ERROR: {len(res.extraccion_pendiente)} bloques con extraccion_pendiente (snapshot {fixture.name}).")
+        print(f"ERROR: {len(res.extraccion_pendiente)} bloques con extraccion_pendiente (snapshots {', '.join(s.name for s in snapshots)}).")
         for h, t in res.extraccion_pendiente.items():
             print(f"  {h}  {res.bloques_info[h]['fecha']} {res.bloques_info[h]['hora']}  {t.splitlines()[0][:70]}")
         print("Corré `uv run python -m feria.actualizar` para preparar los lotes, extraé, importá y volvé a correr el build.")
@@ -119,9 +172,12 @@ def main(argv: list[str]) -> int:
         "eventos": len(res.eventos),
         "extraccion_pendiente": len(res.extraccion_pendiente),
         "avisos_dias": res.avisos_dias,
+        "snapshots_antiguos": aportes,  # días que se conservan de snapshots viejos porque el doc ya no los trae
     }
     (RAIZ / "data" / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Fuente: {fixture.name}")
+    for nombre, dias in aportes.items():
+        print(f"  + {len(dias)} días de {nombre} (el doc nuevo ya no los trae): {dias[0]} a {dias[-1]}")
     print(reporte(res, antes))
     return 0
 

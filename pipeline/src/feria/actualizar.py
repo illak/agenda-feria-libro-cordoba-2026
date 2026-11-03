@@ -12,12 +12,20 @@ from . import extraccion
 from .build import RAIZ, ahora, ultimo_snapshot
 from .parser import parsear
 
-URL = "https://docs.google.com/document/d/1eTt9sjmE19IPcjuIwICoAJgEjKzm0vXU/export?format=txt"
+URL_BASE = "https://docs.google.com/document/d/1eTt9sjmE19IPcjuIwICoAJgEjKzm0vXU/export"
+URL = f"{URL_BASE}?format=txt"
+URL_HTML = f"{URL_BASE}?format=html"  # conserva los hipervínculos que el texto pierde
 FIXTURES = RAIZ / "fixtures"
 
 
 def descargar() -> str:
     r = httpx.get(URL, follow_redirects=True, timeout=30)
+    r.raise_for_status()
+    return r.content.decode("utf-8")
+
+
+def descargar_html() -> str:
+    r = httpx.get(URL_HTML, follow_redirects=True, timeout=60)
     r.raise_for_status()
     return r.content.decode("utf-8")
 
@@ -31,12 +39,24 @@ def guardar_snapshot(texto: str) -> Path:
     t = ahora()
     destino = FIXTURES / f"programacion_{t:%Y-%m-%d}.txt"
     if destino.exists():
-        if destino.read_text(encoding="utf-8") == texto:
+        # en bytes: read_text() normaliza \r\n a \n y el doc trae \r\n, así que nunca coincidía y duplicaba el snapshot
+        if destino.read_bytes().decode("utf-8") == texto:
             return destino
         destino = FIXTURES / f"programacion_{t:%Y-%m-%d}_{t:%H%M}.txt"
     FIXTURES.mkdir(exist_ok=True)
     destino.write_text(texto, encoding="utf-8")
     return destino
+
+
+def guardar_html(snapshot: Path) -> None:
+    """Guarda el HTML del doc junto al snapshot (mismo nombre, .html). Si falla, sigue sin enlaces nuevos."""
+    destino = snapshot.with_suffix(".html")
+    try:
+        destino.write_text(descargar_html(), encoding="utf-8")
+    except (httpx.HTTPError, UnicodeDecodeError) as e:
+        print(f"Aviso: no se pudo bajar el HTML con los enlaces ({e}); esta actualización queda sin enlaces nuevos.")
+        return
+    print(f"Enlaces: {destino.relative_to(RAIZ)}")
 
 
 def main(argv: list[str]) -> int:
@@ -61,6 +81,8 @@ def main(argv: list[str]) -> int:
 
     snapshot = guardar_snapshot(texto)
     print(f"Snapshot: {snapshot.relative_to(RAIZ)}")
+    if not args.archivo:  # con un archivo a mano no hay HTML: los enlaces quedan sin actualizar
+        guardar_html(snapshot)
 
     res = parsear(texto, extraccion.cargar_cache())
     previos = {}

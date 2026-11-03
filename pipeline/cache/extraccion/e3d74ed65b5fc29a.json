@@ -1,0 +1,23 @@
+{
+ "personas": [
+  {
+   "nombre": "Hernán Comastri",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Carlos Balzi",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Dario Sandrone",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [
+  "Artefactos peronistas y máquinas imposibles. Una historia de la ciencia popular en Argentina"
+ ],
+ "editorial": "Fondo de Cultura Económica",
+ "temas": [
+  "historia"
+ ]
+}

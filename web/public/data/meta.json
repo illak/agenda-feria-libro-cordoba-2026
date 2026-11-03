@@ -1,10 +1,17 @@
 {
-  "snapshot": "programacion_2026-10-26.txt",
-  "generado": "2026-10-26T10:28:49-03:00",
-  "eventos": 396,
+  "snapshot": "programacion_2026-11-03.txt",
+  "generado": "2026-11-03T13:26:13-03:00",
+  "eventos": 397,
   "extraccion_pendiente": 0,
   "avisos_dias": {
     "2026-11-10": "Debido a los esquemas de movilidad y la agenda oficial con motivo de la visita del Papa León XIV, el presente programa queda sujeto a posibles modificaciones."
   },
-  "actualizado": "2026-10-26T10:30:36-03:00"
+  "snapshots_antiguos": {
+    "programacion_2026-10-26.txt": [
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01"
+    ]
+  },
+  "actualizado": "2026-11-03T13:26:45-03:00"
 }

@@ -14,6 +14,12 @@ class Persona(BaseModel):
     rol: Rol
 
 
+class Enlace(BaseModel):
+    """Hipervínculo del doc asociado a una actividad. Solo http, https y mailto."""
+    texto: str  # etiqueta legible ("Actividad con inscripción previa", no solo "AQUÍ")
+    url: str
+
+
 class Sede(BaseModel):
     id: str
     nombre: str
@@ -35,6 +41,7 @@ class Evento(BaseModel):
     temas: list[str] = Field(default_factory=list, max_length=2)
     sede_id: str = ""
     personas: list[Persona] = Field(default_factory=list)
+    enlaces: list[Enlace] = Field(default_factory=list)  # hipervínculos del doc (inscripción, mail, sitio)
     libros_presentados: list[str] = Field(default_factory=list)
     editorial: str = ""
     publico: Literal["general", "infancias"] = "general"

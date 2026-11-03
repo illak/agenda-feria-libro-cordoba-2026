@@ -23,7 +23,7 @@ export const sedePorId = new Map(sedes.map((s) => [s.id, s]));
 export const evento = (extra) => ({
   id: 'x', fecha: '2026-10-30', hora_inicio: '2026-10-30T10:00:00-03:00', hora_fin: '', hora_fin_estimada: '',
   titulo: 'Título', descripcion: '', tipo: 'otro', ciclo: '', temas: [], sede_id: 'roja', personas: [],
-  libros_presentados: [], editorial: '', publico: 'general', confianza: 1, ...extra,
+  libros_presentados: [], enlaces: [], editorial: '', publico: 'general', confianza: 1, ...extra,
 });
 
 export const eventos = [

@@ -98,6 +98,16 @@ describe('descripcion', () => {
     expect(d).toContain('Texto del programa.');
     expect(d).toContain('https://ejemplo.test/agenda/?evento=x');
   });
+  it('incluye los enlaces del programa (inscripción, mail)', () => {
+    const d = descripcionDe(e({ enlaces: [{ texto: 'Inscripciones', url: 'https://forms.gle/abc' }, { texto: 'a@b.com', url: 'mailto:a@b.com' }] }), { urlApp: ctx.urlApp });
+    expect(d).toContain('Inscripciones: https://forms.gle/abc');
+    expect(d).toContain('a@b.com: mailto:a@b.com');
+  });
+  it('un evento sin el campo enlaces (datos viejos) no rompe', () => {
+    const viejo = e();
+    delete viejo.enlaces;
+    expect(() => descripcionDe(viejo, { urlApp: ctx.urlApp })).not.toThrow();
+  });
   it('avisa cuando la hora de fin es aproximada, y solo entonces', () => {
     expect(descripcionDe(lib, { urlApp: ctx.urlApp })).not.toContain('aproximada');
     expect(descripcionDe({ ...lib, hora_fin: '', hora_fin_estimada: '2026-10-30T20:00:00-03:00' }, { urlApp: ctx.urlApp })).toContain('La hora de fin es aproximada');

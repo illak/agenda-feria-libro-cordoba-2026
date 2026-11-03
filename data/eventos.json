@@ -12,6 +12,7 @@
     "temas": [],
     "sede_id": "kultur-ensemble-ayacucho-46",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -93,6 +94,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -113,6 +115,7 @@
     ],
     "sede_id": "biblioteca-popular-barrio-talleres-carlos-iii-1669-b-tallere",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -145,6 +148,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La yerba mate: mitos, verdades y chamuyos"
     ],
@@ -173,6 +177,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Mortero 2 La historia continúa"
     ],
@@ -266,6 +271,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -290,6 +296,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -326,6 +333,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Concurso Literario ¿Saben lo que pasó en mi barrio? Entrega de producciones edición 2025"
     ],
@@ -355,6 +363,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La alegría perdida de Caitruz"
     ],
@@ -388,6 +397,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -445,6 +455,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Inquieta Editora",
     "publico": "general",
@@ -477,6 +488,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Contar historias. El complejo fascinante oficio de la divulgación"
     ],
@@ -505,6 +517,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -546,6 +559,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "El libro de las Cofradías del Monserrat"
     ],
@@ -580,6 +594,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Las Tardes"
     ],
@@ -608,6 +623,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -649,6 +665,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Por el Oriente asoma la revolución mundial: escritos sobre el sur global"
     ],
@@ -669,6 +686,7 @@
     "temas": [],
     "sede_id": "lilia-lardone",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -705,6 +723,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La huella de San Martín en Europa"
     ],
@@ -744,6 +763,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "2001. Rastros de historia y política"
     ],
@@ -772,6 +792,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -793,6 +814,7 @@
     ],
     "sede_id": "teatro-municipal-comedia-rivadavia-254",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -834,6 +856,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Sonar cansado"
     ],
@@ -877,6 +900,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Antipop y Triángulo Editorial",
     "publico": "general",
@@ -897,6 +921,7 @@
     ],
     "sede_id": "leonor-marzano",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -939,6 +964,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Yo, Rivadavia. Una memoria conjetural"
     ],
@@ -968,6 +994,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -988,6 +1015,7 @@
     ],
     "sede_id": "kultur-ensemble-ayacucho-46",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1027,6 +1055,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Araoz Ediciones",
     "publico": "general",
@@ -1068,6 +1097,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1099,6 +1129,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La Vuelta, un libro en cordobés"
     ],
@@ -1121,6 +1152,7 @@
     ],
     "sede_id": "lilia-lardone",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1147,6 +1179,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La historia del jacarandá de la abuela Aranda. Una familia, un árbol, un legado"
     ],
@@ -1193,6 +1226,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1234,6 +1268,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1280,6 +1315,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Emporio Ediciones",
     "publico": "general",
@@ -1326,6 +1362,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1346,6 +1383,7 @@
     ],
     "sede_id": "leonor-marzano",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1377,6 +1415,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "El canto invisible"
     ],
@@ -1410,6 +1449,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -1437,6 +1477,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1493,6 +1534,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Emporio Ediciones",
     "publico": "general",
@@ -1524,6 +1566,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1548,6 +1591,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Historias de bares, conflictos y amores"
     ],
@@ -1591,6 +1635,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1617,6 +1662,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1637,6 +1683,7 @@
     ],
     "sede_id": "kultur-ensemble-ayacucho-46",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1668,6 +1715,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Los seres vivos: un reino en tus manos"
     ],
@@ -1697,6 +1745,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1733,6 +1782,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Vidas ejemplares"
     ],
@@ -1779,6 +1829,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Historias de bibliotecas"
     ],
@@ -1822,6 +1873,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1853,6 +1905,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Un amor sin futuro"
     ],
@@ -1881,6 +1934,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Hacer arte, dibujos pinturas y estampas"
     ],
@@ -1922,6 +1976,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Emporio Ediciones",
     "publico": "general",
@@ -1949,6 +2004,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -1996,6 +2052,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -2027,6 +2084,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Benito y Balada para una prisionera"
     ],
@@ -2055,6 +2113,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Tu voz escénica"
     ],
@@ -2077,6 +2136,7 @@
     ],
     "sede_id": "leonor-marzano",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -2109,6 +2169,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Gordon el Aniquilador"
     ],
@@ -2173,6 +2234,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -2199,6 +2261,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Geofútbol"
     ],
@@ -2227,6 +2290,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -2258,12 +2322,34 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La batalla final y Hasta aquí llegué"
     ],
     "editorial": "",
     "publico": "general",
     "confianza": 1.0
+  },
+  {
+    "id": "2026-11-02-0800-escuela-aeronautica-pintando-memorias-tejiendo-historias-panuelos",
+    "fecha": "2026-11-02",
+    "hora_inicio": "2026-11-02T08:00:00-03:00",
+    "hora_fin": "2026-11-02T09:30:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "Pintando memorias, tejiendo historias: los pañuelos que las atraviesan",
+    "descripcion": "Taller lúdico y artístico en conmemoración de los 50 años del último Golpe de Estado en Argentina, organizado por la Biblioteca Popular Benjamín Matienzo para estudiantes de nivel primario de la Esc. Aeronáutica Argentina. El proyecto promueve el ejercicio de la memoria colectiva, los lazos afectivos y los valores democráticos.",
+    "tipo": "otro",
+    "ciclo": "LA BIBLIO TE CUENTA",
+    "temas": [
+      "memoria y dictadura"
+    ],
+    "sede_id": "escuela-aeronautica-argentina-esmeralda-3749-b-matienzo",
+    "personas": [],
+    "enlaces": [],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
   },
   {
     "id": "2026-11-02-1100-malicha-leguizamon-taller-mas-asperos-escenarios-papel",
@@ -2296,6 +2382,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -2317,27 +2404,7 @@
     ],
     "sede_id": "escuela-presidente-yrigoyen-av-castro-barros-862-b-san-marti",
     "personas": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
-  },
-  {
-    "id": "2026-11-02-1400-cineclub-municipal-bv-san-mirar-leer-crear",
-    "fecha": "2026-11-02",
-    "hora_inicio": "2026-11-02T14:00:00-03:00",
-    "hora_fin": "2026-11-02T17:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "Mirar, leer y crear",
-    "descripcion": "Taller dirigido a jóvenes que vincula memoria, juventud y derechos humanos mediante la proyección del cortometraje “Los cimientos de un sueño”, cortometraje de ficción y cine comunitario realizado por el Taller de Cine Comunitario del Centro Cultural V° El Libertador. A partir del debate y la lectura poética, los adolescentes producirán video-poemas colectivos que expresen sus propias miradas y narrativas audiovisuales sobre el territorio. Organizado por el C.C. V° El Libertador. Cupo: 30 personas. Edades: 13 a 19 años",
-    "tipo": "otro",
-    "ciclo": "CULTURA DE BARRIO 2026",
-    "temas": [
-      "infancias y juventudes",
-      "cine y audiovisual"
-    ],
-    "sede_id": "cineclub-municipal-bv-san-juan-49",
-    "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -2370,6 +2437,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Las universidades en la historia: su evolución y sus vínculos con el resto de la sociedad, desde sus orígenes hasta hoy"
     ],
@@ -2403,6 +2471,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Cuadernos de la Memoria",
       "A 50 años del Golpe: hacemos memoria, construimos futuro"
@@ -2457,6 +2526,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Decamerón Cordobés"
     ],
@@ -2477,6 +2547,7 @@
     "temas": [],
     "sede_id": "lilia-lardone",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -2503,6 +2574,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Nuevas Economías: Propuestas desde América Latina para futuros posibles"
     ],
@@ -2526,6 +2598,7 @@
     ],
     "sede_id": "malicha-leguizamon",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -2550,6 +2623,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Horóscopo Chino 2027"
     ],
@@ -2583,6 +2657,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Córdoba Originaria"
     ],
@@ -2621,8 +2696,9 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
-      "Artefactos peronistas y máquinas imposibles"
+      "Artefactos peronistas y máquinas imposibles. Una historia de la ciencia popular en Argentina"
     ],
     "editorial": "Fondo de Cultura Económica",
     "publico": "general",
@@ -2643,6 +2719,7 @@
     ],
     "sede_id": "leonor-marzano",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [
       "la Orquesta Nueva Melodía de Villa Bustos"
     ],
@@ -2665,6 +2742,7 @@
     ],
     "sede_id": "lilia-lardone",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [
       "Transformación digital en el Derecho Público. Impactos, alcances y riesgos"
     ],
@@ -2698,6 +2776,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Los gatos de la abuela Queché"
     ],
@@ -2726,6 +2805,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Pueblos Indígenas de Córdoba"
     ],
@@ -2748,6 +2828,7 @@
     ],
     "sede_id": "supermanzana-de-la-intendencia-caseros-esq-gral-simon-boliva",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -2775,6 +2856,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -2822,6 +2904,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Editorial Tinta Libre",
     "publico": "general",
@@ -2896,6 +2979,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Derecho para la protección del ambiente"
     ],
@@ -2922,6 +3006,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Sin máscaras"
     ],
@@ -2950,6 +3035,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -2981,6 +3067,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3017,6 +3104,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3043,6 +3131,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3072,6 +3161,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3103,6 +3193,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -3123,6 +3214,7 @@
     ],
     "sede_id": "biblioteca-popular-atahualpa-tomas-de-irobi-401-b-marques-de",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3152,10 +3244,32 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
     "confianza": 1.0
+  },
+  {
+    "id": "2026-11-03-1500-punto-de-partida-libreria-grande-biblioteca-mayor",
+    "fecha": "2026-11-03",
+    "hora_inicio": "2026-11-03T15:00:00-03:00",
+    "hora_fin": "",
+    "hora_fin_estimada": "2026-11-03T16:00:00-03:00",
+    "titulo": "De la Librería Grande a la Biblioteca Mayor",
+    "descripcion": "Los visitantes podrán viajar en el tiempo y descubrir los grandes tesoros bibliográficos de Córdoba. En la Feria del Libro 2026, la comunidad podrá sumarse al recorrido guiado por el Museo Histórico y la Biblioteca Mayor en el Antiguo Rectorado de la Universidad Nacional de Córdoba. Quienes participen se asombrarán con incunables, la histórica Colección Jesuítica declarada \"Memoria del Mundo\" por la UNESCO y los manuscritos del Código Civil de Vélez Sársfield. También se podrán admirar joyas únicas como la Enciclopedia de Diderot, un Atlas del siglo XVII e impresos patrios de 1810, viviendo una experiencia que conecta más de 400 años de historia, libros raros y memoria viva. Recorrido sin costo, cupos limitados. Para reservar lugar: reservas@museohistorico.unc.edu.ar",
+    "tipo": "otro",
+    "ciclo": "",
+    "temas": [
+      "historia"
+    ],
+    "sede_id": "punto-de-partida-recepcion-del-museo-historico-de-la-unc-obi",
+    "personas": [],
+    "enlaces": [],
+    "libros_presentados": [],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.9
   },
   {
     "id": "2026-11-03-1500-salon-de-actos-biblioteca-presentacion-libros-sociedad-argentina-escritores",
@@ -3178,6 +3292,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Tu voz escénica"
     ],
@@ -3204,6 +3319,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Sacre"
     ],
@@ -3232,6 +3348,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Palabras, palabras, palabras. Por un psicoanálisis literario"
     ],
@@ -3270,6 +3387,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Morir con dignidad en Argentina"
     ],
@@ -3292,6 +3410,7 @@
     ],
     "sede_id": "lilia-lardone",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -3316,6 +3435,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Marcel"
     ],
@@ -3344,6 +3464,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3364,6 +3485,7 @@
     ],
     "sede_id": "alianza-francesa-de-cordoba-kultur-ensemble-cordoba-ayacucho",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3384,6 +3506,7 @@
     ],
     "sede_id": "auditorio-facultad-de-lenguas-velez-sarsfield-187",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3415,6 +3538,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Los indispensables de la patria"
     ],
@@ -3437,6 +3561,7 @@
     ],
     "sede_id": "juan-filloy",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3483,6 +3608,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Mundos Alternativos"
     ],
@@ -3512,6 +3638,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -3541,6 +3668,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Voces del alma",
       "La cruz de los Andes",
@@ -3576,6 +3704,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Manual de Historia Antigua y Medieval"
     ],
@@ -3605,6 +3734,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3651,6 +3781,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3675,6 +3806,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "¿Quién Soy?"
     ],
@@ -3697,6 +3829,7 @@
     ],
     "sede_id": "leonor-marzano",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3728,6 +3861,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Editorial de la UNC",
     "publico": "general",
@@ -3754,6 +3888,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Novelas policiales diversas del comisario Martos"
     ],
@@ -3807,6 +3942,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3843,6 +3979,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -3884,6 +4021,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Charanguitos y Ronrocos historias en diez cuerdas"
     ],
@@ -3927,6 +4065,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Editorial Comunicarte",
     "publico": "infancias",
@@ -3951,6 +4090,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "El vuelo del chingolo"
     ],
@@ -3973,6 +4113,7 @@
     ],
     "sede_id": "goethe-institut-cordoba-kultur-ensemble-ayacucho-46",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -4019,6 +4160,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Editorial Municipal",
     "publico": "general",
@@ -4043,6 +4185,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "El niño que vivía en todas partes"
     ],
@@ -4076,6 +4219,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Benjamín Solari Parravicini – Psicografías rescatadas en el tiempo"
     ],
@@ -4102,6 +4246,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Un café sin azúcar",
       "El llamado espiritual"
@@ -4117,24 +4262,25 @@
     "hora_fin": "2026-11-04T19:00:00-03:00",
     "hora_fin_estimada": "",
     "titulo": "Palabras Compartidas",
-    "descripcion": "Los talleres de la biblioteca Vélez Sarsfield junto al taller de escritura creativa El Café Literario del Socio del Centro de Rehabilitación Sociolaboral presentarán de forma lúdica los libros Sortilegio de voces, de Teresa Esther Storello y Horizonte de esperanzas, de Nilda del Carmen Morales. La jornada incluirá juegos de lectura interactivos y la entrega de fragmentos de cuentos y poesías de las autoras para compartir con el público.",
+    "descripcion": "Los talleres de la biblioteca Vélez Sarsfield presentarán de forma lúdica el libro \" Horizonte de esperanzas\" de Nilda del Carmen Morales. La jornada incluirá juegos de lectura interactivos y la entrega de fragmentos de cuentos y poesías de la autora para compartir con el público.",
     "tipo": "otro",
     "ciclo": "LA BIBLIO TE CUENTA",
-    "temas": [],
+    "temas": [
+      "narrativa",
+      "poesía"
+    ],
     "sede_id": "biblioteca-popular-velez-sarsfield-lima-995-b-gral-paz",
     "personas": [
-      {
-        "autor_id": "teresa-esther-storello",
-        "nombre": "Teresa Esther Storello",
-        "rol": "autor"
-      },
       {
         "autor_id": "nilda-del-carmen-morales",
         "nombre": "Nilda del Carmen Morales",
         "rol": "autor"
       }
     ],
-    "libros_presentados": [],
+    "enlaces": [],
+    "libros_presentados": [
+      "Horizonte de esperanzas"
+    ],
     "editorial": "",
     "publico": "general",
     "confianza": 0.9
@@ -4154,6 +4300,7 @@
     ],
     "sede_id": "fundacion-pedro-milesi-y-bibl-popular-de-bella-vista-rufino",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -4180,6 +4327,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Editorial Tinta Libre",
     "publico": "general",
@@ -4209,6 +4357,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Agenda libro Alegría Ahora 2027"
     ],
@@ -4258,6 +4407,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "A cincuenta años del golpe: la Córdoba procesista (1976-1983)"
     ],
@@ -4284,6 +4434,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Pequeñas felicidades"
     ],
@@ -4343,6 +4494,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -4370,6 +4522,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -4394,6 +4547,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Cuernos y Orgullo"
     ],
@@ -4422,6 +4576,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Tres Salas editorial",
     "publico": "general",
@@ -4453,6 +4608,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Antonia"
     ],
@@ -4479,6 +4635,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Me escapé del mundo por ti"
     ],
@@ -4508,6 +4665,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -4544,6 +4702,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -4580,6 +4739,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Repensar lo común. Glosario de derechos humanos"
     ],
@@ -4628,6 +4788,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -4679,24 +4840,25 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
     "confianza": 1.0
   },
   {
-    "id": "2026-11-04-1900-malicha-leguizamon-charla-concierto-musica-desde-cunay",
+    "id": "2026-11-04-1900-malicha-leguizamon-charla-concierto-musica-desde-cuna",
     "fecha": "2026-11-04",
     "hora_inicio": "2026-11-04T19:00:00-03:00",
     "hora_fin": "",
     "hora_fin_estimada": "2026-11-04T20:00:00-03:00",
-    "titulo": "Charla + concierto Música desde el Cunay, el arte de aprender jugando: La Metodología Suzuki, coordinado por Leila Airut",
+    "titulo": "Charla + concierto Música desde la cuna y el arte de aprender jugando: la metodología Suzuki, coordinado por Leila Airut",
     "descripcion": "DaCapo Escuela de Músicos presenta una propuesta integral orientada a madres, padres, educadores e infancias, centrada en el valor de la educación musical temprana como herramienta de desarrollo humano y emocional. La actividad combina una breve charla para adultos sobre Metodología Suzuki y un concierto en vivo a cargo de infancias y jóvenes de la escuela. Para adultas/os e infancias.",
     "tipo": "espectaculo",
     "ciclo": "INFANCIAS",
     "temas": [
-      "infancias y juventudes",
-      "música y artes escénicas"
+      "música y artes escénicas",
+      "infancias y juventudes"
     ],
     "sede_id": "malicha-leguizamon",
     "personas": [
@@ -4706,6 +4868,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -4730,6 +4893,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Alma de peón"
     ],
@@ -4758,6 +4922,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -4785,6 +4950,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -4811,6 +4977,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "El mito de gobierno. Debates y herramientas para la comunicación gubernamental de largo plazo"
     ],
@@ -4837,6 +5004,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Speranta"
     ],
@@ -4875,6 +5043,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -4906,6 +5075,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -4932,6 +5102,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -4961,6 +5132,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Triángulo Editorial",
     "publico": "general",
@@ -4983,6 +5155,12 @@
         "autor_id": "letizia-barbero",
         "nombre": "Letizia Barbero",
         "rol": "a_cargo"
+      }
+    ],
+    "enlaces": [
+      {
+        "texto": "librosmemoriavegetal@gmail.com",
+        "url": "mailto:librosmemoriavegetal@gmail.com"
       }
     ],
     "libros_presentados": [],
@@ -5017,6 +5195,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5059,6 +5238,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Diarios de viaje de Paul G. Lorentz entre 1871 y 1876 y Un holandés en el extranjero. Relatos de Hendrik Weyenbergh en Córdoba, 1873 a 1884"
     ],
@@ -5098,6 +5278,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Si te dicen que no es cierto"
     ],
@@ -5136,6 +5317,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5182,6 +5364,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -5202,6 +5385,7 @@
     ],
     "sede_id": "leonor-marzano",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [
       "la Orquesta Parque Norte/ Este y Maldonado"
     ],
@@ -5224,6 +5408,7 @@
     ],
     "sede_id": "supermanzana-de-la-intendencia-caseros-esq-gral-simon-boliva",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5245,6 +5430,7 @@
     ],
     "sede_id": "archivo-provincial-de-la-memoria-pasaje-santa-catalina-66",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Babel editorial",
     "publico": "general",
@@ -5272,6 +5458,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5303,6 +5490,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Las mujeres que me habitan"
     ],
@@ -5325,6 +5513,7 @@
     ],
     "sede_id": "juan-filloy",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5349,6 +5538,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Siempre lo supe"
     ],
@@ -5402,6 +5592,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Muerte en el ascensor"
     ],
@@ -5430,12 +5621,48 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Una Caperucita más"
     ],
     "editorial": "",
     "publico": "infancias",
     "confianza": 0.7
+  },
+  {
+    "id": "2026-11-05-1830-museo-tamburini-bancor-presentacion-libro-cartas-politicas-1948",
+    "fecha": "2026-11-05",
+    "hora_inicio": "2026-11-05T18:30:00-03:00",
+    "hora_fin": "",
+    "hora_fin_estimada": "2026-11-05T19:30:00-03:00",
+    "titulo": "Presentación del libro Cartas políticas 1948-1974 Alfredo Terzaga. Jorge Abelardo Ramos. La correspondencia entre estos dos pensadores y políticos es un tema de gran interés que permite el estudio de la historia de la política argentina, desde principio de los años ´40, el peronismo, el golpe del ´55, la construcción de la Izquierda Nacional y temas que entendían del poder y del Estado. Cartas que aún alumbran el presente como verdaderas ventanas de ideas con la inteligencia y sagacidad de sus autores. La experiencia epistolar entre Ramos y Terzaga, intercambio de viejos amigos, afortunadamente se conservan en archivos que contribuyen a la mejor intervención de la vida intelectual argentina.",
+    "descripcion": "",
+    "tipo": "presentacion",
+    "ciclo": "",
+    "temas": [
+      "historia",
+      "ensayo y pensamiento"
+    ],
+    "sede_id": "museo-tamburini-bancor-san-jeronimo-166",
+    "personas": [
+      {
+        "autor_id": "alfredo-terzaga",
+        "nombre": "Alfredo Terzaga",
+        "rol": "autor"
+      },
+      {
+        "autor_id": "jorge-abelardo-ramos",
+        "nombre": "Jorge Abelardo Ramos",
+        "rol": "autor"
+      }
+    ],
+    "enlaces": [],
+    "libros_presentados": [
+      "Cartas políticas 1948-1974"
+    ],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.4
   },
   {
     "id": "2026-11-05-1830-salon-de-actos-biblioteca-cordoba-mata",
@@ -5483,6 +5710,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5529,6 +5757,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5565,6 +5794,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Murallas de Neón",
       "Moscú no cree en lágrimas"
@@ -5597,6 +5827,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5623,6 +5854,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5655,6 +5887,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5686,6 +5919,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5712,6 +5946,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Funestas Segregaciones"
     ],
@@ -5743,6 +5978,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Santo Mensajero. Cura Brochero"
     ],
@@ -5782,6 +6018,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5809,6 +6046,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5840,6 +6078,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5867,6 +6106,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5885,6 +6125,7 @@
     "temas": [],
     "sede_id": "carpa-caseros-y-bolivar",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5916,6 +6157,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5952,6 +6194,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -5993,6 +6236,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6025,6 +6269,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -6051,6 +6296,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6078,6 +6324,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6098,6 +6345,7 @@
     ],
     "sede_id": "goethe-institut-kultur-ensemble-ayacucho-46",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6149,6 +6397,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Cielo Invertido",
     "publico": "general",
@@ -6185,6 +6434,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6224,6 +6474,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Rescatar las imágenes. Iconoclasia para un mundo hipervisual"
     ],
@@ -6258,6 +6509,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Taylor Swift. Versiones de una crítica pop"
     ],
@@ -6278,6 +6530,7 @@
     "temas": [],
     "sede_id": "biblioteca-acic-villanueva-3040-b-jardin",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6296,6 +6549,7 @@
     "temas": [],
     "sede_id": "biblioteca-popular-nelly-ruiz-de-llorens-de-los-alemanes-399",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6343,6 +6597,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6382,6 +6637,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Emporio Ediciones",
     "publico": "general",
@@ -6414,6 +6670,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6440,6 +6697,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6466,6 +6724,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La ley de la revolución"
     ],
@@ -6499,6 +6758,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -6533,6 +6793,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Corré tus límites"
     ],
@@ -6581,6 +6842,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6612,6 +6874,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6648,6 +6911,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6675,6 +6939,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6716,6 +6981,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Dijimos nunca más"
     ],
@@ -6769,6 +7035,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6795,6 +7062,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6831,6 +7099,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Entre dos Siglos. Cartografía de un tiempo de crisis"
     ],
@@ -6860,6 +7129,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6901,6 +7171,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -6927,6 +7198,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -6947,24 +7219,7 @@
     ],
     "sede_id": "kultur-ensemble-ayacucho-46",
     "personas": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
-  },
-  {
-    "id": "2026-11-07-1600-feria-de-vecinos-valija-viajera-puentes-lectura-entre",
-    "fecha": "2026-11-07",
-    "hora_inicio": "2026-11-07T16:00:00-03:00",
-    "hora_fin": "2026-11-07T18:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "La Valija Viajera: puentes de lectura entre la Biblioteca y el barrio.",
-    "descripcion": "La Biblioteca Popular Mi Jardín comparte lecturas y creaciones colectivas de las infancias del Centro Educativo Barrial de Barrio Reno, junto con la Valija Viajera de la biblioteca.",
-    "tipo": "otro",
-    "ciclo": "LA BIBLIO TE CUENTA",
-    "temas": [],
-    "sede_id": "feria-de-vecinos-agrupados-plaza-malvinas-argentinas-ex-plaz",
-    "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7001,6 +7256,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La sombra del pastor"
     ],
@@ -7030,6 +7286,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Los Guardabosques"
     ],
@@ -7064,6 +7321,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7082,6 +7340,7 @@
     "temas": [],
     "sede_id": "juan-filloy",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7111,6 +7370,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7135,6 +7395,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7167,6 +7428,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -7194,6 +7456,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7230,6 +7493,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Acá mando yo! Una historia sobre límites"
     ],
@@ -7261,6 +7525,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7302,6 +7567,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7328,6 +7594,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Capilla, patio, aula y taller"
     ],
@@ -7371,6 +7638,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Desandar los días. Correspondencias y conjuros"
     ],
@@ -7404,6 +7672,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -7422,6 +7691,7 @@
     "temas": [],
     "sede_id": "biblioteca-popular-agustin-tosco-baigorri-950-b-alta-cordoba",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7451,6 +7721,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7469,6 +7740,12 @@
     "temas": [],
     "sede_id": "juan-filloy",
     "personas": [],
+    "enlaces": [
+      {
+        "texto": "Inscripciones",
+        "url": "https://forms.gle/iq63tkZsCqVVDwk76"
+      }
+    ],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7495,6 +7772,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7542,6 +7820,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7569,6 +7848,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7605,6 +7885,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Proscripta y Sublevada"
     ],
@@ -7633,6 +7914,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7660,6 +7942,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7686,10 +7969,46 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [
+      {
+        "texto": "Inscripciones",
+        "url": "https://forms.gle/iq63tkZsCqVVDwk76"
+      }
+    ],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
     "confianza": 0.9
+  },
+  {
+    "id": "2026-11-08-1600-sin-sede-presentacion-libro-fuego-lento-susana",
+    "fecha": "2026-11-08",
+    "hora_inicio": "2026-11-08T16:00:00-03:00",
+    "hora_fin": "2026-11-08T18:00:00-03:00",
+    "hora_fin_estimada": "",
+    "titulo": "Presentación del libro A fuego lento, de Susana Buontempo",
+    "descripcion": "La reconocida periodista y locutora de Cadena 3, Susana Buontempo, presentará su libro A fuego lento, un recorrido íntimo de 30 años junto al folclore argentino. En esta obra, la autora plasmará semblanzas de grandes referentes y tradiciones que forman parte de nuestra memoria cultural.",
+    "tipo": "presentacion",
+    "ciclo": "",
+    "temas": [
+      "no ficción y periodismo",
+      "música y artes escénicas"
+    ],
+    "sede_id": "",
+    "personas": [
+      {
+        "autor_id": "susana-buontempo",
+        "nombre": "Susana Buontempo",
+        "rol": "autor"
+      }
+    ],
+    "enlaces": [],
+    "libros_presentados": [
+      "A fuego lento"
+    ],
+    "editorial": "",
+    "publico": "general",
+    "confianza": 0.7
   },
   {
     "id": "2026-11-08-1700-glauce-baldovin-mar-san-lorenzo",
@@ -7713,6 +8032,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Del mar a San Lorenzo"
     ],
@@ -7733,6 +8053,7 @@
     "temas": [],
     "sede_id": "juan-filloy",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7759,6 +8080,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7783,6 +8105,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7809,6 +8132,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Libro invisible"
     ],
@@ -7838,6 +8162,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Tinta Libre Ediciones",
     "publico": "general",
@@ -7865,6 +8190,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7897,6 +8223,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -7926,6 +8253,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Editorial Yammal Contenidos",
     "publico": "general",
@@ -7944,6 +8272,7 @@
     "temas": [],
     "sede_id": "juan-filloy",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [
       "la revista \"40/10\""
     ],
@@ -7973,6 +8302,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8000,6 +8330,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -8026,6 +8357,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8055,6 +8387,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Tinta Libre Ediciones",
     "publico": "general",
@@ -8092,6 +8425,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8121,6 +8455,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8152,6 +8487,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Responsabilidad Electiva: solos, juntos o libres"
     ],
@@ -8180,6 +8516,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8216,6 +8553,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Un crimen dialéctico"
     ],
@@ -8247,6 +8585,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La caída fue buena"
     ],
@@ -8296,6 +8635,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8320,6 +8660,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Lo que creamos en el silencio"
     ],
@@ -8340,6 +8681,7 @@
     "temas": [],
     "sede_id": "asoc-civil-biblioteca-popular-casa-del-pueblo-alberdi-el-cha",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8366,6 +8708,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Tu Párkinson y yo. La vida que no estaba escrita"
     ],
@@ -8409,6 +8752,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Cultura pop. Manual de uso para consumos desviados"
     ],
@@ -8429,6 +8773,7 @@
     "temas": [],
     "sede_id": "lilia-lardone",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8453,6 +8798,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8480,6 +8826,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "El desafío civilizatorio de la inteligencia artificial"
     ],
@@ -8500,6 +8847,7 @@
     "temas": [],
     "sede_id": "juan-filloy",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [
       "Investigar en artes, comunicar lo público",
       "Una cosa lleva a la otra. Escrituras en artes"
@@ -8524,6 +8872,7 @@
     ],
     "sede_id": "lilia-lardone",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8556,6 +8905,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8587,6 +8937,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Ensayo sobre la muerte y el tiempo"
     ],
@@ -8625,6 +8976,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Apnea, La boca es una fosa",
       "Yo vi morder al fuego, la casa del jaguar",
@@ -8634,26 +8986,6 @@
     "editorial": "El brote",
     "publico": "general",
     "confianza": 1.0
-  },
-  {
-    "id": "2026-11-11-0800-escuela-aeronautica-bordando-memorias-tejiendo-historias-panuelos",
-    "fecha": "2026-11-11",
-    "hora_inicio": "2026-11-11T08:00:00-03:00",
-    "hora_fin": "2026-11-11T09:30:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "Bordando memorias, tejiendo historias: los pañuelos que las atraviesan",
-    "descripcion": "Taller lúdico y artístico en conmemoración de los 50 años del último Golpe de Estado en Argentina, organizado por la Biblioteca Popular Benjamín Matienzo para estudiantes de nivel primario de la Esc. Aeronáutica Argentina. El proyecto promueve el ejercicio de la memoria colectiva, los lazos afectivos y los valores democráticos.",
-    "tipo": "otro",
-    "ciclo": "LA BIBLIO TE CUENTA",
-    "temas": [
-      "memoria y dictadura"
-    ],
-    "sede_id": "escuela-aeronautica-argentina-esmeralda-3749-b-matienzo",
-    "personas": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
   },
   {
     "id": "2026-11-11-1000-sin-sede-libros-vivos-palabras-caminan",
@@ -8670,6 +9002,7 @@
     ],
     "sede_id": "",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8701,6 +9034,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8728,6 +9062,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -8748,6 +9083,7 @@
     ],
     "sede_id": "biblioteca-popular-madre-teresa-de-calcuta-ricardo-gutierrez",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8787,6 +9123,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8829,6 +9166,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "No olvidaré. A 50 años del golpe militar. Argentina 1976 - 1983"
     ],
@@ -8858,6 +9196,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Luchas Travestis-Trans en Argentina"
     ],
@@ -8886,6 +9225,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8920,6 +9260,12 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [
+      {
+        "texto": "Premio de Traducción Paula de Roma",
+        "url": "https://digesto.unc.edu.ar/bitstream/handle/123456789/569081/RD-2025-674-UNC-DEC%23FL.pdf?sequence=1&isAllowed=y"
+      }
+    ],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8947,6 +9293,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -8967,6 +9314,7 @@
     ],
     "sede_id": "glauce-baldovin",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9058,6 +9406,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9084,6 +9433,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9135,6 +9485,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9162,6 +9513,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -9218,6 +9570,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9260,6 +9613,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9306,6 +9660,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9326,6 +9681,7 @@
     ],
     "sede_id": "leonor-marzano",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9362,6 +9718,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9388,6 +9745,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9408,6 +9766,7 @@
     ],
     "sede_id": "supermanzana-de-la-intendencia-caseros-esq-gral-simon-boliva",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9439,6 +9798,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Y de ESI… Por casa ¿cómo andamos?"
     ],
@@ -9507,6 +9867,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9539,6 +9900,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9591,6 +9953,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9618,6 +9981,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9645,6 +10009,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9674,6 +10039,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9694,6 +10060,7 @@
     ],
     "sede_id": "patio-de-eventos-biblioteca-cordoba-27-de-abril-375",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9721,6 +10088,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9750,6 +10118,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9776,6 +10145,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9812,6 +10182,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Cómo yo gané la guerra"
     ],
@@ -9832,6 +10203,7 @@
     "temas": [],
     "sede_id": "lilia-lardone",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9861,6 +10233,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9887,6 +10260,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -9913,6 +10287,12 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [
+      {
+        "texto": "Actividad con inscripción previa",
+        "url": "https://forms.gle/kafr4VUn1KBc2Xmc9"
+      }
+    ],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -9937,6 +10317,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Pequeñas felicidades"
     ],
@@ -9986,6 +10367,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Guau Ediciones",
     "publico": "general",
@@ -9998,30 +10380,37 @@
     "hora_fin": "2026-11-12T19:00:00-03:00",
     "hora_fin_estimada": "",
     "titulo": "Presentación de la Biblioteca Roberto Arlt. Obra completa y El juguete rabioso a 100 años de su publicación.",
-    "descripcion": "A 100 años de la primera publicación de El juguete rabioso, y como parte del proyecto editorial Biblioteca Roberto Arlt. Obra Completa dirigida por Sylvia Saitta y Laura Juárez y publicada por Eduvim, se presenta esta nueva edición de una novela fundamental para la literatura argentina. Los directores dialogarán sobre esta ambiciosa colección que se propone organizar y publicar la producción literaria y periodística de Roberto Arlt.  Presentan: Sylvia Saítta, Laura Juárez y Carlos Gazzera",
+    "descripcion": "A 100 años de la primera publicación de El juguete rabioso, y como parte del proyecto editorial Biblioteca Roberto Arlt. Obra Completa dirigida por Sylvia Saitta y Laura Juárez y publicada por Eduvim, se presenta esta nueva edición de una novela fundamental para la literatura argentina. Los directores dialogarán sobre esta ambiciosa colección que se propone organizar y publicar la producción literaria y periodística de Roberto Arlt.  Presentan: Laura Juárez y Facundo Devani. Modera: Pablo Sánchez Ceci",
     "tipo": "presentacion",
     "ciclo": "",
     "temas": [
-      "narrativa"
+      "narrativa",
+      "oficio editorial"
     ],
     "sede_id": "lilia-lardone",
     "personas": [
-      {
-        "autor_id": "sylvia-saitta",
-        "nombre": "Sylvia Saítta",
-        "rol": "presenta"
-      },
       {
         "autor_id": "laura-juarez",
         "nombre": "Laura Juárez",
         "rol": "presenta"
       },
       {
-        "autor_id": "carlos-gazzera",
-        "nombre": "Carlos Gazzera",
+        "autor_id": "facundo-devani",
+        "nombre": "Facundo Devani",
         "rol": "presenta"
+      },
+      {
+        "autor_id": "pablo-sanchez-ceci",
+        "nombre": "Pablo Sánchez Ceci",
+        "rol": "modera"
+      },
+      {
+        "autor_id": "roberto-arlt",
+        "nombre": "Roberto Arlt",
+        "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "El juguete rabioso"
     ],
@@ -10060,6 +10449,12 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [
+      {
+        "texto": "Actividad con inscripción previa",
+        "url": "https://forms.gle/kafr4VUn1KBc2Xmc9"
+      }
+    ],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -10089,6 +10484,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Cuando la persona no encaja en el sistema"
     ],
@@ -10162,6 +10558,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10208,6 +10605,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Emporio Ediciones",
     "publico": "general",
@@ -10272,6 +10670,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10290,6 +10689,7 @@
     "temas": [],
     "sede_id": "lilia-lardone",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10319,6 +10719,12 @@
         "autor_id": "gisela-coppa",
         "nombre": "Gisela Coppa",
         "rol": "a_cargo"
+      }
+    ],
+    "enlaces": [
+      {
+        "texto": "Actividad con inscripción previa",
+        "url": "https://forms.gle/kafr4VUn1KBc2Xmc9"
       }
     ],
     "libros_presentados": [],
@@ -10362,6 +10768,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10391,6 +10798,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La revancha del bienestar"
     ],
@@ -10419,6 +10827,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Clases de sapito",
       "Enciclopedia de Fauna confusa"
@@ -10454,6 +10863,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10481,6 +10891,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10512,6 +10923,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10543,6 +10955,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10574,6 +10987,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10600,6 +11014,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10636,6 +11051,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Mirando al Misterio"
     ],
@@ -10672,6 +11088,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "El Rescoldo ediciones",
     "publico": "general",
@@ -10690,6 +11107,7 @@
     "temas": [],
     "sede_id": "lilia-lardone",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10731,6 +11149,12 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [
+      {
+        "texto": "Actividad con inscripción previa",
+        "url": "https://forms.gle/kafr4VUn1KBc2Xmc9"
+      }
+    ],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -10768,6 +11192,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Y los veranos pasarán; Lo que nos dejó el verano"
     ],
@@ -10811,6 +11236,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10836,6 +11262,12 @@
         "autor_id": "andrea-suarez",
         "nombre": "Andrea Suárez",
         "rol": "a_cargo"
+      }
+    ],
+    "enlaces": [
+      {
+        "texto": "Actividad con inscripción previa",
+        "url": "https://forms.gle/kafr4VUn1KBc2Xmc9"
       }
     ],
     "libros_presentados": [],
@@ -10874,6 +11306,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10911,6 +11344,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10929,6 +11363,7 @@
     "temas": [],
     "sede_id": "centro-cultural-unc-duarte-quiros-107",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -10978,6 +11413,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Emporio Ediciones",
     "publico": "general",
@@ -11014,6 +11450,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -11066,6 +11503,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11084,6 +11522,7 @@
     "temas": [],
     "sede_id": "",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11130,6 +11569,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Emporio Ediciones",
     "publico": "general",
@@ -11176,6 +11616,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11196,6 +11637,7 @@
     ],
     "sede_id": "leonor-marzano",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11220,6 +11662,12 @@
         "autor_id": "istvansch-schitter",
         "nombre": "Istvansch Schitter",
         "rol": "a_cargo"
+      }
+    ],
+    "enlaces": [
+      {
+        "texto": "Actividad con inscripción previa",
+        "url": "https://forms.gle/kafr4VUn1KBc2Xmc9"
       }
     ],
     "libros_presentados": [],
@@ -11258,6 +11706,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Un lugar en el mundo para Argentina"
     ],
@@ -11280,6 +11729,7 @@
     ],
     "sede_id": "leonor-marzano",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11311,6 +11761,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Ellas"
     ],
@@ -11344,6 +11795,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11370,6 +11822,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -11396,6 +11849,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11427,6 +11881,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11447,6 +11902,7 @@
     ],
     "sede_id": "glauce-baldovin",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11467,6 +11923,7 @@
     ],
     "sede_id": "glauce-baldovin",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "Ser",
     "publico": "general",
@@ -11518,6 +11975,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11562,6 +12020,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11588,6 +12047,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -11608,6 +12068,7 @@
     ],
     "sede_id": "plaza-lavalle-san-jeronimo-3200-b-san-vicente",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -11645,6 +12106,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11686,6 +12148,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11718,6 +12181,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Cambio de armas"
     ],
@@ -11747,6 +12211,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -11784,6 +12249,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11830,6 +12296,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11861,6 +12328,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11888,6 +12356,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -11914,6 +12383,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11934,6 +12404,12 @@
     ],
     "sede_id": "kultur-ensemble-ayacucho-46",
     "personas": [],
+    "enlaces": [
+      {
+        "texto": "https://alianzafrancesacba.org.ar/",
+        "url": "https://alianzafrancesacba.org.ar/"
+      }
+    ],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -11978,6 +12454,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Cuando no sé qué hacer, canto"
     ],
@@ -12000,6 +12477,7 @@
     ],
     "sede_id": "glauce-baldovin",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [
       "Lo imposible sólo tarda un poco más"
     ],
@@ -12048,6 +12526,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Huesos que no teman hacerse polvo"
     ],
@@ -12071,6 +12550,7 @@
     ],
     "sede_id": "leonor-marzano",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -12091,6 +12571,7 @@
     ],
     "sede_id": "glauce-baldovin",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -12123,6 +12604,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "En contra del bien"
     ],
@@ -12156,6 +12638,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -12187,6 +12670,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -12199,7 +12683,7 @@
     "hora_fin": "2026-11-15T18:00:00-03:00",
     "hora_fin_estimada": "",
     "titulo": "30 años, muchas historias: la memoria que se cuenta, el presente que compartimos y el futuro que imaginamos",
-    "descripcion": "La Biblioteca Popular Alfonsina Storni celebra sus 30 años con un proyecto de memoria colectiva junto a las infancias de la Escuela Municipal Raúl Fernández. El eje central será \"El baúl de los 30 años\", un dispositivo inspirado en la obra de Liliana Bodoc que guardará estos recuerdos y sumará las producciones de los niños y niñas. El trayecto recorrerá la identidad de Alfonsina Storni y creará una cápsula del tiempo hacia el año 2056, culminando con una muestra y festejo comunitario.",
+    "descripcion": "La Biblioteca Popular Alfonsina Storni celebra sus 30 años con un proyecto de memoria colectiva junto a las infancias del Jardín Maternal Municipal de Córdoba Travesuras. El eje central será \"El baúl de los 30 años\", un dispositivo inspirado en la obra de Liliana Bodoc que guardará estos recuerdos y sumará las producciones de los niños y niñas. El trayecto recorrerá la identidad de Alfonsina Storni y creará una cápsula del tiempo hacia el año 2056, culminando con una muestra y festejo comunitario.",
     "tipo": "otro",
     "ciclo": "LA BIBLIO TE CUENTA",
     "temas": [
@@ -12207,6 +12691,7 @@
     ],
     "sede_id": "biblioteca-popular-alfonsina-storni-muluches-9611-b-villa-al",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -12236,6 +12721,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "El poder de las aptitudes estratégicas"
     ],
@@ -12264,6 +12750,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -12295,6 +12782,7 @@
         "rol": "presenta"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La llanura y yo"
     ],
@@ -12317,6 +12805,7 @@
     ],
     "sede_id": "juan-filloy",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [
       "Voces del patrimonio"
     ],
@@ -12355,6 +12844,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -12382,6 +12872,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "SL Ediciones",
     "publico": "general",
@@ -12419,6 +12910,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -12451,6 +12943,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "La organización vence al tiempo"
     ],
@@ -12487,6 +12980,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Crianza inteligente"
     ],
@@ -12551,6 +13045,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Entramar mundos: tejer poéticas de cuidados"
     ],
@@ -12589,6 +13084,7 @@
         "rol": "modera"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -12646,6 +13142,7 @@
         "rol": "a_cargo"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -12670,6 +13167,7 @@
         "rol": "autor"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [
       "Antares"
     ],
@@ -12729,6 +13227,7 @@
         "rol": "participa"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -12750,6 +13249,7 @@
     ],
     "sede_id": "glauce-baldovin",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [
       "Tunga Tunga visible en el mundo: El Cuarteto es patrimonio"
     ],
@@ -12772,6 +13272,7 @@
     ],
     "sede_id": "leonor-marzano",
     "personas": [],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",
@@ -12803,6 +13304,7 @@
         "rol": "realizador"
       }
     ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "general",

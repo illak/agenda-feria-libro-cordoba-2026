@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
 
 from .extraccion import Extraccion, hash_bloque
-from .modelos import Evento, Persona, Sede
+from .modelos import Enlace, Evento, Persona, Sede
 from .sedes import CARPAS, buscar_carpa, sede_externa, slug
 
 DIAS_SEMANA = ["LUNES", "MARTES", "MIÉRCOLES", "JUEVES", "VIERNES", "SÁBADO", "DOMINGO"]
@@ -97,6 +97,11 @@ def avisos_dias(texto: str) -> dict[str, str]:
         elif actual and linea.strip():
             avisos[actual].append(linea.strip())
     return {d: " ".join(ls) for d, ls in avisos.items() if ls and d not in con_actividad}
+
+
+def norm_linea(texto: str) -> str:
+    """Espacios colapsados y sin no-separables: así se comparan las líneas del texto y las del HTML."""
+    return re.sub(r"\s+", " ", texto.replace("\xa0", " ")).strip()
 
 
 @dataclass
@@ -325,7 +330,7 @@ def sesiones_de(m: re.Match, fecha: date, titulo: str, ciclo: str, cuerpo: list[
     ]
 
 
-def parsear(texto: str, extracciones: dict[str, Extraccion] | None = None) -> Resultado:
+def parsear(texto: str, extracciones: dict[str, Extraccion] | None = None, enlaces: dict | None = None) -> Resultado:
     res = Resultado()
     usa_llm = extracciones is not None
     extracciones = extracciones or {}
@@ -340,7 +345,17 @@ def parsear(texto: str, extracciones: dict[str, Extraccion] | None = None) -> Re
         if DIAS_SEMANA[fecha.weekday()] != nombre_dia.upper():
             res.advertencias.append(f"{fecha}: el doc dice {nombre_dia}, el calendario dice {DIAS_SEMANA[fecha.weekday()]}")
 
-        for m, lineas in bloques:
+        # enlaces del HTML de este día, solo si tiene la misma cantidad de bloques que el texto (si no, se omiten)
+        enlaces_dia = {}
+        if enlaces is not None and (info := enlaces.get(fecha.isoformat())):
+            if info["bloques"] == len(bloques):
+                enlaces_dia = info["por_bloque"]
+            else:
+                res.advertencias.append(
+                    f"{fecha}: el HTML tiene {info['bloques']} bloques y el texto {len(bloques)}; se omiten sus enlaces"
+                )
+
+        for orden, (m, lineas) in enumerate(bloques):
             sede_txt, cuerpo = separar_sede(lineas)
             cuerpo = [l.strip() for l in cuerpo if l.strip()]
             if not cuerpo:
@@ -389,6 +404,12 @@ def parsear(texto: str, extracciones: dict[str, Extraccion] | None = None) -> Re
                 libros = (x.libros_presentados if x else []) or ses["libros"]
                 temas = x.temas if x else []
 
+                # los enlaces del bloque; en una sub-sesión, solo los de líneas que están en su texto
+                enlaces_ev = [
+                    e for e, parrafo in enlaces_dia.get(orden, [])
+                    if not ses["subsesion"] or parrafo in norm_linea(texto_hash)
+                ]
+
                 hora_fin = ""
                 if fin:
                     extra = 1 if fin < (hi, mi) else 0
@@ -429,6 +450,7 @@ def parsear(texto: str, extracciones: dict[str, Extraccion] | None = None) -> Re
                         temas=temas,
                         sede_id=sede_id,
                         personas=personas,
+                        enlaces=enlaces_ev,
                         libros_presentados=libros,
                         editorial=editorial,
                         publico="infancias" if RE_INFANCIAS.search(f"{ciclo} {titulo_ev}") else "general",

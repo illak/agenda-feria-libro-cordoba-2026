@@ -5,6 +5,7 @@ import { sedeDe } from '../data/cargar.js';
 import { horaLocal } from '../data/tiempo.js';
 import { nombreTema } from '../data/texto.js';
 import { iconoLibro } from './iconos.js';
+import { enlacesDeTarjeta } from './enlaces.js';
 import { chipCarpa, colorDe } from './chip-carpa.js';
 
 const ROL = { autor: 'autor/a', presenta: 'presenta', modera: 'modera', participa: '', a_cargo: 'a cargo', realizador: 'dirección' };
@@ -64,6 +65,7 @@ export function tarjeta(e, sedePorId, alAbrir) {
           e.temas.map((t) => h('span', { class: 'tag' }, nombreTema(t))),
         ),
       ),
+      enlacesDeTarjeta(e),
     ),
   );
 }

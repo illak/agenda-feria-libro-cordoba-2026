@@ -1,0 +1,28 @@
+{
+ "personas": [
+  {
+   "nombre": "Roberto Arlt",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Laura Juárez",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Facundo Devani",
+   "rol": "presenta"
+  },
+  {
+   "nombre": "Pablo Sánchez Ceci",
+   "rol": "modera"
+  }
+ ],
+ "libros_presentados": [
+  "El juguete rabioso"
+ ],
+ "editorial": "Eduvim",
+ "temas": [
+  "narrativa",
+  "oficio editorial"
+ ]
+}

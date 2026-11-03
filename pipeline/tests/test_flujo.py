@@ -64,3 +64,15 @@ def test_publicar_copia_actualiza_meta_y_guarda_cambios(tmp_path, monkeypatch):
     # segunda vez: sin cambios, el changelog del día suma una sección
     assert publicar.main([]) == 0
     assert "Agregados: 0 · Eliminados: 0 · Modificados: 0" in cambios[0].read_text(encoding="utf-8")
+
+
+def test_guardar_snapshot_no_duplica_un_doc_con_saltos_de_linea_windows(tmp_path, monkeypatch):
+    """El export del doc trae \\r\\n: volver a guardar el mismo contenido el mismo día no crea otro snapshot."""
+    preparar_raiz(tmp_path, monkeypatch)
+    texto = "|VIERNES 30\r\n17:00\r\nCharla\r\nCarpa Juan Filloy | Azul\r\n"
+    primero = actualizar.guardar_snapshot(texto)
+    segundo = actualizar.guardar_snapshot(texto)
+    assert primero == segundo
+    assert len(list((tmp_path / "fixtures").glob("programacion_*_*.txt"))) == 0
+    # con otro contenido sí se guarda aparte
+    assert actualizar.guardar_snapshot(texto + "otra línea\r\n") != primero

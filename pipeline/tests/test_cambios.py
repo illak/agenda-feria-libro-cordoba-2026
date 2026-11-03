@@ -35,3 +35,19 @@ def test_otros_campos_modificados():
     d = cambios.calcular([ev("a", temas=[])], [ev("a", temas=["historia"])])
     assert d["modificados"][0]["campos"] == ["temas"]
     assert "Otras modificaciones" in cambios.a_markdown(d, "## Prueba")
+
+
+def test_un_campo_nuevo_que_la_version_vieja_no_tenia_no_es_una_modificacion():
+    """Al sumar `enlaces` al modelo, los eventos ya publicados no lo tienen: vacío contra vacío no cambia nada."""
+    viejo = ev("a")  # sin "enlaces"
+    nuevo = ev("a", enlaces=[])
+    assert cambios.calcular([viejo], [nuevo])["modificados"] == []
+
+
+def test_agregar_un_enlace_se_ve_como_modificacion_y_se_describe():
+    viejo = ev("a")
+    nuevo = ev("a", enlaces=[{"texto": "Inscripciones", "url": "https://forms.gle/x"}])
+    d = cambios.calcular([viejo], [nuevo])
+    assert [m["campos"] for m in d["modificados"]] == [["enlaces"]]
+    md = cambios.a_markdown(d, "## Prueba")
+    assert "enlaces: — → Inscripciones → https://forms.gle/x" in md

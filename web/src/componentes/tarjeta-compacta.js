@@ -6,6 +6,7 @@ import { horaLocal } from '../data/tiempo.js';
 import { finDe, finEsEstimado } from '../estado/superposicion.js';
 import { chipCarpa, colorDe } from './chip-carpa.js';
 import { resumenPersonas } from './tarjeta.js';
+import { enlacesDeTarjeta } from './enlaces.js';
 
 const INSIGNIA_TIPO = { proyeccion: 'Proyección', taller: 'Taller', espectaculo: 'Espectáculo' };
 
@@ -44,6 +45,7 @@ export function tarjetaCompacta(e, sedePorId, alAbrir, { conInicio = false } = {
           horario ? h('span', { class: 'text-sm text-tinta-suave' }, horario) : null,
         ),
       ),
+      enlacesDeTarjeta(e, { max: 1 }),
     ),
   );
 }

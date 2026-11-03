@@ -1,0 +1,16 @@
+{
+ "personas": [
+  {
+   "nombre": "Nilda del Carmen Morales",
+   "rol": "autor"
+  }
+ ],
+ "libros_presentados": [
+  "Horizonte de esperanzas"
+ ],
+ "editorial": "",
+ "temas": [
+  "narrativa",
+  "poesía"
+ ]
+}

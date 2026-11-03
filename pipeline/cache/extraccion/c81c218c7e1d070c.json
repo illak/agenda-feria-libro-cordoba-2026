@@ -1,0 +1,20 @@
+{
+ "personas": [
+  {
+   "nombre": "Alfredo Terzaga",
+   "rol": "autor"
+  },
+  {
+   "nombre": "Jorge Abelardo Ramos",
+   "rol": "autor"
+  }
+ ],
+ "libros_presentados": [
+  "Cartas políticas 1948-1974"
+ ],
+ "editorial": "",
+ "temas": [
+  "historia",
+  "ensayo y pensamiento"
+ ]
+}

@@ -5,7 +5,8 @@ import { sedeDe } from '../data/cargar.js';
 import { etiquetaDia } from '../data/tiempo.js';
 import { chipCarpa, colorDe } from './chip-carpa.js';
 import { horaDeEvento } from './tarjeta.js';
-import { nombreTema } from '../data/texto.js';
+import { linkificar, nombreTema } from '../data/texto.js';
+import { seccionEnlaces, textoConEnlaces } from './enlaces.js';
 import { simultaneasCon } from '../estado/superposicion.js';
 import { textoFin } from './tarjeta-compacta.js';
 import { horaLocal } from '../data/tiempo.js';
@@ -132,6 +133,7 @@ export function crearDetalle(sedePorId, eventos, orden, { meta = {} } = {}) {
         sede.direccion
           ? h('p', { class: 'text-sm' }, sede.direccion, ' · ', url ? h('a', { href: url, target: '_blank', rel: 'noopener', class: 'underline' }, 'Ver en el mapa') : null)
           : null,
+        seccionEnlaces(e),
         bloqueCalendario(e),
         e.libros_presentados.length
           ? h(
@@ -152,7 +154,7 @@ export function crearDetalle(sedePorId, eventos, orden, { meta = {} } = {}) {
               h('ul', {}, e.personas.map((p) => h('li', {}, p.nombre, ' ', h('span', { class: 'text-sm text-tinta-suave' }, `· ${ROL_LARGO[p.rol] ?? p.rol}`)))),
             )
           : null,
-        e.descripcion ? h('p', { class: 'whitespace-pre-line' }, e.descripcion) : null,
+        e.descripcion ? h('p', { class: 'whitespace-pre-line' }, textoConEnlaces(linkificar(e.descripcion))) : null,
         alMismoTiempo(e),
         h('div', { class: 'flex justify-end pt-2' }, h('button', { class: 'boton', type: 'button', onClick: () => dialogo.close() }, 'Cerrar')),
       ),

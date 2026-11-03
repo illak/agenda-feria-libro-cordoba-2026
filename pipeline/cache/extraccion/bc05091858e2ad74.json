@@ -1,0 +1,16 @@
+{
+ "personas": [
+  {
+   "nombre": "Susana Buontempo",
+   "rol": "autor"
+  }
+ ],
+ "libros_presentados": [
+  "A fuego lento"
+ ],
+ "editorial": "",
+ "temas": [
+  "no ficción y periodismo",
+  "música y artes escénicas"
+ ]
+}
