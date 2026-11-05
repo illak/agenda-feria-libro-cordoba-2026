@@ -5371,29 +5371,6 @@
     "confianza": 0.5
   },
   {
-    "id": "2026-11-05-1730-leonor-marzano-presentacion-orquesta-parque-norte-este",
-    "fecha": "2026-11-05",
-    "hora_inicio": "2026-11-05T17:30:00-03:00",
-    "hora_fin": "2026-11-05T18:30:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "Presentación de la Orquesta Parque Norte/ Este y Maldonado",
-    "descripcion": "Las Orquestas Barriales Marqués Anexo, Campo la Ribera y Maldonado Müller realizarán un recorrido musical que incluye canto y arreglos instrumentales sobre la identidad barrial y nacional retomando canciones que fueron censuradas en dictadura, relatos y textos con respecto a la identidad barrial y creaciones propias de poemas musicalizados sobre nuestros territorios.",
-    "tipo": "presentacion",
-    "ciclo": "CULTURA DE BARRIO 2026",
-    "temas": [
-      "música y artes escénicas"
-    ],
-    "sede_id": "leonor-marzano",
-    "personas": [],
-    "enlaces": [],
-    "libros_presentados": [
-      "la Orquesta Parque Norte/ Este y Maldonado"
-    ],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
     "id": "2026-11-05-1730-supermanzana-de-la-orquesta-parque-norte-este-maldonado",
     "fecha": "2026-11-05",
     "hora_inicio": "2026-11-05T17:30:00-03:00",
@@ -5505,7 +5482,7 @@
     "hora_fin": "",
     "hora_fin_estimada": "2026-11-05T19:00:00-03:00",
     "titulo": "Escribir por fuera de la soledad. Conversatorio sobre la práctica dramatúrgica a cargo del colectivo DxD (Dramaturgxs X Dramaturgxs)",
-    "descripcion": "Conversatorio abierto sobre metodologías de escritura enfocado en cómo el diálogo horizontal y la escucha permeables transforman los procesos creativos. La actividad reflexiona sobre el trabajo colectivo, las búsquedas compartidas y la resolución de la escritura a través del intercambio mutuo de miradas. Entrada libre y gratuita hasta agotar capacidad.",
+    "descripcion": "Conversatorio abierto sobre metodologías de escritura enfocado en cómo el diálogo horizontal y la escucha permeables transforman los procesos creativos. La actividad reflexiona sobre el trabajo colectivo, las búsquedas compartidas y la resolución de la escritura a través del intercambio mutuo de miradas. Entrada gratuita hasta agotar capacidad.",
     "tipo": "charla",
     "ciclo": "CICLO DIDASCALIAS. TERRITORIOS DE LA ESCRITURA ESCÉNICA",
     "temas": [
@@ -6704,12 +6681,12 @@
     "confianza": 1.0
   },
   {
-    "id": "2026-11-06-1900-lilia-lardone-juan-cruz-taborda",
+    "id": "2026-11-06-1900-lilia-lardone-juan-cruz-taborda-varela",
     "fecha": "2026-11-06",
     "hora_inicio": "2026-11-06T19:00:00-03:00",
     "hora_fin": "2026-11-06T20:00:00-03:00",
     "hora_fin_estimada": "",
-    "titulo": "Juan Cruz Taborda",
+    "titulo": "Juan Cruz Taborda Varela",
     "descripcion": "El secreto mejor guardado de los '70. JCTV, presenta la reedición de su primer libro: La ley de la revolución, editado originalmente hace 10 años. Gustavo Roca, el secreto mejor guardado de los '70, fue hijo de Deodoro y como Deodoro, fue abogado de causas perdidas y en esas causas y defensas, sintetizó buena parte del Siglo XX de Córdoba: de la Reforma del 18 a los intentos de revolución de los 60/70.",
     "tipo": "otro",
     "ciclo": "",
@@ -6719,8 +6696,8 @@
     "sede_id": "lilia-lardone",
     "personas": [
       {
-        "autor_id": "juan-cruz-taborda",
-        "nombre": "Juan Cruz Taborda",
+        "autor_id": "juan-cruz-taborda-varela",
+        "nombre": "Juan Cruz Taborda Varela",
         "rol": "autor"
       }
     ],
@@ -8562,432 +8539,6 @@
     "confianza": 1.0
   },
   {
-    "id": "2026-11-09-1700-glauce-baldovin-caida-fue-buena",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T17:00:00-03:00",
-    "hora_fin": "",
-    "hora_fin_estimada": "2026-11-09T18:00:00-03:00",
-    "titulo": "La caída fue buena",
-    "descripcion": "Presentación del libro de Vilma Rodríguez. La caída fue buena, es una invitación a detenerse, mirar hacia adentro y resignificar los momentos que nos transforman. Un libro íntimo, honesto y profundamente humano, escrito desde la experiencia y la sensibilidad de una mujer que aprendió a reconstruirse. A cargo de Vilma Rodríguez.  Presenta: Marycruz Lárez.",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [],
-    "sede_id": "glauce-baldovin",
-    "personas": [
-      {
-        "autor_id": "marycruz-larez",
-        "nombre": "Marycruz Lárez",
-        "rol": "presenta"
-      },
-      {
-        "autor_id": "vilma-rodriguez",
-        "nombre": "Vilma Rodríguez",
-        "rol": "autor"
-      }
-    ],
-    "enlaces": [],
-    "libros_presentados": [
-      "La caída fue buena"
-    ],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
-    "id": "2026-11-09-1700-juan-filloy-mandu-memoria-guarani",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T17:00:00-03:00",
-    "hora_fin": "",
-    "hora_fin_estimada": "2026-11-09T18:00:00-03:00",
-    "titulo": "MANDU´A (memoria, en guaraní)",
-    "descripcion": "El grupo de Narración oral La Magia del Cuento propone un espectáculo de cuentos destinados a adultos. versará sobre la memoria, al cumplirse 50 años de la Dictadura Militar en nuestro país. Y, la identidad como construcción, expresada en la literatura y la canción. A cargo de: Cristina Cordera (presentadora), Hilda Chiappero, Roxana del Prado, Susana Maldonado y Nilda Ramírez.",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "memoria y dictadura",
-      "música y artes escénicas"
-    ],
-    "sede_id": "juan-filloy",
-    "personas": [
-      {
-        "autor_id": "cristina-cordera",
-        "nombre": "Cristina Cordera",
-        "rol": "a_cargo"
-      },
-      {
-        "autor_id": "hilda-chiappero",
-        "nombre": "Hilda Chiappero",
-        "rol": "a_cargo"
-      },
-      {
-        "autor_id": "roxana-del-prado",
-        "nombre": "Roxana del Prado",
-        "rol": "a_cargo"
-      },
-      {
-        "autor_id": "susana-maldonado",
-        "nombre": "Susana Maldonado",
-        "rol": "a_cargo"
-      },
-      {
-        "autor_id": "nilda-ramirez",
-        "nombre": "Nilda Ramírez",
-        "rol": "a_cargo"
-      }
-    ],
-    "enlaces": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
-    "id": "2026-11-09-1700-lilia-lardone-encuentro-salvador-ferranti-libro-creamos",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T17:00:00-03:00",
-    "hora_fin": "",
-    "hora_fin_estimada": "2026-11-09T18:00:00-03:00",
-    "titulo": "Encuentro con Salvador Ferranti y su libro “Lo que creamos en el silencio” + Muestra de pinturas e ilustraciones originales del autor.",
-    "descripcion": "Durante esta presentación podrán oír al joven autor Salvador Ferranti hablar de su libro “Lo que creamos en el silencio”, mientras reflexionamos sobre los secretos del silencio y llenamos juntos un cuaderno con emociones que encontramos cuando el corazón nos obliga a callar. A su vez estará expuesta la pintura de la portada del libro, junto a otras pinturas e ilustraciones del autor.",
-    "tipo": "charla",
-    "ciclo": "",
-    "temas": [],
-    "sede_id": "lilia-lardone",
-    "personas": [
-      {
-        "autor_id": "salvador-ferranti",
-        "nombre": "Salvador Ferranti",
-        "rol": "autor"
-      }
-    ],
-    "enlaces": [],
-    "libros_presentados": [
-      "Lo que creamos en el silencio"
-    ],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
-    "id": "2026-11-09-1800-asoc-civil-biblioteca-papel-aguja-entre-costuras-escrituras",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T18:00:00-03:00",
-    "hora_fin": "2026-11-09T20:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "Papel y aguja: entre costuras y escrituras",
-    "descripcion": "Encuentro taller que fusiona lectura, costura y estampado textil. La jornada propone recuperar memorias y vivencias a través de la obra de Laura Devetach. Los asistentes participarán en un proceso circular y simultáneo de lectura, escritura colectiva, costura de páginas y sublimación. Como resultado, se editarán diez ejemplares de un libro textil colectivo destinado a circular por diversas bibliotecas populares de la región.",
-    "tipo": "otro",
-    "ciclo": "LA BIBLIO TE CUENTA",
-    "temas": [],
-    "sede_id": "asoc-civil-biblioteca-popular-casa-del-pueblo-alberdi-el-cha",
-    "personas": [],
-    "enlaces": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
-  },
-  {
-    "id": "2026-11-09-1800-glauce-baldovin-tu-parkinson-yo-vida-no",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T18:00:00-03:00",
-    "hora_fin": "",
-    "hora_fin_estimada": "2026-11-09T19:00:00-03:00",
-    "titulo": "Tu Párkinson y yo. La vida que no estaba escrita",
-    "descripcion": "Presentación del libro de Marcelo Esteban Marin. Un relato autobiográfico en el que Marcelo parte de su experiencia con el diagnóstico de Parkinson para recorrer el miedo, las pérdidas, los cambios y las preguntas que transformaron su manera de mirar la vida. A través de una conversación cercana con el público y fragmentos de la obra, la presentación propone ir más allá de la experiencia de la enfermedad para abrir una reflexión sobre aquello que nos ocurre, lo que no podemos controlar y la forma en que elegimos continuar escribiendo nuestra propia historia.",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "no ficción y periodismo"
-    ],
-    "sede_id": "glauce-baldovin",
-    "personas": [
-      {
-        "autor_id": "marcelo-esteban-marin",
-        "nombre": "Marcelo Esteban Marin",
-        "rol": "autor"
-      }
-    ],
-    "enlaces": [],
-    "libros_presentados": [
-      "Tu Párkinson y yo. La vida que no estaba escrita"
-    ],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
-    "id": "2026-11-09-1800-juan-filloy-es-mas-pop-nos-puede",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T18:00:00-03:00",
-    "hora_fin": "",
-    "hora_fin_estimada": "2026-11-09T19:00:00-03:00",
-    "titulo": "¿Qué es lo más pop que nos puede pasar?",
-    "descripcion": "Presentación del libro Cultura pop. Manual de uso para consumos desviados, compilado por Ariel Gómez Ponce y editado por EDUVIM, el equipo del Laboratorio Pop (@laboratoriopop_) compartirá un anecdotario para demostrar cómo los argentinos hacemos cosas creativas con los consumos masivos que el mercado nos ofrece. Modera: Ariel Gómez Ponce. Presentan: Rodrigo Bruera, Camila Aguirre Vallés y Nahir Salman Sosa. A cargo de editorial EDUVIM.",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "ensayo y pensamiento"
-    ],
-    "sede_id": "juan-filloy",
-    "personas": [
-      {
-        "autor_id": "ariel-gomez-ponce",
-        "nombre": "Ariel Gómez Ponce",
-        "rol": "modera"
-      },
-      {
-        "autor_id": "rodrigo-bruera",
-        "nombre": "Rodrigo Bruera",
-        "rol": "presenta"
-      },
-      {
-        "autor_id": "camila-aguirre-valles",
-        "nombre": "Camila Aguirre Vallés",
-        "rol": "presenta"
-      },
-      {
-        "autor_id": "nahir-salman-sosa",
-        "nombre": "Nahir Salman Sosa",
-        "rol": "presenta"
-      }
-    ],
-    "enlaces": [],
-    "libros_presentados": [
-      "Cultura pop. Manual de uso para consumos desviados"
-    ],
-    "editorial": "EDUVIM",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
-    "id": "2026-11-09-1800-lilia-lardone-cura-brochero-hablas-cordoba-voces",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T18:00:00-03:00",
-    "hora_fin": "2026-11-09T19:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "Cura Brochero y las hablas de Córdoba: voces, territorio y memoria.",
-    "descripcion": "Conversatorio organizado por el Observatorio de las Hablas de Córdoba en torno a la figura de Cura Brochero y su vínculo con el territorio, las comunidades y la memoria cultural cordobesa. La actividad propone articular estas dimensiones con las hablas de Córdoba como patrimonio lingüístico y cultural, con especial atención a la tonada del esdrújulo, la fraseología y las formas de representación de la identidad lingüística cordobesa.",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [],
-    "sede_id": "lilia-lardone",
-    "personas": [],
-    "enlaces": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
-    "id": "2026-11-09-1800-supermanzana-de-la-daniel-mendieta-retratista",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T18:00:00-03:00",
-    "hora_fin": "",
-    "hora_fin_estimada": "2026-11-09T19:00:00-03:00",
-    "titulo": "Daniel Mendieta - Retratista",
-    "descripcion": "El programa es impulsado por la Dirección de Festivales e Industrias Culturales, cuyo objetivo es organizar el trabajo de artistas que desarrollan propuestas en el espacio público de la ciudad. Esta variedad fortalece la identidad cultural y visibiliza el trabajo de quienes sostienen el arte en las calles con creatividad y compromiso.",
-    "tipo": "otro",
-    "ciclo": "PROGRAMA CIRCUITO DE ARTISTAS CALLEJEROS",
-    "temas": [],
-    "sede_id": "supermanzana-de-la-intendencia-caseros-esq-gral-simon-boliva",
-    "personas": [
-      {
-        "autor_id": "daniel-mendieta",
-        "nombre": "Daniel Mendieta",
-        "rol": "a_cargo"
-      }
-    ],
-    "enlaces": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
-  },
-  {
-    "id": "2026-11-09-1900-glauce-baldovin-presentacion-libro-desafio-civilizatorio-inteligencia",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T19:00:00-03:00",
-    "hora_fin": "2026-11-09T20:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "Presentación del libro El desafío civilizatorio de la inteligencia artificial, de Carlos Zárate.",
-    "descripcion": "Carlos Zárate es eferente de la industria tecnológica en América Latina, con más de 30 años de trayectoria en la intersección de la gestión operativa, la regulación y el desarrollo de negocios de alta complejidad, con una capacidad probada para transformar marcos estratégicos en realidades industriales de gran escala",
-    "tipo": "presentacion",
-    "ciclo": "",
-    "temas": [
-      "tecnología e IA",
-      "ensayo y pensamiento"
-    ],
-    "sede_id": "glauce-baldovin",
-    "personas": [
-      {
-        "autor_id": "carlos-zarate",
-        "nombre": "Carlos Zárate",
-        "rol": "autor"
-      }
-    ],
-    "enlaces": [],
-    "libros_presentados": [
-      "El desafío civilizatorio de la inteligencia artificial"
-    ],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
-    "id": "2026-11-09-1900-juan-filloy-presentacion-publicaciones-investigar-artes-comunicar",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T19:00:00-03:00",
-    "hora_fin": "2026-11-09T20:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "Presentación de publicaciones Investigar en artes, comunicar lo público + Una cosa lleva a la otra. Escrituras en artes | Editorial de la Facultad de Artes de la UNC | Secretaría de Investigación y Producción",
-    "descripcion": "Estas publicaciones digitales reúnen producciones de integrantes de la Facultad de Artes de la UNC que exploran relaciones entre investigación, comunicación, escritura y prácticas artísticas. Investigar en artes, comunicar lo público reúne producciones surgidas de un taller que indagó estrategias en torno a las posibilidades de comunicar avances de las investigaciones artísticas. Una cosa lleva a la otra. Escrituras en artes compila textos de docentes, adscriptas/os y ayudantes alumnas/os que ensayan la escritura vinculada a las prácticas artísticas.",
-    "tipo": "presentacion",
-    "ciclo": "",
-    "temas": [],
-    "sede_id": "juan-filloy",
-    "personas": [],
-    "enlaces": [],
-    "libros_presentados": [
-      "Investigar en artes, comunicar lo público",
-      "Una cosa lleva a la otra. Escrituras en artes"
-    ],
-    "editorial": "Editorial de la Facultad de Artes de la UNC",
-    "publico": "general",
-    "confianza": 0.7
-  },
-  {
-    "id": "2026-11-09-1900-lilia-lardone-custodiar-humano",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T19:00:00-03:00",
-    "hora_fin": "2026-11-09T20:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "Custodiar lo humano",
-    "descripcion": "La encíclica Magnífica Humanitas y la custodia de la persona humana en el tiempo de la inteligencia artificial.  Reflexiones desde una perspectiva interdisciplinaria",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "tecnología e IA",
-      "ensayo y pensamiento"
-    ],
-    "sede_id": "lilia-lardone",
-    "personas": [],
-    "enlaces": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
-    "id": "2026-11-09-2000-carpa-lila-lardone-mama-antula-entre-historia-santidad",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T20:00:00-03:00",
-    "hora_fin": "",
-    "hora_fin_estimada": "2026-11-09T21:00:00-03:00",
-    "titulo": "Mama Antula: entre la historia y la santidad",
-    "descripcion": "Intervención musical del artista Manuel Wirzt y Cintia Suárez como biógrafa de la primera santa argentina. Ambos darán testimonio del proceso de canonización de Mama Antula. Este hecho artístico literario también la reconoce como la primera escritora rioplatense.",
-    "tipo": "otro",
-    "ciclo": "",
-    "temas": [
-      "historia",
-      "música y artes escénicas"
-    ],
-    "sede_id": "carpa-lila-lardone-naranja",
-    "personas": [
-      {
-        "autor_id": "manuel-wirzt",
-        "nombre": "Manuel Wirzt",
-        "rol": "a_cargo"
-      },
-      {
-        "autor_id": "cintia-suarez",
-        "nombre": "Cintia Suárez",
-        "rol": "participa"
-      }
-    ],
-    "enlaces": [],
-    "libros_presentados": [],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 0.9
-  },
-  {
-    "id": "2026-11-09-2000-glauce-baldovin-presentacion-libro-ensayo-sobre-muerte",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T20:00:00-03:00",
-    "hora_fin": "2026-11-09T21:00:00-03:00",
-    "hora_fin_estimada": "",
-    "titulo": "Presentación del libro Ensayo sobre la muerte y el tiempo, de Adrián Vitali",
-    "descripcion": "Exsacerdote, escritor y asesor en políticas sociales. El libro Ensayo sobre la muerte y el tiempo, es una reflexión filosófica y humana sobre la finitud de la vida a partir de la experiencia del dolor. Presenta: Leandro Calle",
-    "tipo": "presentacion",
-    "ciclo": "",
-    "temas": [
-      "ensayo y pensamiento"
-    ],
-    "sede_id": "glauce-baldovin",
-    "personas": [
-      {
-        "autor_id": "leandro-calle",
-        "nombre": "Leandro Calle",
-        "rol": "presenta"
-      },
-      {
-        "autor_id": "adrian-vitali",
-        "nombre": "Adrián Vitali",
-        "rol": "autor"
-      }
-    ],
-    "enlaces": [],
-    "libros_presentados": [
-      "Ensayo sobre la muerte y el tiempo"
-    ],
-    "editorial": "",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
-    "id": "2026-11-09-2000-juan-filloy-presentacion-coleccion-dramaturgias-brote-editora",
-    "fecha": "2026-11-09",
-    "hora_inicio": "2026-11-09T20:00:00-03:00",
-    "hora_fin": "",
-    "hora_fin_estimada": "2026-11-09T21:00:00-03:00",
-    "titulo": "Presentación de la Colección dramaturgias de El brote editora",
-    "descripcion": "Presentación de los dos libros que dan inicio a la colección: Apnea, La boca es una fosa y Yo vi morder al fuego, la casa del jaguar y las obras de Lautaro Ruiz De frente mar, o la jugosa valentía de los cetáceos y El ruido de los árboles. Esta colección diseñada específicamente para alojar y hacer circular obras teatrales y escenas escritas de Córdoba y Latinoamérica, propone poner en primer plano el valor literario de la escritura dramática para una lectura autónoma. Presentación a cargo de la editora, Flor López. Participan: Eugenia Hadandoniou y Lautaro Ruiz, autores.",
-    "tipo": "presentacion",
-    "ciclo": "",
-    "temas": [
-      "música y artes escénicas"
-    ],
-    "sede_id": "juan-filloy",
-    "personas": [
-      {
-        "autor_id": "eugenia-hadandoniou",
-        "nombre": "Eugenia Hadandoniou",
-        "rol": "participa"
-      },
-      {
-        "autor_id": "lautaro-ruiz",
-        "nombre": "Lautaro Ruiz",
-        "rol": "participa"
-      },
-      {
-        "autor_id": "flor-lopez",
-        "nombre": "Flor López",
-        "rol": "presenta"
-      }
-    ],
-    "enlaces": [],
-    "libros_presentados": [
-      "Apnea, La boca es una fosa",
-      "Yo vi morder al fuego, la casa del jaguar",
-      "De frente mar, o la jugosa valentía de los cetáceos",
-      "El ruido de los árboles"
-    ],
-    "editorial": "El brote",
-    "publico": "general",
-    "confianza": 1.0
-  },
-  {
     "id": "2026-11-11-1000-sin-sede-libros-vivos-palabras-caminan",
     "fecha": "2026-11-11",
     "hora_inicio": "2026-11-11T10:00:00-03:00",
@@ -10273,7 +9824,7 @@
     "hora_fin": "",
     "hora_fin_estimada": "2026-11-12T18:00:00-03:00",
     "titulo": "Jornadas de Literatura Infantil y Juvenil de Sala Malicha, La memoria que contamos. Apertura | Mesa 1: Contar para quienes vienen, a cargo de Graciela Bialet",
-    "descripcion": "Graciela Bialet es una emblemática escritora, docente e investigadora cordobesa especializada en literatura infantil y juvenil. Distinguida por su compromiso con los derechos humanos y con una obra traducida a varios idiomas —como Los sapos de la memoria o Prohibido leer—, cuenta con una extensa trayectoria en gestión cultural, dirección de ferias y promoción de la lectura en Iberoamérica. Actividad con inscripción previa AQUÍ",
+    "descripcion": "Graciela Bialet es una emblemática escritora, docente e investigadora cordobesa especializada en literatura infantil y juvenil. Distinguida por su compromiso con los derechos humanos y con una obra traducida a varios idiomas —como Los sapos de la memoria o Prohibido leer—, cuenta con una extensa trayectoria en gestión cultural, dirección de ferias y promoción de la lectura en Iberoamérica. CUPO COMPLETO",
     "tipo": "charla",
     "ciclo": "INFANCIAS",
     "temas": [
@@ -10287,12 +9838,7 @@
         "rol": "participa"
       }
     ],
-    "enlaces": [
-      {
-        "texto": "Actividad con inscripción previa",
-        "url": "https://forms.gle/kafr4VUn1KBc2Xmc9"
-      }
-    ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -10425,7 +9971,7 @@
     "hora_fin": "",
     "hora_fin_estimada": "2026-11-12T19:00:00-03:00",
     "titulo": "Jornadas de Literatura Infantil y Juvenil de Sala Malicha, La memoria que contamos | Mesa 2: Voces que arrullan, voces que resisten, a cargo de Lucero Gómez Cruz y Nina Jäger. Coordina: Cecilia Malem.",
-    "descripcion": "Actividad con inscripción previa AQUÍ",
+    "descripcion": "CUPO COMPLETO",
     "tipo": "charla",
     "ciclo": "INFANCIAS",
     "temas": [
@@ -10449,12 +9995,7 @@
         "rol": "modera"
       }
     ],
-    "enlaces": [
-      {
-        "texto": "Actividad con inscripción previa",
-        "url": "https://forms.gle/kafr4VUn1KBc2Xmc9"
-      }
-    ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -10702,7 +10243,7 @@
     "hora_fin": "",
     "hora_fin_estimada": "2026-11-12T20:00:00-03:00",
     "titulo": "Jornadas de Literatura Infantil y Juvenil de Sala Malicha, La memoria que contamos | Narración: Amordazar un elefante, por Natalia Moya y Gisela Coppa",
-    "descripcion": "Actividad con inscripción previa AQUÍ",
+    "descripcion": "Entrada libre y gratuita",
     "tipo": "espectaculo",
     "ciclo": "INFANCIAS",
     "temas": [
@@ -10721,12 +10262,7 @@
         "rol": "a_cargo"
       }
     ],
-    "enlaces": [
-      {
-        "texto": "Actividad con inscripción previa",
-        "url": "https://forms.gle/kafr4VUn1KBc2Xmc9"
-      }
-    ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -11120,7 +10656,7 @@
     "hora_fin": "",
     "hora_fin_estimada": "2026-11-13T18:00:00-03:00",
     "titulo": "Jornadas de Literatura Infantil y Juvenil de Sala Malicha, La memoria que contamos | Mesa 3: Para nombrar el monstruo, a cargo de Alejandro De La O, Naty Martínez, Natalia Moya y Gisela Coppa.",
-    "descripcion": "Actividad con inscripción previa AQUÍ",
+    "descripcion": "CUPO COMPLETO",
     "tipo": "charla",
     "ciclo": "INFANCIAS",
     "temas": [
@@ -11149,12 +10685,7 @@
         "rol": "participa"
       }
     ],
-    "enlaces": [
-      {
-        "texto": "Actividad con inscripción previa",
-        "url": "https://forms.gle/kafr4VUn1KBc2Xmc9"
-      }
-    ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -11249,12 +10780,12 @@
     "hora_fin": "",
     "hora_fin_estimada": "2026-11-13T19:00:00-03:00",
     "titulo": "Jornadas de Literatura Infantil y Juvenil de Sala Malicha, La memoria que contamos | Narración: Memoria de elefante, a cargo de Andrea Suárez. En el marco de los 50 años del Golpe Cívico Militar, recordamos cuentos prohibidos que ahora sí podemos leer, contar y disfrutar. Valorizando la importancia de recordar y no olvidar, la memoria y la identidad.",
-    "descripcion": "Actividad con inscripción previa AQUÍ",
+    "descripcion": "Entrada libre y gratuita",
     "tipo": "espectaculo",
     "ciclo": "INFANCIAS",
     "temas": [
-      "memoria y dictadura",
-      "infancias y juventudes"
+      "infancias y juventudes",
+      "memoria y dictadura"
     ],
     "sede_id": "malicha-leguizamon",
     "personas": [
@@ -11264,12 +10795,7 @@
         "rol": "a_cargo"
       }
     ],
-    "enlaces": [
-      {
-        "texto": "Actividad con inscripción previa",
-        "url": "https://forms.gle/kafr4VUn1KBc2Xmc9"
-      }
-    ],
+    "enlaces": [],
     "libros_presentados": [],
     "editorial": "",
     "publico": "infancias",
@@ -11426,7 +10952,7 @@
     "hora_fin": "2026-11-13T20:00:00-03:00",
     "hora_fin_estimada": "",
     "titulo": "Jornadas de Literatura Infantil y Juvenil de Sala Malicha, La memoria que contamos | Homenaje a Lilia Lardone",
-    "descripcion": "La autora, recientemente fallecida, es una de las escritoras irrepetibles de la literatura cordobesa contemporánea. Su lugar en nuestra cultura excede largamente sus libros. Durante décadas escribió para adultos, jóvenes e infancias, coordinó talleres, acompañó escritores, formó lectores y participó activamente de la vida cultural de Córdoba. Este homenaje reúne escritores, editores, amigos y lectores para hablar de Lilia, leerla, recordar historias y reconocer una trayectoria que sigue plenamente viva. Organiza: Somos Bardos. Participan: María Teresa Andruetto y Federico Falco, entre otras/os. Coordina: Javier Quintá.",
+    "descripcion": "La autora, recientemente fallecida, es una de las escritoras irrepetibles de la literatura cordobesa contemporánea. Su lugar en nuestra cultura excede largamente sus libros. Durante décadas escribió para adultos, jóvenes e infancias, coordinó talleres, acompañó escritores, formó lectores y participó activamente de la vida cultural de Córdoba. Este homenaje reúne escritores, editores, amigos y lectores para hablar de Lilia, leerla, recordar historias y reconocer una trayectoria que sigue plenamente viva. Organiza: Somos Bardos. Participan: María Teresa Andruetto y Federico Falco, entre otras/os. Coordina: Javier Quintá. Entrada libre y gratuita",
     "tipo": "otro",
     "ciclo": "INFANCIAS",
     "temas": [

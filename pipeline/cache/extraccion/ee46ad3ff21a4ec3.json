@@ -1,0 +1,15 @@
+{
+ "personas": [
+  {
+   "nombre": "Juan Cruz Taborda Varela",
+   "rol": "autor"
+  }
+ ],
+ "libros_presentados": [
+  "La ley de la revolución"
+ ],
+ "editorial": "",
+ "temas": [
+  "historia"
+ ]
+}

@@ -98,7 +98,7 @@ describe('selectores de ciclo y tema con la programación real', () => {
   it('los valores son los ciclos y temas tal como vienen en los datos', () => {
     expect(ciclos.map(([v]) => v)).toEqual(opciones.ciclos);
     expect(temas.map(([v]) => v)).toEqual(opciones.temas);
-    expect(ciclos.length).toBeGreaterThan(10);
+    expect(ciclos.length).toBeGreaterThan(0);
   });
   it('cada ciclo filtra exactamente sus actividades, y nunca ninguna', () => {
     for (const [valor] of ciclos) {
@@ -116,8 +116,10 @@ describe('selectores de ciclo y tema con la programación real', () => {
       expect(r).toHaveLength(esperados.length);
     }
   });
-  it('INFANCIAS reúne sus 38 actividades en todos los días', () => {
-    expect(aplicar(eventosReales, { ...filtrosVacios(), ciclo: 'INFANCIAS' }, { sedePorId: mapaSedes })).toHaveLength(38);
+  it('INFANCIAS reúne todas sus actividades en todos los días', () => {
+    const esperadas = eventosReales.filter((e) => e.ciclo === 'INFANCIAS').length;
+    expect(esperadas).toBeGreaterThan(0);
+    expect(aplicar(eventosReales, { ...filtrosVacios(), ciclo: 'INFANCIAS' }, { sedePorId: mapaSedes })).toHaveLength(esperadas);
   });
   it('las etiquetas de tema llevan mayúscula inicial', () => {
     expect(temas.find(([v]) => v === 'poesía')[1]).toBe('Poesía');

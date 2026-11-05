@@ -1,0 +1,17 @@
+{
+ "personas": [
+  {
+   "nombre": "Natalia Moya",
+   "rol": "a_cargo"
+  },
+  {
+   "nombre": "Gisela Coppa",
+   "rol": "a_cargo"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes"
+ ]
+}

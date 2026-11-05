@@ -86,7 +86,9 @@ def combinar(snapshots: list[Path], extracciones: dict | None) -> tuple[Resultad
         total.conflictos += [c for c in res.conflictos if de_estos_dias(c)]
         for sede in res.sedes:
             sedes.setdefault(sede.id, sede)
-    total.sedes = list(sedes.values())
+    # las carpas siempre; las externas solo si quedó alguna actividad (un snapshot viejo puede traer sedes de días que ya no están)
+    usadas = {e.sede_id for e in total.eventos}
+    total.sedes = [s for s in sedes.values() if s.tipo == "carpa" or s.id in usadas]
     total.eventos.sort(key=lambda e: (e.hora_inicio, e.sede_id, e.id))
     return total, aportes
 

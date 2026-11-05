@@ -88,3 +88,11 @@ def test_build_escribe_los_snapshots_antiguos_en_meta(tmp_path, monkeypatch):
     assert meta["snapshots_antiguos"] == {VIEJO.name: ["2026-10-30", "2026-10-31", "2026-11-01"]}
     eventos = json.loads((tmp_path / "data" / "eventos.json").read_text(encoding="utf-8"))
     assert {e["fecha"] for e in eventos} >= {"2026-10-30", "2026-11-15"}
+
+
+def test_no_quedan_sedes_externas_sin_actividades():
+    """Si un día se descarta (el doc lo reemplazó por un aviso), sus sedes no deben sobrevivir en sedes.json."""
+    res, _ = combinar([VIEJO, NUEVO], None)
+    usadas = {e.sede_id for e in res.eventos}
+    assert all(s.tipo == "carpa" or s.id in usadas for s in res.sedes)
+    assert {s.id for s in res.sedes if s.tipo == "carpa"}  # las carpas se conservan

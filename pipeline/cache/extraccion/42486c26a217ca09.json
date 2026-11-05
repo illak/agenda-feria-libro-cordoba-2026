@@ -1,0 +1,25 @@
+{
+ "personas": [
+  {
+   "nombre": "Alejandro De La O",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Naty Martínez",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Natalia Moya",
+   "rol": "participa"
+  },
+  {
+   "nombre": "Gisela Coppa",
+   "rol": "participa"
+  }
+ ],
+ "libros_presentados": [],
+ "editorial": "",
+ "temas": [
+  "infancias y juventudes"
+ ]
+}

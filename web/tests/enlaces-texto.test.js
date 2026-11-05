@@ -90,8 +90,8 @@ describe('linkificar', () => {
 
 describe('enlaces de los datos publicados', () => {
   const con = eventosReales.filter((e) => e.enlaces?.length);
-  it('hay actividades con enlaces, con etiqueta y URL segura', () => {
-    expect(con.length).toBeGreaterThanOrEqual(10);
+  it('las actividades con enlaces tienen etiqueta y URL segura', () => {
+    expect(con.length).toBeGreaterThan(0); // cuántas hay depende de lo que traiga el doc ese día
     for (const e of con) for (const x of e.enlaces) {
       expect(urlSegura(x.url)).toBe(true);
       expect(etiquetaEnlace(x).length).toBeGreaterThan(0);
